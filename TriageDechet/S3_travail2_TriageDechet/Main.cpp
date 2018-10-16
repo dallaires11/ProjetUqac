@@ -13,7 +13,7 @@
 using namespace std;
 
 int main() {
-	Dechet* d = new Dechet();
+	/*Dechet* d = new Dechet();
 	cout << *d << endl;
 	Devoir* d2 = new Devoir();
 	cout << *d2 << endl;
@@ -51,7 +51,7 @@ int main() {
 	delete d9;
 	delete d10;
 	delete d11;
-	delete d12;
+	delete d12;*/
 	cout << "Nombre d'instance " << Dechet::getNbInstance() << endl;
 
 	system("PAUSE");

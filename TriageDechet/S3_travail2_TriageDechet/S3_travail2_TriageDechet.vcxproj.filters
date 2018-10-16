@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\DefDechet">
+      <UniqueIdentifier>{e18c21f8-325c-457b-a252-4e1fd27f21c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\DefDechet">
+      <UniqueIdentifier>{13c86d8a-8cb1-408f-9d17-b781fd2c44f5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -30,38 +36,41 @@
     <ClCompile Include="UsineTraitement.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="Bardeau.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="AssietteJetable.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="Devoir.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="Plante.cpp">
+    <ClCompile Include="chargementDechet.cpp">
       <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="AssietteJetable.cpp">
+      <Filter>Fichiers sources\DefDechet</Filter>
+    </ClCompile>
+    <ClCompile Include="Bardeau.cpp">
+      <Filter>Fichiers sources\DefDechet</Filter>
     </ClCompile>
     <ClCompile Include="Bouffe.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Bureau.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Canette.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="ReveEleve.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\DefDechet</Filter>
     </ClCompile>
     <ClCompile Include="Bouteille.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\DefDechet</Filter>
+    </ClCompile>
+    <ClCompile Include="Bureau.cpp">
+      <Filter>Fichiers sources\DefDechet</Filter>
+    </ClCompile>
+    <ClCompile Include="Canette.cpp">
+      <Filter>Fichiers sources\DefDechet</Filter>
     </ClCompile>
     <ClCompile Include="Ustensile.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\DefDechet</Filter>
+    </ClCompile>
+    <ClCompile Include="ReveEleve.cpp">
+      <Filter>Fichiers sources\DefDechet</Filter>
+    </ClCompile>
+    <ClCompile Include="Plante.cpp">
+      <Filter>Fichiers sources\DefDechet</Filter>
     </ClCompile>
     <ClCompile Include="PancarteElectorale.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\DefDechet</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -77,38 +86,41 @@
     <ClInclude Include="UsineTraitement.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="Bardeau.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="AssietteJetable.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
     <ClInclude Include="Devoir.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="Plante.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Bouffe.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Bureau.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Canette.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="ReveEleve.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Bouteille.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Ustensile.h">
+    <ClInclude Include="chargementDechet.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="PancarteElectorale.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\DefDechet</Filter>
+    </ClInclude>
+    <ClInclude Include="AssietteJetable.h">
+      <Filter>Fichiers d%27en-tête\DefDechet</Filter>
+    </ClInclude>
+    <ClInclude Include="Bardeau.h">
+      <Filter>Fichiers d%27en-tête\DefDechet</Filter>
+    </ClInclude>
+    <ClInclude Include="Bouffe.h">
+      <Filter>Fichiers d%27en-tête\DefDechet</Filter>
+    </ClInclude>
+    <ClInclude Include="Bouteille.h">
+      <Filter>Fichiers d%27en-tête\DefDechet</Filter>
+    </ClInclude>
+    <ClInclude Include="Bureau.h">
+      <Filter>Fichiers d%27en-tête\DefDechet</Filter>
+    </ClInclude>
+    <ClInclude Include="Canette.h">
+      <Filter>Fichiers d%27en-tête\DefDechet</Filter>
+    </ClInclude>
+    <ClInclude Include="Plante.h">
+      <Filter>Fichiers d%27en-tête\DefDechet</Filter>
+    </ClInclude>
+    <ClInclude Include="ReveEleve.h">
+      <Filter>Fichiers d%27en-tête\DefDechet</Filter>
+    </ClInclude>
+    <ClInclude Include="Ustensile.h">
+      <Filter>Fichiers d%27en-tête\DefDechet</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
