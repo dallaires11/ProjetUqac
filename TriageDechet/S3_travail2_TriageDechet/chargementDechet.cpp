@@ -1,7 +1,5 @@
 #include "chargementDechet.h"
 
-
-
 chargementDechet::chargementDechet(){
 	current = 0;
 	setDechet();
@@ -67,4 +65,8 @@ void chargementDechet::setDechet() {
 	*/
 
 	return;
+}
+
+Dechet* chargementDechet::getDechet() {
+	return listeDechet[current++];
 }
