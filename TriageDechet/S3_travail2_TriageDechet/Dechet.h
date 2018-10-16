@@ -29,7 +29,7 @@ protected:
 public:
 	Dechet();
 	Dechet(Dechet*);
-	~Dechet();
+	virtual ~Dechet();
 
 	const int getPoids() {
 		return poids;
