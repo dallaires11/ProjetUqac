@@ -1,4 +1,4 @@
-#include"Dechet.h"
+/*#include"Dechet.h"
 #include"Devoir.h"
 #include"Bureau.h"
 #include"AssietteJetable.h"
@@ -9,7 +9,8 @@
 #include"PancarteElectorale.h"
 #include"Ustensile.h"
 #include"ReveEleve.h"
-#include"Plante.h"
+#include"Plante.h"*/
+#include"chargementDechet.h"
 using namespace std;
 
 int main() {
@@ -52,7 +53,12 @@ int main() {
 	delete d10;
 	delete d11;
 	delete d12;*/
+
+	chargementDechet* c =new chargementDechet();
+	
+	delete c;
 	cout << "Nombre d'instance " << Dechet::getNbInstance() << endl;
+	cout << "Nombre d'instance " << Plante::getNbInstance() << endl;
 
 	system("PAUSE");
 	return 0;

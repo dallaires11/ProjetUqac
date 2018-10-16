@@ -13,12 +13,18 @@
 #include"ReveEleve.h"
 class chargementDechet{
 private:
+	static int instanceChargeurDechet;
 	int current;
 	Dechet* listeDechet[11];//50];
 	void setDechet();
+	void destroyDechet();
 public:
 	chargementDechet();
 	Dechet* getDechet();
 	~chargementDechet();
+
+	static const int getNbInstance() {
+		return chargementDechet::instanceChargeurDechet;
+	}
 };
 

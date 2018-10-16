@@ -3,11 +3,13 @@
 chargementDechet::chargementDechet(){
 	current = 0;
 	setDechet();
+	instanceChargeurDechet++;
 }
 
 
 chargementDechet::~chargementDechet(){
-
+	destroyDechet();
+	instanceChargeurDechet--;
 }
 
 void chargementDechet::setDechet() {
@@ -68,5 +70,16 @@ void chargementDechet::setDechet() {
 }
 
 Dechet* chargementDechet::getDechet() {
-	return listeDechet[current++];
+	if (current < 41)
+		return listeDechet[current++];
+	else
+		return NULL;
+}
+
+void chargementDechet::destroyDechet() {
+	for (int x = 0; x < 10; x++) {
+		delete listeDechet[x];
+	}
+
+	return;
 }
