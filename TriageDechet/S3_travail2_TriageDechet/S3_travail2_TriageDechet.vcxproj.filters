@@ -19,6 +19,12 @@
     <Filter Include="Fichiers sources\DefDechet">
       <UniqueIdentifier>{13c86d8a-8cb1-408f-9d17-b781fd2c44f5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers sources\DefDechetTraite">
+      <UniqueIdentifier>{0a542c5f-5cba-4bf2-8c69-7083a69e9d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\DefDechetTraite">
+      <UniqueIdentifier>{18c0ec7f-5795-4d1f-8427-3d0801ffd8c2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -72,6 +78,18 @@
     <ClCompile Include="Devoir.cpp">
       <Filter>Fichiers sources\DefDechet</Filter>
     </ClCompile>
+    <ClCompile Include="DechetTraite.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DechetTraiteRecyclabe.cpp">
+      <Filter>Fichiers sources\DefDechetTraite</Filter>
+    </ClCompile>
+    <ClCompile Include="DechetTraiteNonRecyclabe.cpp">
+      <Filter>Fichiers sources\DefDechetTraite</Filter>
+    </ClCompile>
+    <ClCompile Include="DechetTraiteCompostable.cpp">
+      <Filter>Fichiers sources\DefDechetTraite</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dechet.h">
@@ -121,6 +139,18 @@
     </ClInclude>
     <ClInclude Include="Devoir.h">
       <Filter>Fichiers d%27en-tête\DefDechet</Filter>
+    </ClInclude>
+    <ClInclude Include="DechetTraite.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="DechetTraiteRecyclabe.h">
+      <Filter>Fichiers d%27en-tête\DefDechetTraite</Filter>
+    </ClInclude>
+    <ClInclude Include="DechetTraiteNonRecyclabe.h">
+      <Filter>Fichiers d%27en-tête\DefDechetTraite</Filter>
+    </ClInclude>
+    <ClInclude Include="DechetTraiteCompostable.h">
+      <Filter>Fichiers d%27en-tête\DefDechetTraite</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

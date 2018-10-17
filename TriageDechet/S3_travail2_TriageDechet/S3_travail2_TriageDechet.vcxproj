@@ -124,6 +124,10 @@
     <ClCompile Include="Canette.cpp" />
     <ClCompile Include="chargementDechet.cpp" />
     <ClCompile Include="Dechet.cpp" />
+    <ClCompile Include="DechetTraite.cpp" />
+    <ClCompile Include="DechetTraiteCompostable.cpp" />
+    <ClCompile Include="DechetTraiteNonRecyclabe.cpp" />
+    <ClCompile Include="DechetTraiteRecyclabe.cpp" />
     <ClCompile Include="Devoir.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="PancarteElectorale.cpp" />
@@ -143,6 +147,10 @@
     <ClInclude Include="Canette.h" />
     <ClInclude Include="chargementDechet.h" />
     <ClInclude Include="Dechet.h" />
+    <ClInclude Include="DechetTraite.h" />
+    <ClInclude Include="DechetTraiteCompostable.h" />
+    <ClInclude Include="DechetTraiteNonRecyclabe.h" />
+    <ClInclude Include="DechetTraiteRecyclabe.h" />
     <ClInclude Include="Devoir.h" />
     <ClInclude Include="PancarteElectorale.h" />
     <ClInclude Include="Plante.h" />

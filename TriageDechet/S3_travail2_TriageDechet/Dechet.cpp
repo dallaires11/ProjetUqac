@@ -83,7 +83,7 @@ void Dechet::setDescription(std::string iDescrip) {
 }
 
 void Dechet::setTypePlastique(int iPlastique) {
-	if (iPlastique < 1 | iPlastique>7)
+	if ((iPlastique < 1) | (iPlastique>7))
 		typePlatique = 0;
 	else
 		typePlatique = iPlastique;
@@ -91,7 +91,7 @@ void Dechet::setTypePlastique(int iPlastique) {
 }
 
 void Dechet::setCouleur(std::string iCouleur){
-	if (iCouleur.compare("brun") != 1 | iCouleur.compare("vert") != 1)
+	if ((iCouleur.compare("brun") != 1) | (iCouleur.compare("vert") != 1))
 		couleur = "inconnu";
 	else
 		couleur = iCouleur;
