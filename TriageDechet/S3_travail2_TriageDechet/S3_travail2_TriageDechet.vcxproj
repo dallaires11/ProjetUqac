@@ -121,6 +121,9 @@
     <ClCompile Include="Bureau.cpp" />
     <ClCompile Include="Bouffe.cpp" />
     <ClCompile Include="Camion.cpp" />
+    <ClCompile Include="CamionBleu.cpp" />
+    <ClCompile Include="CamionBrun.cpp" />
+    <ClCompile Include="CamionVert.cpp" />
     <ClCompile Include="Canette.cpp" />
     <ClCompile Include="chargementDechet.cpp" />
     <ClCompile Include="Dechet.cpp" />
@@ -144,6 +147,9 @@
     <ClInclude Include="Bureau.h" />
     <ClInclude Include="Bouffe.h" />
     <ClInclude Include="Camion.h" />
+    <ClInclude Include="CamionBleu.h" />
+    <ClInclude Include="CamionBrun.h" />
+    <ClInclude Include="CamionVert.h" />
     <ClInclude Include="Canette.h" />
     <ClInclude Include="chargementDechet.h" />
     <ClInclude Include="Dechet.h" />

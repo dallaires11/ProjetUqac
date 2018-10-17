@@ -25,6 +25,12 @@
     <Filter Include="Fichiers d%27en-tête\DefDechetTraite">
       <UniqueIdentifier>{18c0ec7f-5795-4d1f-8427-3d0801ffd8c2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\DefCamion">
+      <UniqueIdentifier>{4f256f73-e141-4498-912e-a78514e102cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\DefCamion">
+      <UniqueIdentifier>{2867e438-5547-4e5f-b283-f4ffa8e87148}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -90,6 +96,15 @@
     <ClCompile Include="DechetTraiteCompostable.cpp">
       <Filter>Fichiers sources\DefDechetTraite</Filter>
     </ClCompile>
+    <ClCompile Include="CamionBleu.cpp">
+      <Filter>Fichiers sources\DefCamion</Filter>
+    </ClCompile>
+    <ClCompile Include="CamionBrun.cpp">
+      <Filter>Fichiers sources\DefCamion</Filter>
+    </ClCompile>
+    <ClCompile Include="CamionVert.cpp">
+      <Filter>Fichiers sources\DefCamion</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dechet.h">
@@ -151,6 +166,15 @@
     </ClInclude>
     <ClInclude Include="DechetTraiteCompostable.h">
       <Filter>Fichiers d%27en-tête\DefDechetTraite</Filter>
+    </ClInclude>
+    <ClInclude Include="CamionBleu.h">
+      <Filter>Fichiers d%27en-tête\DefCamion</Filter>
+    </ClInclude>
+    <ClInclude Include="CamionBrun.h">
+      <Filter>Fichiers d%27en-tête\DefCamion</Filter>
+    </ClInclude>
+    <ClInclude Include="CamionVert.h">
+      <Filter>Fichiers d%27en-tête\DefCamion</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
