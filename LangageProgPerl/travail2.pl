@@ -70,6 +70,7 @@ print "\nNombre de livre traite : ".$nbLivreTraite;
 #print Fichier
 print $fr "\nNombre de livre total : ".$nbLivre;
 print $fr "\nNombre de livre traite : ".$nbLivreTraite;
+print $fr "\nNombre de livre non traite : ".($nbLivre-$nbLivreTraite);
 
 sub traiterAllLivre{
 	my $current = 1;
