@@ -31,6 +31,12 @@
     <Filter Include="Fichiers sources\DefCamion">
       <UniqueIdentifier>{2867e438-5547-4e5f-b283-f4ffa8e87148}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers sources\OperationX">
+      <UniqueIdentifier>{2d3915c5-32c4-4bb6-b8b4-ed222fcdf6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\OperationX">
+      <UniqueIdentifier>{61f07651-2234-4a34-80b3-27fb140faf04}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -105,6 +111,30 @@
     <ClCompile Include="CamionVert.cpp">
       <Filter>Fichiers sources\DefCamion</Filter>
     </ClCompile>
+    <ClCompile Include="Depot.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Operation.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Operation6.cpp">
+      <Filter>Fichiers sources\OperationX</Filter>
+    </ClCompile>
+    <ClCompile Include="Operation1.cpp">
+      <Filter>Fichiers sources\OperationX</Filter>
+    </ClCompile>
+    <ClCompile Include="Operation2.cpp">
+      <Filter>Fichiers sources\OperationX</Filter>
+    </ClCompile>
+    <ClCompile Include="Operation3.cpp">
+      <Filter>Fichiers sources\OperationX</Filter>
+    </ClCompile>
+    <ClCompile Include="Operation4.cpp">
+      <Filter>Fichiers sources\OperationX</Filter>
+    </ClCompile>
+    <ClCompile Include="Operation5.cpp">
+      <Filter>Fichiers sources\OperationX</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dechet.h">
@@ -175,6 +205,30 @@
     </ClInclude>
     <ClInclude Include="CamionVert.h">
       <Filter>Fichiers d%27en-tête\DefCamion</Filter>
+    </ClInclude>
+    <ClInclude Include="Depot.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation6.h">
+      <Filter>Fichiers d%27en-tête\OperationX</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation1.h">
+      <Filter>Fichiers d%27en-tête\OperationX</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation2.h">
+      <Filter>Fichiers d%27en-tête\OperationX</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation3.h">
+      <Filter>Fichiers d%27en-tête\OperationX</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation4.h">
+      <Filter>Fichiers d%27en-tête\OperationX</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation5.h">
+      <Filter>Fichiers d%27en-tête\OperationX</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
