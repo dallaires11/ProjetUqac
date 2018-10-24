@@ -153,6 +153,12 @@
     <ClCompile Include="CreationDTR.cpp">
       <Filter>Fichiers sources\DefOperationTraitement</Filter>
     </ClCompile>
+    <ClCompile Include="GenerateurSeqOperation.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceOperation.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dechet.h">
@@ -259,6 +265,12 @@
     </ClInclude>
     <ClInclude Include="CreationDTR.h">
       <Filter>Fichiers d%27en-tête\DefOperationTraitement</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateurSeqOperation.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceOperation.h">
+      <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

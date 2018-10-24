@@ -133,6 +133,7 @@
     <ClCompile Include="DechetTraiteRecyclabe.cpp" />
     <ClCompile Include="Depot.cpp" />
     <ClCompile Include="Devoir.cpp" />
+    <ClCompile Include="GenerateurSeqOperation.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Operation.cpp" />
     <ClCompile Include="Operation1.cpp" />
@@ -148,6 +149,7 @@
     <ClCompile Include="PancarteElectorale.cpp" />
     <ClCompile Include="Plante.cpp" />
     <ClCompile Include="ReveEleve.cpp" />
+    <ClCompile Include="SequenceOperation.cpp" />
     <ClCompile Include="UQAC.cpp" />
     <ClCompile Include="UsineTraitement.cpp" />
     <ClCompile Include="Ustensile.cpp" />
@@ -171,6 +173,7 @@
     <ClInclude Include="DechetTraiteRecyclabe.h" />
     <ClInclude Include="Depot.h" />
     <ClInclude Include="Devoir.h" />
+    <ClInclude Include="GenerateurSeqOperation.h" />
     <ClInclude Include="Operation.h" />
     <ClInclude Include="Operation1.h" />
     <ClInclude Include="Operation2.h" />
@@ -185,6 +188,7 @@
     <ClInclude Include="PancarteElectorale.h" />
     <ClInclude Include="Plante.h" />
     <ClInclude Include="ReveEleve.h" />
+    <ClInclude Include="SequenceOperation.h" />
     <ClInclude Include="UQAC.h" />
     <ClInclude Include="UsineTraitement.h" />
     <ClInclude Include="Ustensile.h" />
