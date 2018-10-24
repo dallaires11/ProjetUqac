@@ -30,8 +30,7 @@
 *.exe
 *.out
 *.app
-OsTravail2/.vs/OsTravail2/v15/ipch/AutoPCH/67cce004afae67e8/MAIN.ipch
-OsTravail2/.vs/OsTravail2/v15/Browse.VC.opendb
+OsTravail2/.vs/
 TriageDechet/.vs/
 TriageDechet/S3_travail2_TriageDechet/Debug/
 OsTravail2/OsTravail2/Debug/
