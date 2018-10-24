@@ -141,6 +141,10 @@
     <ClCompile Include="Operation4.cpp" />
     <ClCompile Include="Operation5.cpp" />
     <ClCompile Include="Operation6.cpp" />
+    <ClCompile Include="OperationTraitement.cpp" />
+    <ClCompile Include="CreationDTC.cpp" />
+    <ClCompile Include="CreationDTNR.cpp" />
+    <ClCompile Include="CreationDTR.cpp" />
     <ClCompile Include="PancarteElectorale.cpp" />
     <ClCompile Include="Plante.cpp" />
     <ClCompile Include="ReveEleve.cpp" />
@@ -174,6 +178,10 @@
     <ClInclude Include="Operation4.h" />
     <ClInclude Include="Operation5.h" />
     <ClInclude Include="Operation6.h" />
+    <ClInclude Include="OperationTraitement.h" />
+    <ClInclude Include="CreationDTC.h" />
+    <ClInclude Include="CreationDTNR.h" />
+    <ClInclude Include="CreationDTR.h" />
     <ClInclude Include="PancarteElectorale.h" />
     <ClInclude Include="Plante.h" />
     <ClInclude Include="ReveEleve.h" />

@@ -37,6 +37,12 @@
     <Filter Include="Fichiers d%27en-tête\OperationX">
       <UniqueIdentifier>{61f07651-2234-4a34-80b3-27fb140faf04}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers sources\DefOperationTraitement">
+      <UniqueIdentifier>{6d324320-6155-459e-9ff8-86e8d18bcf16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\DefOperationTraitement">
+      <UniqueIdentifier>{2fc4a2d1-9c49-4d17-9455-8aac1bdd783c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -135,6 +141,18 @@
     <ClCompile Include="Operation5.cpp">
       <Filter>Fichiers sources\OperationX</Filter>
     </ClCompile>
+    <ClCompile Include="OperationTraitement.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CreationDTC.cpp">
+      <Filter>Fichiers sources\DefOperationTraitement</Filter>
+    </ClCompile>
+    <ClCompile Include="CreationDTNR.cpp">
+      <Filter>Fichiers sources\DefOperationTraitement</Filter>
+    </ClCompile>
+    <ClCompile Include="CreationDTR.cpp">
+      <Filter>Fichiers sources\DefOperationTraitement</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dechet.h">
@@ -229,6 +247,18 @@
     </ClInclude>
     <ClInclude Include="Operation5.h">
       <Filter>Fichiers d%27en-tête\OperationX</Filter>
+    </ClInclude>
+    <ClInclude Include="OperationTraitement.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="CreationDTC.h">
+      <Filter>Fichiers d%27en-tête\DefOperationTraitement</Filter>
+    </ClInclude>
+    <ClInclude Include="CreationDTNR.h">
+      <Filter>Fichiers d%27en-tête\DefOperationTraitement</Filter>
+    </ClInclude>
+    <ClInclude Include="CreationDTR.h">
+      <Filter>Fichiers d%27en-tête\DefOperationTraitement</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

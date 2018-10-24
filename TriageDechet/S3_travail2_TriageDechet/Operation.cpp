@@ -3,6 +3,8 @@
 int Operation::instanceOperation = 0;
 
 Operation::Operation(){
+	operationSuivanteTrue = NULL;
+	operationSuivanteFalse = NULL;
 	instanceOperation++;
 }
 
