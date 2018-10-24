@@ -1,5 +1,4 @@
 #pragma once
-#include"SequenceOperation.h"
 #include"UsineTraitement.h"
 class GenerateurSeqOperation{
 private:
