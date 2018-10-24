@@ -90,9 +90,9 @@ sub traiterLivre{
 	($currentInfo) = $curLivre =~ /<given_name>(.*?)<\/given_name>/;
 	print $fr "\n"."Nom : ";
 	if(defined $currentInfo and !($currentInfo eq "")){
-		print $fr $currentInfo;
+		$currentInfo = uc $currentInfo;
+		print $fr $currentInfo." ";
 	}
-	print $fr " ";
 	($currentInfo2) = $curLivre =~ /<surname>(.*?)<\/surname>/;
 	if(defined $currentInfo2 and !($currentInfo2 eq "")){
 		$currentInfo2 = uc $currentInfo2;
