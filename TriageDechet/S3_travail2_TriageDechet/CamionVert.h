@@ -1,6 +1,6 @@
 #pragma once
 #include"Camion.h"
-//#inlucde"DechetTraiteNonRecyclabe
+#include"DechetTraiteNonRecyclabe.h"
 class CamionVert :
 	public Camion {
 private:
@@ -9,10 +9,9 @@ public:
 	CamionVert();
 	~CamionVert();
 
-	//bool ajouterDechet(DechetTraiteNonRecyclabe*);
+	bool ajouterDechet(DechetTraiteNonRecyclabe*);
 
 	static const int getNbInstance() {
 		return CamionVert::instanceCamionVert;
 	}
 };
-
