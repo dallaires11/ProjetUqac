@@ -16,7 +16,7 @@ Camion::~Camion(){
 
 bool Camion::ajouterDechet(DechetTraite* dechetTraite) {
 	Dechet test = *(dechetTraite->getDechet());
-	if ((test.getPoids) + capacite > capaciteMax)
+	if ((test.getPoids()) + capacite > capaciteMax)
 		return false;
 	else {
 		pileDechet.push(dechetTraite);

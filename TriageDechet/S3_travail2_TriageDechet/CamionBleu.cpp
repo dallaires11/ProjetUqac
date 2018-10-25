@@ -12,5 +12,6 @@ CamionBleu::~CamionBleu(){
 }
 
 bool CamionBleu::ajouterDechet(DechetTraiteRecyclabe* dechetTR) {
-	Camion:ajouterDechet(dechetTR);
+Camion:ajouterDechet(dechetTR);
+	return true;
 }
