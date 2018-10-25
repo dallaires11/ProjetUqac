@@ -1,5 +1,14 @@
 #pragma once
 #include"UsineTraitement.h"
+#include"Operation1.h"
+#include"Operation2.h"
+#include"Operation3.h"
+#include"Operation4.h"
+#include"Operation5.h"
+#include"Operation6.h"
+#include"CreationDTC.h"
+#include"CreationDTR.h"
+#include"CreationDTNR.h"
 class GenerateurSeqOperation{
 private:
 	static int instanceGenSeqOp;
@@ -9,7 +18,7 @@ public:
 	GenerateurSeqOperation();
 	~GenerateurSeqOperation();
 
-	SequenceOperation* genererSequence(UsineTraitement*);
+	SequenceOperation* genererSequence(int,UsineTraitement*);
 
 	static const int getNbInstance() {
 		return GenerateurSeqOperation::instanceGenSeqOp;

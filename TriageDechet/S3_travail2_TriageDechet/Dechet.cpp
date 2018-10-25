@@ -14,7 +14,7 @@ Dechet::Dechet(){
 	styromousse = false;
 	rigide = true;
 	Dechet::instanceDechet++;
-	std::cout << "Creation: Dechet\n";
+	//std::cout << "Creation: Dechet\n";
 }
 
 Dechet::Dechet(int iPoids, std::string iDescription, int iTypePlastique, std::string iCouleur, int iMateriel, int iPurete, bool iStyromousse, bool iRigide) {
@@ -28,7 +28,7 @@ Dechet::Dechet(int iPoids, std::string iDescription, int iTypePlastique, std::st
 	styromousse = iStyromousse;
 	rigide = iRigide;
 	Dechet::instanceDechet++;
-	std::cout << "Creation: Dechet\n";
+	//std::cout << "Creation: Dechet\n";
 }
 
 Dechet::Dechet(int iPoids, std::string iDescription) {
@@ -42,7 +42,7 @@ Dechet::Dechet(int iPoids, std::string iDescription) {
 	styromousse = false;
 	rigide = true;
 	Dechet::instanceDechet++;
-	std::cout << "Creation: Dechet\n";
+	//std::cout << "Creation: Dechet\n";
 }
 
 Dechet::Dechet(Dechet* pseudoDechet) {
@@ -56,12 +56,12 @@ Dechet::Dechet(Dechet* pseudoDechet) {
 	styromousse = pseudoDechet->estEnStyromousse();
 	rigide = pseudoDechet->estRigide();
 	Dechet::instanceDechet++;
-	std::cout << "Creation: Dechet\n";
+	//std::cout << "Creation: Dechet\n";
 }
 
 Dechet::~Dechet(){
 	Dechet::instanceDechet--;
-	std::cout << "Destruction: Dechet\n";
+	//std::cout << "Destruction: Dechet\n";
 }
 
 void Dechet::setPoids(int iPoids) {

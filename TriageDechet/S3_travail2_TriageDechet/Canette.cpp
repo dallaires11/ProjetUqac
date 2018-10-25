@@ -6,7 +6,7 @@ Canette::Canette() :
 	Dechet(8, "Canette de Pepsi", 0, "Metallique", 3, 75, false, false) {
 
 	Canette::instanceCanette++;
-	std::cout << "Creation: Canette\n";
+	//std::cout << "Creation: Canette\n";
 }
 
 Canette::Canette(Canette* pseudoCanette) :Dechet(
@@ -14,10 +14,10 @@ Canette::Canette(Canette* pseudoCanette) :Dechet(
 	pseudoCanette->getCouleur(), pseudoCanette->getMateriel(), pseudoCanette->getPurete(), pseudoCanette->estEnStyromousse(),
 	pseudoCanette->estRigide()) {
 	Canette::instanceCanette++;
-	std::cout << "Creation: Canette\n";
+	//std::cout << "Creation: Canette\n";
 }
 
 Canette::~Canette(){
 	Canette::instanceCanette--;
-	std::cout << "Desctruction: Canette\n";
+	//std::cout << "Desctruction: Canette\n";
 }

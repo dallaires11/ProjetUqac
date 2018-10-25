@@ -6,7 +6,7 @@ Ustensile::Ustensile() :
 	Dechet(1, "Couteau,fourchette", 5, "Blanc", 2, 75, false, false) {
 
 	Ustensile::instanceUstensile++;
-	std::cout << "Creation: Ustensile\n";
+	//std::cout << "Creation: Ustensile\n";
 }
 
 Ustensile::Ustensile(Ustensile* pseudoUstensile) :Dechet(
@@ -14,11 +14,11 @@ Ustensile::Ustensile(Ustensile* pseudoUstensile) :Dechet(
 	pseudoUstensile->getCouleur(), pseudoUstensile->getMateriel(), pseudoUstensile->getPurete(), pseudoUstensile->estEnStyromousse(),
 	pseudoUstensile->estRigide()) {
 	Ustensile::instanceUstensile++;
-	std::cout << "Creation: Ustensile\n";
+	//std::cout << "Creation: Ustensile\n";
 
 }
 
 Ustensile::~Ustensile(){
 	Ustensile::instanceUstensile--;
-	std::cout << "Desctruction: Ustensile\n";
+	//std::cout << "Desctruction: Ustensile\n";
 }

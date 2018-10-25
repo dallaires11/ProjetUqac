@@ -6,7 +6,7 @@ Bardeau::Bardeau() :
 	Dechet(80, "Reste de toiture", 0, "Noir", 9, 35, false, true) {
 
 	Bardeau::instanceBardeau++;
-	std::cout << "Creation: Bardeau\n";
+	//std::cout << "Creation: Bardeau\n";
 }
 
 Bardeau::Bardeau(Bardeau* pseudoBardeau) :Dechet(
@@ -14,10 +14,10 @@ Bardeau::Bardeau(Bardeau* pseudoBardeau) :Dechet(
 	pseudoBardeau->getCouleur(), pseudoBardeau->getMateriel(), pseudoBardeau->getPurete(), pseudoBardeau->estEnStyromousse(),
 	pseudoBardeau->estRigide()) {
 	Bardeau::instanceBardeau++;
-	std::cout << "Creation: Bardeau\n";
+	//std::cout << "Creation: Bardeau\n";
 }
 
 Bardeau::~Bardeau(){
 	Bardeau::instanceBardeau--;
-	std::cout << "Desctruction: Bardeau\n";
+	//std::cout << "Desctruction: Bardeau\n";
 }

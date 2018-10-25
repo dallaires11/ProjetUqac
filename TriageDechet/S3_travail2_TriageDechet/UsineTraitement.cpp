@@ -2,11 +2,11 @@
 
 int UsineTraitement::instanceUsine = 0;
 
-UsineTraitement::UsineTraitement()
-{
+UsineTraitement::UsineTraitement(){
+	instanceUsine++;
 }
 
 
-UsineTraitement::~UsineTraitement()
-{
+UsineTraitement::~UsineTraitement(){
+	instanceUsine--;
 }
