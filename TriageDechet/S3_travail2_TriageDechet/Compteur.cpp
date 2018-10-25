@@ -6,13 +6,14 @@ Compteur::~Compteur()
 {}
 
 void Compteur::getAllInstance() {
+	std::cout << "Instance ChargementDechet: " << ChargementDechet::getNbInstance() << std::endl;
 	std::cout << "Instance UQAC: " << UQAC::getNbInstance()<<std::endl;
-	/*std::cout << "Instance UsineTraitement: " << UsineTraitement::getNbInstance() << std::endl;
-	std::cout << "Instance Camion: " << Camion::getNbInstance() << std::endl;
+	std::cout << "Instance UsineTraitement: " << UsineTraitement::getNbInstance() << std::endl;
+	std::cout << "Instance GenerateurSeqOperation: " << GenerateurSeqOperation::getNbInstance() << std::endl;
+	/*std::cout << "Instance Camion: " << Camion::getNbInstance() << std::endl;
 	std::cout << "Instance CamionBleu: " << CamionBleu::getNbInstance() << std::endl;
 	std::cout << "Instance CamionBrun: " << CamionBrun::getNbInstance() << std::endl;
 	std::cout << "Instance CamionVert: " << CamionVert::getNbInstance() << std::endl;
-	std::cout << "Instance ChargementDechet: " << chargementDechet::getNbInstance() << std::endl;
 	std::cout << "Instance Dechet: " << Dechet::getNbInstance() << std::endl;
 	std::cout << "Instance AssietteJetable: " << AssietteJetable::getNbInstance() << std::endl;
 	std::cout << "Instance Bardeau: " << Bardeau::getNbInstance() << std::endl;
@@ -48,7 +49,10 @@ void Compteur::getAllInstance() {
 
 int Compteur::getTotalInstance() {
 	int total = 0;
+	total += ChargementDechet::getNbInstance();
 	total += UQAC::getNbInstance();
+	total += UsineTraitement::getNbInstance();
+	total += GenerateurSeqOperation::getNbInstance();
 	/*std::cout << "Instance UQAC: " << UQAC::getNbInstance()<<std::endl;
 	std::cout << "Instance UsineTraitement: " << UsineTraitement::getNbInstance() << std::endl;
 	std::cout << "Instance Camion: " << Camion::getNbInstance() << std::endl;

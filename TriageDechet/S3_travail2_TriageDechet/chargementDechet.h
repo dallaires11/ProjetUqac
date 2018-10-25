@@ -1,6 +1,6 @@
 #pragma once
 #include"Dechet.h"
-class chargementDechet{
+class ChargementDechet {
 private:
 	static int instanceChargeurDechet;
 	int current;
@@ -8,13 +8,12 @@ private:
 	void setDechets(Dechet*[50]);
 	void destroyDechet();
 public:
-	chargementDechet(Dechet*[50]);
+	ChargementDechet(Dechet*[50]);
 
 	Dechet* getDechet();
-	~chargementDechet();
+	~ChargementDechet();
 
 	static const int getNbInstance() {
-		return chargementDechet::instanceChargeurDechet;
+		return ChargementDechet::instanceChargeurDechet;
 	}
 };
-

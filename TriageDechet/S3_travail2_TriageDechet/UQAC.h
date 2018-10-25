@@ -1,5 +1,5 @@
 #pragma once
-#include"chargementDechet.h"
+#include"ChargementDechet.h"
 #include"Dechet.h"
 #include"PancarteElectorale.h"
 #include"Bouteille.h"
@@ -24,5 +24,5 @@ public:
 		return UQAC::instanceUqac;
 	}
 
-	chargementDechet* getChargementDechets();
+	static ChargementDechet* getChargementDechets();
 };

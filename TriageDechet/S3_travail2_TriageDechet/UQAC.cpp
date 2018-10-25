@@ -11,7 +11,7 @@ UQAC::~UQAC(){
 	instanceUqac--;
 }
 
-chargementDechet* UQAC::getChargementDechets() {
+ChargementDechet* UQAC::getChargementDechets() {
 	Dechet* listeDechet[50];
 
 	listeDechet[0] = new PancarteElectorale();
@@ -66,6 +66,6 @@ chargementDechet* UQAC::getChargementDechets() {
 	listeDechet[48] = new Dechet;
 	listeDechet[49] = new Dechet;
 	*/
-	return (new chargementDechet(listeDechet));
+	return (new ChargementDechet(listeDechet));
 
 }

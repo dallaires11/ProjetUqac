@@ -1,7 +1,7 @@
 #pragma once
 #include"SequenceOperation.h"
 #include"Depot.h"
-#include"chargementDechet.h"
+#include"ChargementDechet.h"
 class UsineTraitement{
 private:
 	static int instanceUsine;
@@ -21,7 +21,7 @@ public:
 	~UsineTraitement();
 
 	void chargerOperation(SequenceOperation* sequenceOperation);
-	void demmarerTraitement(chargementDechet* chargementDechet);//Arranger la majuscule
+	void demmarerTraitement(ChargementDechet* chargementDechet);//Arranger la majuscule
 
 	static const int getNbInstance() {
 		return UsineTraitement::instanceUsine;
