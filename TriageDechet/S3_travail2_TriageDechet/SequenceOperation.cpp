@@ -3,6 +3,7 @@
 int SequenceOperation::instanceSeqOp = 0;
 
 SequenceOperation::SequenceOperation(){
+	currentAjout = 0;
 	instanceSeqOp++;
 }
 
@@ -11,11 +12,16 @@ SequenceOperation::~SequenceOperation(){
 }
 
 SequenceOperation* SequenceOperation::ajouterOperation(Operation* operation) {
-	return NULL;
+	if (currentAjout < 9) {
+		listeOperation[currentAjout] = operation;
+		currentAjout++;
+	}
+	return this;
 }
 
-void SequenceOperation::definirOperationDemarrage(Operation*) {
-
+void SequenceOperation::definirOperationDemarrage(Operation* pseudoOperation) {
+	operationDemarrage = pseudoOperation;
+	return;
 }
 
 Operation* SequenceOperation::getOperation() {

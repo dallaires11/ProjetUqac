@@ -7,6 +7,6 @@ public:
 	Compteur();
 	~Compteur();
 
-	void getAllInstance();
-	int getTotalInstance();
+	void getAllInstance(bool);
+	int getTotalInstance(bool);
 };

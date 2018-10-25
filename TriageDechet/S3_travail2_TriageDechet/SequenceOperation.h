@@ -3,8 +3,9 @@
 class SequenceOperation{
 private:
 	static int instanceSeqOp;
+	int currentAjout;
 	Operation* operationDemarrage;
-	Operation* listeOperation;
+	Operation* listeOperation[9];
 public:
 	SequenceOperation();
 	~SequenceOperation();

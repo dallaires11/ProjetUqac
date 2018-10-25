@@ -3,11 +3,11 @@
 using namespace std;
 
 void laboratoire2();
-void afficherInfo();
+void afficherInfo(bool);
 
 int main() {
 	laboratoire2();
-	afficherInfo();
+	afficherInfo(false);
 
 	system("PAUSE");
 	return 0;
@@ -17,17 +17,16 @@ void laboratoire2() {
 	ChargementDechet* chargement = UQAC::getChargementDechets();
 	UsineTraitement* usineTraitement = new UsineTraitement();
 	GenerateurSeqOperation genSeq;
-
-	//usineTraitement->chargerOperation(genSeq.genererSequence(0,usineTraitement));
+	usineTraitement->chargerOperation(genSeq.genererSequence(0,usineTraitement));
 	//usineTraitement->demmarerTraitement(chargement);
 
-	delete usineTraitement;
+	//delete usineTraitement;
 	return;
 }
 
-void afficherInfo() {
+void afficherInfo(bool debug) {
 	Compteur c = Compteur();
-	cout << endl << "Il y a " << c.getTotalInstance() << " au total" << endl << endl;
-	c.getAllInstance();
+	cout << endl << "Il y a " << c.getTotalInstance(debug) << " au total" << endl << endl;
+	c.getAllInstance(debug);
 	return;
 }

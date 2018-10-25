@@ -6,7 +6,7 @@ class UsineTraitement{
 private:
 	static int instanceUsine;
 	SequenceOperation* sequenceOperation;
-	Depot* depot;
+	Depot depot;
 	CamionBleu* camionBleu;
 	CamionBrun* camionBrun;
 	CamionVert* camionVert;
@@ -21,7 +21,7 @@ public:
 	~UsineTraitement();
 
 	void chargerOperation(SequenceOperation* sequenceOperation);
-	void demmarerTraitement(ChargementDechet* chargementDechet);//Arranger la majuscule
+	void demmarerTraitement(ChargementDechet* chargementDechet);
 
 	static const int getNbInstance() {
 		return UsineTraitement::instanceUsine;
