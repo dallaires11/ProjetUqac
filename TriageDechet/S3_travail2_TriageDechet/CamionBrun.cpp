@@ -12,6 +12,5 @@ CamionBrun::~CamionBrun(){
 }
 
 bool CamionBrun::ajouterDechet(DechetTraiteCompostable* dechetTC) {
-Camion:ajouterDechet(dechetTC);
-	return true;
+	return Camion::ajouterDechet(dechetTC);
 }

@@ -1,4 +1,5 @@
 #include "UQAC.h"
+#include <list>
 
 int UQAC::instanceUqac = 0;
 
@@ -12,18 +13,18 @@ UQAC::~UQAC(){
 }
 
 ChargementDechet* UQAC::getChargementDechets() {
-	Dechet* listeDechet[50];
+	std::list<Dechet*>* listeDechet = new std::list<Dechet*>;
 
-	listeDechet[0] = new PancarteElectorale();
-	listeDechet[1] = new Bouteille();
-	listeDechet[2] = new Ustensile();
-	listeDechet[3] = new Canette();
-	listeDechet[4] = new Plante();
-	listeDechet[5] = new Bureau();
-	listeDechet[6] = new Bouffe();
-	listeDechet[7] = new Devoir();
-	listeDechet[8] = new AssietteJetable();
-	listeDechet[9] = new Bardeau();
+	listeDechet->push_back( new PancarteElectorale());
+	listeDechet->push_back(new Bouteille());
+	listeDechet->push_back(new Ustensile());
+	listeDechet->push_back(new Canette());
+	listeDechet->push_back(new Plante());
+	listeDechet->push_back(new Bureau());
+	listeDechet->push_back(new Bouffe());
+	listeDechet->push_back(new Devoir());
+	listeDechet->push_back(new AssietteJetable());
+	listeDechet->push_back(new Bardeau());
 	/*
 	listeDechet[10] = new Dechet;
 	listeDechet[11] = new Dechet;
@@ -66,6 +67,5 @@ ChargementDechet* UQAC::getChargementDechets() {
 	listeDechet[48] = new Dechet;
 	listeDechet[49] = new Dechet;
 	*/
-	return (new ChargementDechet(listeDechet));
-
+	return new ChargementDechet(listeDechet);
 }

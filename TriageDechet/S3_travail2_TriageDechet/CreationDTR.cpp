@@ -11,6 +11,6 @@ CreationDTR::~CreationDTR() {
 }
 
 bool CreationDTR::effectuerOperation(Dechet* dechet) {
-OperationTraitement:creerDTR(dechet);
+OperationTraitement::creerDTR(dechet);
 	return true;
 }

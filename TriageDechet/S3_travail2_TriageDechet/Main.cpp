@@ -18,9 +18,10 @@ void laboratoire2() {
 	UsineTraitement* usineTraitement = new UsineTraitement();
 	GenerateurSeqOperation genSeq;
 	usineTraitement->chargerOperation(genSeq.genererSequence(0,usineTraitement));
-	//usineTraitement->demmarerTraitement(chargement);
+	usineTraitement->demmarerTraitement(chargement);
 
-	//delete usineTraitement;
+	delete chargement;
+	delete usineTraitement;
 	return;
 }
 

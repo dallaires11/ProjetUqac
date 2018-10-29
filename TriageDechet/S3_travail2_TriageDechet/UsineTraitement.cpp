@@ -16,16 +16,9 @@ UsineTraitement::~UsineTraitement(){
 	depot.depotDechetTraite(camionBrun);
 	depot.depotDechetTraite(camionBleu);
 	depot.depotDechetTraite(camionVert);
+	//sequenceOperation->destroyOperations();
 	delete sequenceOperation;
 	instanceUsine--;
-}
-
-void UsineTraitement::preOperation() {
-	//log Pre op
-}
-
-void UsineTraitement::postOperation() {
-	//log post op
 }
 
 void UsineTraitement::traiterDTC(Dechet* dechet) {
@@ -40,7 +33,7 @@ void UsineTraitement::traiterDTC(Dechet* dechet) {
 }
 
 void UsineTraitement::traiterDTR(Dechet* dechet) {
-	if (true/*camionBleu->ajouterDechet(dechet)*/)
+	if (true)//camionBleu->ajouterDechet(dechet))
 		return;
 	else {
 		depot.depotDechetTraite(camionBleu);
@@ -64,4 +57,8 @@ void UsineTraitement::traiterDTNR(Dechet* dechet) {
 void UsineTraitement::chargerOperation(SequenceOperation* seqOp) {
 	sequenceOperation = seqOp;
 	return;
+}
+
+void UsineTraitement::demmarerTraitement(ChargementDechet* chargement) {
+
 }

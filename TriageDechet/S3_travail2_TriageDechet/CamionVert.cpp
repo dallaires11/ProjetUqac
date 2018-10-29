@@ -12,6 +12,6 @@ CamionVert::~CamionVert(){
 }
 
 bool CamionVert::ajouterDechet(DechetTraiteNonRecyclabe* dechetTNR) {
-Camion:ajouterDechet(dechetTNR);
-	return true;
+	return Camion::ajouterDechet(dechetTNR);
+
 }

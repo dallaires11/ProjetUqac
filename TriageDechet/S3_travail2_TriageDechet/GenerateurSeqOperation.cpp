@@ -43,10 +43,10 @@ SequenceOperation* GenerateurSeqOperation::genererSequence1(UsineTraitement* usi
 }
 
 SequenceOperation* GenerateurSeqOperation::genererSequence(int seq, UsineTraitement* usine) {
-	if (seq = 0) {
+	if (seq == 0) {
 		return genererSequence0(usine);
 	}
-	else if (seq = 1) {
+	else if (seq == 1) {
 		return genererSequence1(usine);
 	}
 	else

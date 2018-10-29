@@ -2,8 +2,7 @@
 
 int ChargementDechet::instanceChargeurDechet = 0;
 
-ChargementDechet::ChargementDechet(Dechet* liste[50]) {
-	current = 0;
+ChargementDechet::ChargementDechet(std::list<Dechet*>* liste) {
 	setDechets(liste);
 	instanceChargeurDechet++;
 }
@@ -15,24 +14,29 @@ ChargementDechet::~ChargementDechet() {
 }
 
 Dechet* ChargementDechet::getDechet() {
-	if (current < 41)
-		return listeDechet[current++];
-	else
+	if (listeDechet->size() != 0) {
+		Dechet* dechet = listeDechet->front();
+		listeDechet->pop_front();
+		return dechet;
+	}else
 		return NULL;
 }
 
 void ChargementDechet::destroyDechet() {
-	for (int x = 0; x < 10; x++) {
-		delete listeDechet[x];
+	Dechet* dechet = nullptr;
+	while (!listeDechet->empty())
+	{
+		dechet = listeDechet->front();
+		listeDechet->pop_front();
+		delete dechet;
 	}
+	delete listeDechet;
 
 	return;
 }
 
-void ChargementDechet::setDechets(Dechet* liste[50]) {
-	for (int x = 0; x < 50; x++) {
-		listeDechet[x] = liste[x];
-	}
+void ChargementDechet::setDechets(std::list<Dechet*>* liste) {
+	listeDechet = liste;
 
 	return;
 }

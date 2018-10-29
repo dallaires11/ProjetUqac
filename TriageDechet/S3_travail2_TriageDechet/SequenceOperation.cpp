@@ -12,10 +12,7 @@ SequenceOperation::~SequenceOperation(){
 }
 
 SequenceOperation* SequenceOperation::ajouterOperation(Operation* operation) {
-	if (currentAjout < 9) {
-		listeOperation[currentAjout] = operation;
-		currentAjout++;
-	}
+	listeOperation.push_back(operation);
 	return this;
 }
 
@@ -27,4 +24,17 @@ void SequenceOperation::definirOperationDemarrage(Operation* pseudoOperation) {
 Operation* SequenceOperation::getOperation() {
 
 	return NULL;
+}
+
+void SequenceOperation::destroyOperation() {
+	Operation* operation = nullptr;
+	while (!listeOperation.empty())
+	{
+		operation = listeOperation.front();
+		listeOperation.pop_front();
+		delete operation;
+	}
+	//delete listeDechet;
+
+	return;
 }
