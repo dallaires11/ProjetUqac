@@ -5,31 +5,37 @@
 class UsineTraitement{
 private:
 	class Log {
-		void i(std::string info) {
-			std::cout << info << std::endl;
-		}
-		void i(Dechet const& dechet);
-		void i(Depot const& depot);
+		public:
+			static void i(std::string info) {
+				std::cout << info << std::endl;
+			}
+			static void i(Dechet const& dechet) {
+				std::cout << dechet << std::endl;
+			}
+			static void i(Depot const& depot) {
+				std::cout << depot << std::endl;
+			}
 	};
+
 	static int instanceUsine;
 	SequenceOperation* sequenceOperation;
 	Depot depot;
 	CamionBleu* camionBleu;
 	CamionBrun* camionBrun;
 	CamionVert* camionVert;
+	friend class OperationTraitement;
+
 	void preOperation() {
-		//Log::i("Pre Operation");
+		Log::i("Pre Operation");
 		return;
 	}
 	void postOperation() {
-		//Log::i("Post Operation");
+		Log::i("Post Operation");
 		return;
 	}
 	void traiterDTC(Dechet* dechet);
 	void traiterDTNR(Dechet* dechet);
 	void traiterDTR(Dechet* dechet);
-	void traiterDechet(Dechet* dechet);
-
 	
 public:
 	UsineTraitement();

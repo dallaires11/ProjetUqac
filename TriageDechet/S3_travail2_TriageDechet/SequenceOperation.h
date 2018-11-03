@@ -14,8 +14,10 @@ public:
 
 	SequenceOperation* ajouterOperation(Operation*);
 	void definirOperationDemarrage(Operation*);
-	Operation* getOperation();
 
+	Operation* getOperation() {
+		return operationDemarrage;
+	}
 
 	static const int getNbInstance() {
 		return SequenceOperation::instanceSeqOp;

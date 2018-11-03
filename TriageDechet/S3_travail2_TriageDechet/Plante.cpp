@@ -3,7 +3,7 @@
 int Plante::instancePlante = 0;
 
 Plante::Plante() :
-	Dechet(100, "Experience de laboratoire", 0, "vert", 4, 100, false, true) {
+	Dechet(20, "Experience de laboratoire", 0, "vert", 4, 100, false, true) {
 
 	Plante::instancePlante++;
 	//std::cout << "Creation: Plante\n";

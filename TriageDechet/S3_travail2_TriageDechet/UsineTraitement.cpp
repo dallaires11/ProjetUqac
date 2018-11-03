@@ -4,9 +4,9 @@ int UsineTraitement::instanceUsine = 0;
 
 UsineTraitement::UsineTraitement(){
 	depot = Depot();
-	camionBleu = new CamionBleu();
-	camionBrun = new CamionBrun();
-	camionVert = new CamionVert();
+	camionBleu = depot.getCamionBleu();
+	camionBrun = depot.getCamionBrun();
+	camionVert = depot.getCamionVert();
 	sequenceOperation = NULL;
 	instanceUsine++;
 }
@@ -16,13 +16,17 @@ UsineTraitement::~UsineTraitement(){
 	depot.depotDechetTraite(camionBrun);
 	depot.depotDechetTraite(camionBleu);
 	depot.depotDechetTraite(camionVert);
-	//sequenceOperation->destroyOperations();
 	delete sequenceOperation;
 	instanceUsine--;
+
+	Log::i(depot);
 }
 
 void UsineTraitement::traiterDTC(Dechet* dechet) {
-	if(true/*camionBrun->ajouterDechet(dechet)*/)
+	Log::i("AJOUT DTC  : " + std::to_string(dechet->getId()));
+	
+	DechetTraiteCompostable* dechetC = new DechetTraiteCompostable(dechet);
+	if(camionBrun->ajouterDechet(dechetC))
 		return;
 	else {
 		depot.depotDechetTraite(camionBrun);
@@ -33,7 +37,10 @@ void UsineTraitement::traiterDTC(Dechet* dechet) {
 }
 
 void UsineTraitement::traiterDTR(Dechet* dechet) {
-	if (true)//camionBleu->ajouterDechet(dechet))
+	Log::i("AJOUT DTR  : " + std::to_string(dechet->getId()));
+
+	DechetTraiteRecyclabe* dechetR= new DechetTraiteRecyclabe(dechet);
+	if (camionBleu->ajouterDechet(dechetR))
 		return;
 	else {
 		depot.depotDechetTraite(camionBleu);
@@ -44,7 +51,10 @@ void UsineTraitement::traiterDTR(Dechet* dechet) {
 }
 
 void UsineTraitement::traiterDTNR(Dechet* dechet) {
-	if (true/*camionVert->ajouterDechet(dechet)*/)
+	Log::i("AJOUT DTNR  : " + std::to_string(dechet->getId()));
+
+	DechetTraiteNonRecyclabe* dechetNR = new DechetTraiteNonRecyclabe(dechet);
+	if (camionVert->ajouterDechet(dechetNR))
 		return;
 	else {
 		depot.depotDechetTraite(camionVert);
@@ -55,10 +65,31 @@ void UsineTraitement::traiterDTNR(Dechet* dechet) {
 }
 
 void UsineTraitement::chargerOperation(SequenceOperation* seqOp) {
+	Log::i("CHARGEMENT DES OPERATIONS");
+
 	sequenceOperation = seqOp;
 	return;
 }
 
 void UsineTraitement::demmarerTraitement(ChargementDechet* chargement) {
+	Log::i("DEMARRAGE DES OPERATIONS");
 
+	Operation* currentOperation = sequenceOperation->getOperation();
+	Dechet* currentDechet = chargement->getDechet();
+	
+	while (currentDechet != NULL) {
+		Log::i(*currentDechet);
+
+		preOperation();
+		while (currentOperation != NULL) {
+			currentOperation = currentOperation->getOperationSuivante(currentOperation->effectuerOperation(currentDechet));
+		}
+		postOperation();
+
+		currentOperation = sequenceOperation->getOperation();
+		currentDechet = chargement->getDechet();
+	}
+	Log::i(depot);
+
+	return;
 }

@@ -31,10 +31,13 @@ void Compteur::getAllInstance(bool debug) {
 		std::cout << "Instance Ustensile: " << Ustensile::getNbInstance() << std::endl;
 	}
 	
-	/*std::cout << "Instance DechetTraite: " << DechetTraite::getNbInstance() << std::endl;
-	std::cout << "Instance DechetTraiteComspostable: " << DechetTraiteCompostable::getNbInstance() << std::endl;
-	std::cout << "Instance DechetTraiteRecyclabe: " << DechetTraiteRecyclabe::getNbInstance() << std::endl;
-	std::cout << "Instance DechetTraiteNonRecyclabe: " << DechetTraiteNonRecyclabe::getNbInstance() << std::endl;*/
+	std::cout << "Instance DechetTraite: " << DechetTraite::getNbInstance() << std::endl;
+	if (debug) {
+		std::cout << "Instance DechetTraiteComspostable: " << DechetTraiteCompostable::getNbInstance() << std::endl;
+		std::cout << "Instance DechetTraiteRecyclabe: " << DechetTraiteRecyclabe::getNbInstance() << std::endl;
+		std::cout << "Instance DechetTraiteNonRecyclabe: " << DechetTraiteNonRecyclabe::getNbInstance() << std::endl;
+	}
+
 	std::cout << "Instance Operation: " << Operation::getNbInstance() << std::endl;
 	if (debug) {
 		std::cout << "Instance Operation1: " << Operation1::getNbInstance() << std::endl;
@@ -82,10 +85,13 @@ int Compteur::getTotalInstance(bool debug) {
 		total += ReveEleve::getNbInstance();
 		total += Ustensile::getNbInstance();
 	}
-	/*std::cout << "Instance DechetTraite: " << DechetTraite::getNbInstance() << std::endl;
-	std::cout << "Instance DechetTraiteComspostable: " << DechetTraiteCompostable::getNbInstance() << std::endl;
-	std::cout << "Instance DechetTraiteRecyclabe: " << DechetTraiteRecyclabe::getNbInstance() << std::endl;
-	std::cout << "Instance DechetTraiteNonRecyclabe: " << DechetTraiteNonRecyclabe::getNbInstance() << std::endl;*/
+	total += DechetTraite::getNbInstance();
+	if (debug) {
+		total += DechetTraiteCompostable::getNbInstance();
+		total += DechetTraiteRecyclabe::getNbInstance();
+		total += DechetTraiteNonRecyclabe::getNbInstance();
+	}
+	
 	total += Operation::getNbInstance();
 	if (debug) {
 		total += Operation1::getNbInstance();

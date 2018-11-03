@@ -12,5 +12,8 @@ Operation4::~Operation4() {
 }
 
 bool Operation4::effectuerOperation(Dechet* dechet) {
-	return true;
+	if (dechet->getMateriel() == 6 && dechet->getCouleur() == "brun")
+		return true;
+	else
+		return false;
 }

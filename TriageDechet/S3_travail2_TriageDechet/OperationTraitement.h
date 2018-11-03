@@ -15,6 +15,8 @@ public:
 	~OperationTraitement();
 
 	bool effectuerOperation(Dechet*);
+	Operation* getOperationSuivante(bool choix);
+
 
 	static const int getNbInstance() {
 		return OperationTraitement::instanceOperationTraitement;

@@ -9,17 +9,17 @@ Camion::Camion(int pseudoCapaciteMax) {
 }
 
 Camion::~Camion(){
-	if (!pileDechet.empty())
-		viderCamion();
+	viderCamion();
 	instanceCamion--;
 }
 
 bool Camion::ajouterDechet(DechetTraite* dechetTraite) {
-	Dechet dechet = *(dechetTraite->getDechet());
+	Dechet dechet = *dechetTraite->getDechet();
 	if ((dechet.getPoids()) + capacite > capaciteMax)
 		return false;
 	else {
 		pileDechet.push(dechetTraite);
+		capacite += dechet.getPoids();
 		return true;
 	}
 }
@@ -28,8 +28,8 @@ int Camion::viderCamion(){
 	DechetTraite* curDechet;
 	while (!pileDechet.empty()) {
 		curDechet = pileDechet.top();
-		delete curDechet;
 		pileDechet.pop();
+		delete curDechet;
 	}
 
 	return capacite;

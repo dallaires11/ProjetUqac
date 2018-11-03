@@ -8,6 +8,7 @@ SequenceOperation::SequenceOperation(){
 }
 
 SequenceOperation::~SequenceOperation(){
+	destroyOperation();
 	instanceSeqOp--;
 }
 
@@ -21,11 +22,6 @@ void SequenceOperation::definirOperationDemarrage(Operation* pseudoOperation) {
 	return;
 }
 
-Operation* SequenceOperation::getOperation() {
-
-	return NULL;
-}
-
 void SequenceOperation::destroyOperation() {
 	Operation* operation = nullptr;
 	while (!listeOperation.empty())
@@ -34,7 +30,6 @@ void SequenceOperation::destroyOperation() {
 		listeOperation.pop_front();
 		delete operation;
 	}
-	//delete listeDechet;
 
 	return;
 }

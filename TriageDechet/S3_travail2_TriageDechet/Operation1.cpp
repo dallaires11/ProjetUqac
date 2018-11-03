@@ -6,11 +6,13 @@ Operation1::Operation1(Operation* opTrue,Operation* opFalse):Operation(opTrue,op
 	instanceOperation1++;
 }
 
-
 Operation1::~Operation1(){
 	instanceOperation1--;
 }
 
 bool Operation1::effectuerOperation(Dechet* dechet) {
-	return true;
+	if (dechet->estEnStyromousse() || dechet->estRigide())
+		return true;
+	else
+		return false;
 }

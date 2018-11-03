@@ -9,22 +9,25 @@ OperationTraitement::OperationTraitement(UsineTraitement* pseudoUsineTraitement)
 
 
 OperationTraitement::~OperationTraitement(){
-	delete usineTraitment;
 	instanceOperationTraitement--;
 }
 
 void OperationTraitement::creerDTR(Dechet* dechet) {
-	
+	usineTraitment->traiterDTR(dechet);
 }
 
 void OperationTraitement::creerDTNR(Dechet* dechet) {
-
+	usineTraitment->traiterDTNR(dechet);
 }
 
 void OperationTraitement::creerDTC(Dechet* dechet) {
-
+	usineTraitment->traiterDTC(dechet);
 }
 
 bool OperationTraitement::effectuerOperation(Dechet* dechet) {
 	return true;
+}
+
+Operation* OperationTraitement::getOperationSuivante(bool choix) {
+	return NULL;
 }

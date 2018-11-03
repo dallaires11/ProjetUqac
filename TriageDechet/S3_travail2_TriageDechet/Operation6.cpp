@@ -12,5 +12,6 @@ Operation6::~Operation6() {
 }
 
 bool Operation6::effectuerOperation(Dechet* dechet) {
+	if(dechet->getTypePlastique()==0||dechet->getTypePlastique()==6)
 	return true;
 }

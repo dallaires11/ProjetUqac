@@ -12,7 +12,7 @@ public:
 	Operation(Operation*,Operation*);
 	virtual ~Operation();
 
-	bool effectuerOperation(Dechet*);
+	virtual bool effectuerOperation(Dechet*);
 
 	Operation* getOperationSuivante(bool);
 

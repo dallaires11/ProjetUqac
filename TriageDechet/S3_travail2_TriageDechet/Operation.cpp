@@ -15,8 +15,6 @@ Operation::Operation(Operation* opSuivTrue, Operation* opSuivFalse) {
 }
 
 Operation::~Operation(){
-	delete operationSuivanteTrue;
-	delete operationSuivanteFalse;
 	instanceOperation--;
 }
 
