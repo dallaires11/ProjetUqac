@@ -6,6 +6,7 @@ private:
 	static int instanceCreationDTNR;
 public:
 	CreationDTNR(UsineTraitement*);
+	CreationDTNR(const CreationDTNR&);
 	~CreationDTNR();
 
 	bool effectuerOperation(Dechet*);

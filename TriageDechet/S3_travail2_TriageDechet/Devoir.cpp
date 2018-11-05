@@ -9,10 +9,7 @@ Devoir::Devoir():
 	//std::cout << "Creation: Devoir\n";
 }
 
-Devoir::Devoir(Devoir* pseudoDevoir):Dechet(
-	pseudoDevoir->getPoids(),pseudoDevoir->getDescription(),pseudoDevoir->getTypePlastique(),
-	pseudoDevoir->getCouleur(),pseudoDevoir->getMateriel(),pseudoDevoir->getPurete(),pseudoDevoir->estEnStyromousse(),
-	pseudoDevoir->estRigide()){
+Devoir::Devoir(const Devoir& pseudoDevoir):Dechet(2, "Pile de devoir", 0, "Blanc", 7, 75, false, false) {
 	Devoir::instanceDevoir++;
 	//std::cout << "Creation: Devoir\n";
 }

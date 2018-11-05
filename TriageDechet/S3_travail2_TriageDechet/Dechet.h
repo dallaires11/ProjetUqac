@@ -28,7 +28,7 @@ protected:
 	Dechet(int iPoids, std::string iDescription);
 public:
 	Dechet();
-	Dechet(Dechet*);
+	Dechet(const Dechet&);
 	virtual ~Dechet();
 
 	const int getPoids() {

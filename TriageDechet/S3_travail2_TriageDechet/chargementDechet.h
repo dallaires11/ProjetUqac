@@ -6,9 +6,9 @@ private:
 	static int instanceChargeurDechet;
 	std::list<Dechet*>* listeDechet;
 	void setDechets(std::list<Dechet*>*);
-	void destroyDechet();
 public:
 	ChargementDechet(std::list<Dechet*>*);
+	ChargementDechet(const ChargementDechet&);
 
 	Dechet* getDechet();
 	~ChargementDechet();

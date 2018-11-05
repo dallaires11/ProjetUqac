@@ -7,6 +7,7 @@ private:
 	static int instanceCamionBleu;
 public:
 	CamionBleu();
+	CamionBleu(const CamionBleu&);
 	~CamionBleu();
 
 	bool ajouterDechet(DechetTraiteRecyclabe*);

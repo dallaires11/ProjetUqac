@@ -2,6 +2,10 @@
 
 Compteur::Compteur() {}
 
+Compteur::Compteur(const Compteur& pseudoCompteur) {
+
+}
+
 Compteur::~Compteur()
 {}
 

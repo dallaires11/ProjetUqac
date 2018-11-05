@@ -16,6 +16,7 @@ private:
 	SequenceOperation* genererSequence1(UsineTraitement*);//Fonction de test
 public:
 	GenerateurSeqOperation();
+	GenerateurSeqOperation(const GenerateurSeqOperation&);
 	~GenerateurSeqOperation();
 
 	SequenceOperation* genererSequence(int,UsineTraitement*);

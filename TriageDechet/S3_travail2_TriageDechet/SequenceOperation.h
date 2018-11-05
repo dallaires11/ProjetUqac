@@ -10,6 +10,7 @@ private:
 	void destroyOperation();
 public:
 	SequenceOperation();
+	SequenceOperation(const SequenceOperation&);
 	~SequenceOperation();
 
 	SequenceOperation* ajouterOperation(Operation*);

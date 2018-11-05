@@ -7,6 +7,10 @@ SequenceOperation::SequenceOperation(){
 	instanceSeqOp++;
 }
 
+SequenceOperation::SequenceOperation(const SequenceOperation& pseudoSeq) {
+	instanceSeqOp++;
+}
+
 SequenceOperation::~SequenceOperation(){
 	destroyOperation();
 	instanceSeqOp--;

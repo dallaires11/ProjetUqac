@@ -39,6 +39,7 @@ private:
 	
 public:
 	UsineTraitement();
+	UsineTraitement(const UsineTraitement&);
 	~UsineTraitement();
 
 	void chargerOperation(SequenceOperation*);

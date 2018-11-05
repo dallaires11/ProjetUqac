@@ -7,6 +7,11 @@ DechetTraite::DechetTraite(Dechet* pseudoDechet){
 	instanceDechetTraite++;
 }
 
+DechetTraite::DechetTraite(const DechetTraite& pseudoDechetTraite) {
+	dechet = pseudoDechetTraite.dechet;
+	instanceDechetTraite++;
+}
+
 
 DechetTraite::~DechetTraite(){
 	delete dechet;

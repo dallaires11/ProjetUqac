@@ -7,7 +7,7 @@ private:
 public:
 	Plante();
 	Plante(std::string);
-	Plante(Plante*);
+	Plante(const Plante&);
 	~Plante();
 
 	static const int getNbInstance() {

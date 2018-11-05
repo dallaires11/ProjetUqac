@@ -6,7 +6,7 @@ private:
 	static int instanceUstensile;
 public:
 	Ustensile();
-	Ustensile(Ustensile*);
+	Ustensile(const Ustensile&);
 	~Ustensile();
 
 	static const int getNbInstance() {

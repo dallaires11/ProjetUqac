@@ -6,6 +6,10 @@ Operation1::Operation1(Operation* opTrue,Operation* opFalse):Operation(opTrue,op
 	instanceOperation1++;
 }
 
+Operation1::Operation1(const Operation1& pseudoOperation) : Operation() {
+	instanceOperation1++;
+}
+
 Operation1::~Operation1(){
 	instanceOperation1--;
 }

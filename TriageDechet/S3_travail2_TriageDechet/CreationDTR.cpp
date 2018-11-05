@@ -6,6 +6,10 @@ CreationDTR::CreationDTR(UsineTraitement* usine) :OperationTraitement(usine) {
 	instanceCreationDTR++;
 }
 
+CreationDTR::CreationDTR(const CreationDTR& pseudoCretion) : OperationTraitement(NULL) {
+	instanceCreationDTR++;
+}
+
 CreationDTR::~CreationDTR() {
 	instanceCreationDTR--;
 }

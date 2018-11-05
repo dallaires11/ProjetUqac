@@ -9,6 +9,7 @@ private:
 	std::stack <DechetTraite*> pileDechet;
 public:
 	Camion(int);
+	Camion(const Camion&);
 	virtual ~Camion();
 
 	bool ajouterDechet(DechetTraite*);

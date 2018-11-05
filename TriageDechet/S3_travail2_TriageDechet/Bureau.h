@@ -6,7 +6,7 @@ private:
 	static int instanceBureau;
 public:
 	Bureau();
-	Bureau(Bureau*);
+	Bureau(const Bureau&);
 	~Bureau();
 
 	static const int getNbInstance() {

@@ -5,6 +5,7 @@
 class Compteur{
 public:
 	Compteur();
+	Compteur(const Compteur&);
 	~Compteur();
 
 	void getAllInstance(bool);

@@ -18,6 +18,7 @@ private:
 	static int instanceUqac;
 public:
 	UQAC();
+	UQAC(const UQAC&);
 	~UQAC();
 
 	static const int getNbInstance() {

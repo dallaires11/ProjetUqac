@@ -9,6 +9,13 @@ Depot::Depot(){
 	instanceDepot++;
 }
 
+Depot::Depot(const Depot& pseudoDepot) {
+	totalDTC = pseudoDepot.totalDTC;
+	totalDTNR = pseudoDepot.totalDTNR;
+	totalDTR = pseudoDepot.totalDTR;
+	instanceDepot++;
+}
+
 Depot::~Depot(){
 	instanceDepot--;
 }

@@ -6,7 +6,7 @@ private:
 	static int instanceBouffe;
 public:
 	Bouffe();
-	Bouffe(Bouffe*);
+	Bouffe(const Bouffe&);
 	~Bouffe();
 
 	static const int getNbInstance() {

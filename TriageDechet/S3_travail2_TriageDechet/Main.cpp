@@ -7,7 +7,7 @@ void afficherInfo(bool);
 
 int main() {
 	laboratoire2();
-	afficherInfo(true);
+	afficherInfo(false);
 
 	system("PAUSE");
 	return 0;

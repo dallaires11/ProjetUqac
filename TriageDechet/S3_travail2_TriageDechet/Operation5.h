@@ -6,6 +6,7 @@ private:
 	static int instanceOperation5;
 public:
 	Operation5(Operation*, Operation*);
+	Operation5(const Operation5&);
 	~Operation5();
 
 	bool effectuerOperation(Dechet*);

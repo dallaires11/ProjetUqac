@@ -6,6 +6,9 @@ CamionBrun::CamionBrun():Camion(30){
 	instanceCamionBrun++;
 }
 
+CamionBrun::CamionBrun(const CamionBrun& pseudoBrun):Camion(50) {
+	instanceCamionBrun++;
+}
 
 CamionBrun::~CamionBrun(){
 	instanceCamionBrun--;

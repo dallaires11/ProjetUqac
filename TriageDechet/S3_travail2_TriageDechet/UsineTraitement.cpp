@@ -11,6 +11,14 @@ UsineTraitement::UsineTraitement(){
 	instanceUsine++;
 }
 
+UsineTraitement::UsineTraitement(const UsineTraitement& pseudoUsine) {
+	depot = pseudoUsine.depot;
+	camionBleu = pseudoUsine.camionBleu;
+	camionBrun = pseudoUsine.camionBrun;
+	camionVert = pseudoUsine.camionVert;
+	sequenceOperation = pseudoUsine.sequenceOperation;
+	instanceUsine++;
+}
 
 UsineTraitement::~UsineTraitement(){
 	depot.depotDechetTraite(camionBrun);
@@ -31,7 +39,7 @@ void UsineTraitement::traiterDTC(Dechet* dechet) {
 	else {
 		depot.depotDechetTraite(camionBrun);
 		camionBrun = depot.getCamionBrun();
-		traiterDTC(dechet);
+		camionBrun->ajouterDechet(dechetC);
 		return;
 	}
 }
@@ -45,7 +53,7 @@ void UsineTraitement::traiterDTR(Dechet* dechet) {
 	else {
 		depot.depotDechetTraite(camionBleu);
 		camionBleu = depot.getCamionBleu();
-		traiterDTR(dechet);
+		camionBleu->ajouterDechet(dechetR);
 		return;
 	}
 }
@@ -59,7 +67,7 @@ void UsineTraitement::traiterDTNR(Dechet* dechet) {
 	else {
 		depot.depotDechetTraite(camionVert);
 		camionVert = depot.getCamionVert();
-		traiterDTNR(dechet);
+		camionVert->ajouterDechet(dechetNR);
 		return;
 	}
 }

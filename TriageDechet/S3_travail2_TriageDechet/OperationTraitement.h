@@ -12,6 +12,7 @@ protected:
 	void creerDTC(Dechet*);
 public:
 	OperationTraitement(UsineTraitement*);
+	OperationTraitement(const OperationTraitement&);
 	~OperationTraitement();
 
 	bool effectuerOperation(Dechet*);

@@ -14,6 +14,12 @@ Operation::Operation(Operation* opSuivTrue, Operation* opSuivFalse) {
 	instanceOperation++;
 }
 
+Operation::Operation(const Operation& pseudoOperation) {
+	operationSuivanteFalse = pseudoOperation.operationSuivanteFalse;
+	operationSuivanteTrue = pseudoOperation.operationSuivanteTrue;
+	instanceOperation++;
+}
+
 Operation::~Operation(){
 	instanceOperation--;
 }

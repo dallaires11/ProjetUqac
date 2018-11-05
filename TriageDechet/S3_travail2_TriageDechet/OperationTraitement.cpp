@@ -7,6 +7,10 @@ OperationTraitement::OperationTraitement(UsineTraitement* pseudoUsineTraitement)
 	instanceOperationTraitement++;
 }
 
+OperationTraitement::OperationTraitement(const OperationTraitement& pseudoOpTraitement) {
+	usineTraitment = pseudoOpTraitement.usineTraitment;
+	instanceOperationTraitement++;
+}
 
 OperationTraitement::~OperationTraitement(){
 	instanceOperationTraitement--;

@@ -6,6 +6,9 @@ GenerateurSeqOperation::GenerateurSeqOperation(){
 	instanceGenSeqOp++;
 }
 
+GenerateurSeqOperation::GenerateurSeqOperation(const GenerateurSeqOperation& pseudoGen) {
+	instanceGenSeqOp++;
+}
 
 GenerateurSeqOperation::~GenerateurSeqOperation(){
 	instanceGenSeqOp--;

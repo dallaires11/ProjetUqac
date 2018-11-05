@@ -16,10 +16,7 @@ Bouteille::Bouteille(int type) :
 	//std::cout << "Creation: Bouteille\n";
 }
 
-Bouteille::Bouteille(Bouteille* pseudoBouteille) :Dechet(
-	pseudoBouteille->getPoids(), pseudoBouteille->getDescription(), pseudoBouteille->getTypePlastique(),
-	pseudoBouteille->getCouleur(), pseudoBouteille->getMateriel(), pseudoBouteille->getPurete(), pseudoBouteille->estEnStyromousse(),
-	pseudoBouteille->estRigide()) {
+Bouteille::Bouteille(const Bouteille& pseudoBouteille) :Dechet(10, "Bouteille", 1, "Blanc", 1, 100, false, false) {
 	Bouteille::instanceBouteille++;
 	//std::cout << "Creation: Bouteille\n";
 }

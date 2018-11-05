@@ -6,6 +6,9 @@ CamionBleu::CamionBleu():Camion(50){
 	instanceCamionBleu++;
 }
 
+CamionBleu::CamionBleu(const CamionBleu& pseudoBleu):Camion(50) {
+	instanceCamionBleu++;
+}
 
 CamionBleu::~CamionBleu(){
 	instanceCamionBleu--;

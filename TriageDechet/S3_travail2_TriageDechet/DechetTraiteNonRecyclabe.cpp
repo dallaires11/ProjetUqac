@@ -6,6 +6,10 @@ DechetTraiteNonRecyclabe::DechetTraiteNonRecyclabe(Dechet* pseudoDechet) : Deche
 	instanceDechetTraiteNR++;
 }
 
+DechetTraiteNonRecyclabe::DechetTraiteNonRecyclabe(const DechetTraiteNonRecyclabe& pseudoNonRecyclable) : DechetTraite(pseudoNonRecyclable.dechet) {
+	instanceDechetTraiteNR++;
+}
+
 
 DechetTraiteNonRecyclabe::~DechetTraiteNonRecyclabe(){
 	instanceDechetTraiteNR--;

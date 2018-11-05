@@ -6,6 +6,7 @@ private:
 	static int instanceCreationDTC;
 public:
 	CreationDTC(UsineTraitement*);
+	CreationDTC(const CreationDTC&);
 	~CreationDTC();
 
 	bool effectuerOperation(Dechet*);

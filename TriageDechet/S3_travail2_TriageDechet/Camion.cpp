@@ -8,6 +8,12 @@ Camion::Camion(int pseudoCapaciteMax) {
 	instanceCamion++;
 }
 
+Camion::Camion(const Camion& pseudoCamion) {
+	capacite = pseudoCamion.capacite;
+	capaciteMax = pseudoCamion.capaciteMax;
+	instanceCamion++;
+}
+
 Camion::~Camion(){
 	viderCamion();
 	instanceCamion--;

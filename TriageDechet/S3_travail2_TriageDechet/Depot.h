@@ -10,6 +10,7 @@ private:
 	int totalDTC;
 public:
 	Depot();
+	Depot(const Depot&);
 	~Depot();
 
 	CamionBleu* getCamionBleu();

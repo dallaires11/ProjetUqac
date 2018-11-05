@@ -45,16 +45,16 @@ Dechet::Dechet(int iPoids, std::string iDescription) {
 	//std::cout << "Creation: Dechet\n";
 }
 
-Dechet::Dechet(Dechet* pseudoDechet) {
+Dechet::Dechet(const Dechet& pseudoDechet) {
 	id = Dechet::dechetCurrentId++;
-	setPoids(pseudoDechet->getPoids());
-	setDescription(pseudoDechet->getDescription());
-	setTypePlastique(pseudoDechet->getTypePlastique());
-	setCouleur(pseudoDechet->getCouleur());
-	typeMateriel = pseudoDechet->getMateriel();
-	setPurete(pseudoDechet->getPurete());
-	styromousse = pseudoDechet->estEnStyromousse();
-	rigide = pseudoDechet->estRigide();
+	setPoids(pseudoDechet.poids);
+	setDescription(pseudoDechet.description);
+	setTypePlastique(pseudoDechet.typePlatique);
+	setCouleur(pseudoDechet.couleur);
+	typeMateriel = pseudoDechet.typeMateriel;
+	setPurete(pseudoDechet.purete);
+	styromousse = pseudoDechet.styromousse;
+	rigide = pseudoDechet.rigide;
 	Dechet::instanceDechet++;
 	//std::cout << "Creation: Dechet\n";
 }
@@ -91,7 +91,7 @@ void Dechet::setTypePlastique(int iPlastique) {
 }
 
 void Dechet::setCouleur(std::string iCouleur){
-	if ((iCouleur.compare("brun") != 1) | (iCouleur.compare("vert") != 1))
+	if ((iCouleur.compare("brun") != 1) && (iCouleur.compare("vert") != 1))
 		couleur = "inconnu";
 	else
 		couleur = iCouleur;

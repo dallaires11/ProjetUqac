@@ -10,6 +10,7 @@ protected:
 	Operation();
 public:
 	Operation(Operation*,Operation*);
+	Operation(const Operation&);
 	virtual ~Operation();
 
 	virtual bool effectuerOperation(Dechet*);

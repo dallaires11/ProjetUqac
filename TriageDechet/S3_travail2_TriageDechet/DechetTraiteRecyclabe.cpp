@@ -6,6 +6,9 @@ DechetTraiteRecyclabe::DechetTraiteRecyclabe(Dechet* pseudoDechet) : DechetTrait
 	instanceDechetTraiteR++;
 }
 
+DechetTraiteRecyclabe::DechetTraiteRecyclabe(const DechetTraiteRecyclabe& pseudoRecyclable) : DechetTraite(pseudoRecyclable.dechet) {
+	instanceDechetTraiteR++;
+}
 
 DechetTraiteRecyclabe::~DechetTraiteRecyclabe(){
 	instanceDechetTraiteR--;
