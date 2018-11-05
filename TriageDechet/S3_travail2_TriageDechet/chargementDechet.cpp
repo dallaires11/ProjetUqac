@@ -1,40 +1,33 @@
-#include "chargementDechet.h"
+#include "ChargementDechet.h"
 
-int chargementDechet::instanceChargeurDechet = 0;
+int ChargementDechet::instanceChargeurDechet = 0;
 
-chargementDechet::chargementDechet(Dechet* liste[50]){
-	current = 0;
+ChargementDechet::ChargementDechet(std::list<Dechet*>* liste) {
 	setDechets(liste);
 	instanceChargeurDechet++;
 }
 
+ChargementDechet::ChargementDechet(const ChargementDechet& pseudoChargement) {
+	listeDechet = pseudoChargement.listeDechet;
+	instanceChargeurDechet++;
+}
 
-chargementDechet::~chargementDechet(){
-	destroyDechet();
+
+ChargementDechet::~ChargementDechet() {
 	instanceChargeurDechet--;
 }
 
-Dechet* chargementDechet::getDechet() {
-	if (current < 41)
-		return listeDechet[current++];
-	else
+Dechet* ChargementDechet::getDechet() {
+	if (listeDechet->size() != 0) {
+		Dechet* dechet = listeDechet->front();
+		listeDechet->pop_front();
+		return dechet;
+	}else
 		return NULL;
 }
 
-void chargementDechet::destroyDechet() {
-	for (int x = 0; x < 10; x++) {
-		delete listeDechet[x];
-	}
+void ChargementDechet::setDechets(std::list<Dechet*>* liste) {
+	listeDechet = liste;
 
 	return;
-}
-
-void chargementDechet::setDechets(Dechet* liste[50]) {
-	for (int x = 0; x < 50; x++) {
-		listeDechet[x] = liste[x];
-	}
-
-	return;
-
-
 }

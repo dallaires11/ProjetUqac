@@ -6,7 +6,7 @@ private:
 	static int instanceReve;
 public:
 	ReveEleve();
-	ReveEleve(ReveEleve*);
+	ReveEleve(const ReveEleve&);
 	~ReveEleve();
 
 	static const int getNbInstance() {

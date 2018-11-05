@@ -6,6 +6,7 @@ private:
 	static int instanceDechetTraiteC;
 public:
 	DechetTraiteCompostable(Dechet*);
+	DechetTraiteCompostable(const DechetTraiteCompostable&);
 	~DechetTraiteCompostable();
 
 	static const int getNbInstance() {

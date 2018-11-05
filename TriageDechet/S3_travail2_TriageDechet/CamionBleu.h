@@ -1,18 +1,18 @@
 #pragma once
 #include "Camion.h"
-//#inlucde"DechetTraiteRecyclabe
+#include"DechetTraiteRecyclabe.h"
 class CamionBleu :
 	public Camion{
 private:
 	static int instanceCamionBleu;
 public:
 	CamionBleu();
+	CamionBleu(const CamionBleu&);
 	~CamionBleu();
 
-	//bool ajouterDechet(DechetTraiteRecyclabe*);
+	bool ajouterDechet(DechetTraiteRecyclabe*);
 
 	static const int getNbInstance() {
 		return CamionBleu::instanceCamionBleu;
 	}
 };
-

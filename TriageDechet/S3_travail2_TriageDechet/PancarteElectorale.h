@@ -6,7 +6,7 @@ private:
 	static int instancePancarte;
 public:
 	PancarteElectorale();
-	PancarteElectorale(PancarteElectorale*);
+	PancarteElectorale(const PancarteElectorale&);
 	~PancarteElectorale();
 
 	static const int getNbInstance() {

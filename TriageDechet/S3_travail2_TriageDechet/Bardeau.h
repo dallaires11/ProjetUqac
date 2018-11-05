@@ -6,7 +6,7 @@ private:
 	static int instanceBardeau;
 public:
 	Bardeau();
-	Bardeau(Bardeau*);
+	Bardeau(const Bardeau&);
 	~Bardeau();
 
 	static const int getNbInstance() {

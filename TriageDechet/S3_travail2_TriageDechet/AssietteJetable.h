@@ -6,7 +6,7 @@ private:
 	static int instanceAssiette;
 public:
 	AssietteJetable();
-	AssietteJetable(AssietteJetable*);
+	AssietteJetable(const AssietteJetable&);
 	~AssietteJetable();
 
 	static const int getNbInstance() {

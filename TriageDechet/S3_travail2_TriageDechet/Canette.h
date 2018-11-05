@@ -6,7 +6,7 @@ private:
 	static int instanceCanette;
 public:
 	Canette();
-	Canette(Canette*);
+	Canette(const Canette&);
 	~Canette();
 
 	static const int getNbInstance() {

@@ -2,13 +2,19 @@
 
 int CamionVert::instanceCamionVert = 0;
 
-CamionVert::CamionVert()
-{
+CamionVert::CamionVert() : Camion(70){
 	instanceCamionVert++;
 }
 
+CamionVert::CamionVert(const CamionVert& pseudoVert) : Camion(70) {
+	instanceCamionVert++;
+}
 
-CamionVert::~CamionVert()
-{
+CamionVert::~CamionVert(){
 	instanceCamionVert--;
+}
+
+bool CamionVert::ajouterDechet(DechetTraiteNonRecyclabe* dechetTNR) {
+	return Camion::ajouterDechet(dechetTNR);
+
 }

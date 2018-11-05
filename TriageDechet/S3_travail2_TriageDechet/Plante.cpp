@@ -3,28 +3,25 @@
 int Plante::instancePlante = 0;
 
 Plante::Plante() :
-	Dechet(100, "Experience de laboratoire", 0, "vert", 4, 100, false, true) {
+	Dechet(20, "Experience de laboratoire", 0, "vert", 4, 100, false, false) {
 
 	Plante::instancePlante++;
-	std::cout << "Creation: Plante\n";
+	//std::cout << "Creation: Plante\n";
 }
 
 Plante::Plante(std::string iCouleur) :
 	Dechet(42, "Jolie plante", 0, iCouleur, 4, 100, false, false) {
 
 	Plante::instancePlante++;
-	std::cout << "Creation: Plante\n";
+	//std::cout << "Creation: Plante\n";
 }
 
-Plante::Plante(Plante* pseudoPlante) :Dechet(
-	pseudoPlante->getPoids(), pseudoPlante->getDescription(), pseudoPlante->getTypePlastique(),
-	pseudoPlante->getCouleur(), pseudoPlante->getMateriel(), pseudoPlante->getPurete(), pseudoPlante->estEnStyromousse(),
-	pseudoPlante->estRigide()) {
+Plante::Plante(const Plante& pseudoPlante) :Dechet(20, "Experience de laboratoire", 0, "vert", 4, 100, false, false) {
 	Plante::instancePlante++;
-	std::cout << "Creation: Plante\n";
+	//std::cout << "Creation: Plante\n";
 }
 
 Plante::~Plante(){
 	Plante::instancePlante--;
-	std::cout << "Desctruction: Plante\n";
+	//std::cout << "Desctruction: Plante\n";
 }

@@ -1,5 +1,5 @@
 #pragma once
-#include"chargementDechet.h"
+#include"ChargementDechet.h"
 #include"Dechet.h"
 #include"PancarteElectorale.h"
 #include"Bouteille.h"
@@ -18,11 +18,12 @@ private:
 	static int instanceUqac;
 public:
 	UQAC();
+	UQAC(const UQAC&);
 	~UQAC();
 
 	static const int getNbInstance() {
 		return UQAC::instanceUqac;
 	}
 
-	chargementDechet* getChargementDechets();
+	static ChargementDechet* getChargementDechets();
 };

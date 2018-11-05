@@ -1,20 +1,19 @@
 #pragma once
 #include"Dechet.h"
-class chargementDechet{
+#include<list>
+class ChargementDechet {
 private:
 	static int instanceChargeurDechet;
-	int current;
-	Dechet* listeDechet[50];
-	void setDechets(Dechet*[50]);
-	void destroyDechet();
+	std::list<Dechet*>* listeDechet;
+	void setDechets(std::list<Dechet*>*);
 public:
-	chargementDechet(Dechet*[50]);
+	ChargementDechet(std::list<Dechet*>*);
+	ChargementDechet(const ChargementDechet&);
 
 	Dechet* getDechet();
-	~chargementDechet();
+	~ChargementDechet();
 
 	static const int getNbInstance() {
-		return chargementDechet::instanceChargeurDechet;
+		return ChargementDechet::instanceChargeurDechet;
 	}
 };
-

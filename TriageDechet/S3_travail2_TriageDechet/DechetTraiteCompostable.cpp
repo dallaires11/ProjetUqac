@@ -6,6 +6,10 @@ DechetTraiteCompostable::DechetTraiteCompostable(Dechet* pseudoDechet) : DechetT
 	instanceDechetTraiteC++;
 }
 
+DechetTraiteCompostable::DechetTraiteCompostable(const DechetTraiteCompostable& pseudoCompostable) : DechetTraite(pseudoCompostable.dechet) {
+	instanceDechetTraiteC++;
+}
+
 
 DechetTraiteCompostable::~DechetTraiteCompostable(){
 	instanceDechetTraiteC--;

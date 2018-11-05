@@ -6,7 +6,7 @@ private:
 	static int instanceDevoir;
 public:
 	Devoir();
-	Devoir(Devoir*);
+	Devoir(const Devoir&);
 	~Devoir();
 
 	static const int getNbInstance() {

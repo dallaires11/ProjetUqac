@@ -25,6 +25,24 @@
     <Filter Include="Fichiers d%27en-tête\DefDechetTraite">
       <UniqueIdentifier>{18c0ec7f-5795-4d1f-8427-3d0801ffd8c2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\DefCamion">
+      <UniqueIdentifier>{4f256f73-e141-4498-912e-a78514e102cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\DefCamion">
+      <UniqueIdentifier>{2867e438-5547-4e5f-b283-f4ffa8e87148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\OperationX">
+      <UniqueIdentifier>{2d3915c5-32c4-4bb6-b8b4-ed222fcdf6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\OperationX">
+      <UniqueIdentifier>{61f07651-2234-4a34-80b3-27fb140faf04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\DefOperationTraitement">
+      <UniqueIdentifier>{6d324320-6155-459e-9ff8-86e8d18bcf16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\DefOperationTraitement">
+      <UniqueIdentifier>{2fc4a2d1-9c49-4d17-9455-8aac1bdd783c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -40,9 +58,6 @@
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="UsineTraitement.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="chargementDechet.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="AssietteJetable.cpp">
@@ -90,6 +105,63 @@
     <ClCompile Include="DechetTraiteCompostable.cpp">
       <Filter>Fichiers sources\DefDechetTraite</Filter>
     </ClCompile>
+    <ClCompile Include="CamionBleu.cpp">
+      <Filter>Fichiers sources\DefCamion</Filter>
+    </ClCompile>
+    <ClCompile Include="CamionBrun.cpp">
+      <Filter>Fichiers sources\DefCamion</Filter>
+    </ClCompile>
+    <ClCompile Include="CamionVert.cpp">
+      <Filter>Fichiers sources\DefCamion</Filter>
+    </ClCompile>
+    <ClCompile Include="Depot.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Operation.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Operation6.cpp">
+      <Filter>Fichiers sources\OperationX</Filter>
+    </ClCompile>
+    <ClCompile Include="Operation1.cpp">
+      <Filter>Fichiers sources\OperationX</Filter>
+    </ClCompile>
+    <ClCompile Include="Operation2.cpp">
+      <Filter>Fichiers sources\OperationX</Filter>
+    </ClCompile>
+    <ClCompile Include="Operation3.cpp">
+      <Filter>Fichiers sources\OperationX</Filter>
+    </ClCompile>
+    <ClCompile Include="Operation4.cpp">
+      <Filter>Fichiers sources\OperationX</Filter>
+    </ClCompile>
+    <ClCompile Include="Operation5.cpp">
+      <Filter>Fichiers sources\OperationX</Filter>
+    </ClCompile>
+    <ClCompile Include="OperationTraitement.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CreationDTC.cpp">
+      <Filter>Fichiers sources\DefOperationTraitement</Filter>
+    </ClCompile>
+    <ClCompile Include="CreationDTNR.cpp">
+      <Filter>Fichiers sources\DefOperationTraitement</Filter>
+    </ClCompile>
+    <ClCompile Include="CreationDTR.cpp">
+      <Filter>Fichiers sources\DefOperationTraitement</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateurSeqOperation.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceOperation.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Compteur.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargementDechet.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dechet.h">
@@ -102,9 +174,6 @@
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="UsineTraitement.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="chargementDechet.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="PancarteElectorale.h">
@@ -151,6 +220,63 @@
     </ClInclude>
     <ClInclude Include="DechetTraiteCompostable.h">
       <Filter>Fichiers d%27en-tête\DefDechetTraite</Filter>
+    </ClInclude>
+    <ClInclude Include="CamionBleu.h">
+      <Filter>Fichiers d%27en-tête\DefCamion</Filter>
+    </ClInclude>
+    <ClInclude Include="CamionBrun.h">
+      <Filter>Fichiers d%27en-tête\DefCamion</Filter>
+    </ClInclude>
+    <ClInclude Include="CamionVert.h">
+      <Filter>Fichiers d%27en-tête\DefCamion</Filter>
+    </ClInclude>
+    <ClInclude Include="Depot.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation6.h">
+      <Filter>Fichiers d%27en-tête\OperationX</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation1.h">
+      <Filter>Fichiers d%27en-tête\OperationX</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation2.h">
+      <Filter>Fichiers d%27en-tête\OperationX</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation3.h">
+      <Filter>Fichiers d%27en-tête\OperationX</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation4.h">
+      <Filter>Fichiers d%27en-tête\OperationX</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation5.h">
+      <Filter>Fichiers d%27en-tête\OperationX</Filter>
+    </ClInclude>
+    <ClInclude Include="OperationTraitement.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="CreationDTC.h">
+      <Filter>Fichiers d%27en-tête\DefOperationTraitement</Filter>
+    </ClInclude>
+    <ClInclude Include="CreationDTNR.h">
+      <Filter>Fichiers d%27en-tête\DefOperationTraitement</Filter>
+    </ClInclude>
+    <ClInclude Include="CreationDTR.h">
+      <Filter>Fichiers d%27en-tête\DefOperationTraitement</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateurSeqOperation.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceOperation.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Compteur.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargementDechet.h">
+      <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

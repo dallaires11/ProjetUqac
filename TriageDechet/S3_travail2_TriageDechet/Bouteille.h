@@ -7,7 +7,7 @@ private:
 public:
 	Bouteille();
 	Bouteille(int);
-	Bouteille(Bouteille*);
+	Bouteille(const Bouteille&);
 	~Bouteille();
 
 	static const int getNbInstance() {
