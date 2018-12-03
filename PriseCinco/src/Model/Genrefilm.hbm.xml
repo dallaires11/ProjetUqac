@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-11-28 10:58:43 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Genrefilm" table="GENREFILM" schema="TRD157_13" optimistic-lock="version">
+        <composite-id name="id" class="Model.GenrefilmId">
+            <key-property name="numgenre" type="big_decimal">
+                <column name="NUMGENRE" precision="22" scale="0" />
+            </key-property>
+            <key-property name="numfilm" type="big_decimal">
+                <column name="NUMFILM" precision="22" scale="0" />
+            </key-property>
+        </composite-id>
+        <many-to-one name="genre" class="Model.Genre" update="false" insert="false" fetch="select">
+            <column name="NUMGENRE" precision="22" scale="0" />
+        </many-to-one>
+        <many-to-one name="film" class="Model.Film" update="false" insert="false" fetch="select">
+            <column name="NUMFILM" precision="22" scale="0" />
+        </many-to-one>
+    </class>
+</hibernate-mapping>

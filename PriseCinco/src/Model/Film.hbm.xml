@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-11-28 10:58:43 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Film" table="FILM" schema="TRD157_13" optimistic-lock="version">
+        <id name="numfilm" type="big_decimal">
+            <column name="NUMFILM" precision="22" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <property name="titre" type="string">
+            <column name="TITRE" length="35" not-null="true" unique="true" />
+        </property>
+        <property name="dateparue" type="date">
+            <column name="DATEPARUE" length="7" />
+        </property>
+        <property name="langueoriginale" type="string">
+            <column name="LANGUEORIGINALE" length="10" />
+        </property>
+        <property name="dureemin" type="big_decimal">
+            <column name="DUREEMIN" precision="22" scale="0" not-null="true" />
+        </property>
+        <property name="resume" type="string">
+            <column name="RESUME" length="250" />
+        </property>
+        <set name="participantfilms" table="PARTICIPANTFILM" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="NUMFILM" precision="22" scale="0" />
+            </key>
+            <one-to-many class="Model.Participantfilm" />
+        </set>
+        <set name="personnages" table="PERSONNAGE" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="NUMFILM" precision="22" scale="0" />
+            </key>
+            <one-to-many class="Model.Personnage" />
+        </set>
+        <set name="paysproductions" table="PAYSPRODUCTION" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="NUMFILM" precision="22" scale="0" />
+            </key>
+            <one-to-many class="Model.Paysproduction" />
+        </set>
+        <set name="items" table="ITEM" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="NUMFILM" precision="22" scale="0" />
+            </key>
+            <one-to-many class="Model.Item" />
+        </set>
+        <set name="genrefilms" table="GENREFILM" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="NUMFILM" precision="22" scale="0" />
+            </key>
+            <one-to-many class="Model.Genrefilm" />
+        </set>
+    </class>
+</hibernate-mapping>

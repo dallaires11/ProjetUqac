@@ -49,9 +49,9 @@ Gabriel Angelos : 0 2
 
 Position de départ
 Genestealer : 16 17
-Deplacement de 3 vers le nord
+Deplacement de 3 vers l'ouest
 Position finale
-Genestealer : 16 14
+Genestealer : 13 17
 
 Recherche
 RAS
@@ -64,31 +64,29 @@ G-> Courrir
 ComplexAction
 Position de départ
 Gabriel Angelos : 0 2
-Deplacement de 2 vers l'ouest
-AREA NOT CHARGED
+Deplacement de 2 vers le nord
 Position finale
-Gabriel Angelos : 0 2
+Gabriel Angelos : 0 1
 Position de départ
-Genestealer : 16 14
-Deplacement de 3 vers l'ouest
+Genestealer : 13 17
+Deplacement de 3 vers le nord
 Position finale
-Genestealer : 14 14
+Genestealer : 13 15
 
 Phase 2
 
 Deplacement
 Position de départ
-Gabriel Angelos : 0 2
-Deplacement de 2 vers l'ouest
-AREA NOT CHARGED
+Gabriel Angelos : 0 1
+Deplacement de 2 vers le sud
 Position finale
-Gabriel Angelos : 0 2
+Gabriel Angelos : 0 3
 
 Position de départ
-Genestealer : 14 14
-Deplacement de 3 vers l'ouest
+Genestealer : 13 15
+Deplacement de 3 vers le sud
 Position finale
-Genestealer : 11 14
+Genestealer : 13 18
 
 Recherche
 RAS
@@ -100,31 +98,30 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 0 2
+Gabriel Angelos : 0 3
 Deplacement de 2 vers l'est
 Position finale
-Gabriel Angelos : 1 2
+Gabriel Angelos : 1 3
 Position de départ
-Genestealer : 11 14
+Genestealer : 13 18
 Deplacement de 3 vers l'ouest
 Position finale
-Genestealer : 9 14
+Genestealer : 11 18
 
 Phase 3
 
 Deplacement
 Position de départ
-Gabriel Angelos : 1 2
-Deplacement de 2 vers l'ouest
-AREA NOT CHARGED
+Gabriel Angelos : 1 3
+Deplacement de 2 vers le nord
 Position finale
-Gabriel Angelos : 0 2
+Gabriel Angelos : 1 1
 
 Position de départ
-Genestealer : 9 14
-Deplacement de 3 vers le nord
+Genestealer : 11 18
+Deplacement de 3 vers l'ouest
 Position finale
-Genestealer : 9 11
+Genestealer : 8 18
 
 Recherche
 RAS
@@ -136,31 +133,31 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 0 2
-Deplacement de 2 vers l'ouest
-AREA NOT CHARGED
+Gabriel Angelos : 1 1
+Deplacement de 2 vers l'est
 Position finale
-Gabriel Angelos : 0 2
+Gabriel Angelos : 2 1
 Position de départ
-Genestealer : 9 11
-Deplacement de 3 vers le sud
+Genestealer : 8 18
+Deplacement de 3 vers l'est
 Position finale
-Genestealer : 9 13
+Genestealer : 10 18
 
 Phase 4
 
 Deplacement
 Position de départ
-Gabriel Angelos : 0 2
-Deplacement de 2 vers l'est
+Gabriel Angelos : 2 1
+Deplacement de 2 vers l'ouest
 Position finale
-Gabriel Angelos : 2 2
+Gabriel Angelos : 0 1
 
 Position de départ
-Genestealer : 9 13
-Deplacement de 3 vers le nord
+Genestealer : 10 18
+Deplacement de 3 vers le sud
+AREA NOT CHARGED
 Position finale
-Genestealer : 9 10
+Genestealer : 10 20
 
 Recherche
 RAS
@@ -172,31 +169,31 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 2 2
-Deplacement de 2 vers le nord
+Gabriel Angelos : 0 1
+Deplacement de 2 vers le sud
 Position finale
-Gabriel Angelos : 2 1
+Gabriel Angelos : 0 2
 Position de départ
-Genestealer : 9 10
-Deplacement de 3 vers le sud
+Genestealer : 10 20
+Deplacement de 3 vers le nord
 Position finale
-Genestealer : 9 12
+Genestealer : 10 18
 
 Phase 5
 
 Deplacement
 Position de départ
-Gabriel Angelos : 2 1
-Deplacement de 2 vers le nord
+Gabriel Angelos : 0 2
+Deplacement de 2 vers l'ouest
 AREA NOT CHARGED
 Position finale
-Gabriel Angelos : 2 0
+Gabriel Angelos : 0 2
 
 Position de départ
-Genestealer : 9 12
-Deplacement de 3 vers le nord
+Genestealer : 10 18
+Deplacement de 3 vers l'est
 Position finale
-Genestealer : 9 9
+Genestealer : 13 18
 
 Recherche
 RAS
@@ -208,30 +205,32 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 2 0
+Gabriel Angelos : 0 2
 Deplacement de 2 vers l'ouest
+AREA NOT CHARGED
 Position finale
-Gabriel Angelos : 1 0
+Gabriel Angelos : 0 2
 Position de départ
-Genestealer : 9 9
-Deplacement de 3 vers le nord
+Genestealer : 13 18
+Deplacement de 3 vers l'ouest
 Position finale
-Genestealer : 9 7
+Genestealer : 11 18
 
 Phase 6
 
 Deplacement
 Position de départ
-Gabriel Angelos : 1 0
-Deplacement de 2 vers l'est
+Gabriel Angelos : 0 2
+Deplacement de 2 vers l'ouest
+AREA NOT CHARGED
 Position finale
-Gabriel Angelos : 3 0
+Gabriel Angelos : 0 2
 
 Position de départ
-Genestealer : 9 7
-Deplacement de 3 vers le sud
+Genestealer : 11 18
+Deplacement de 3 vers le nord
 Position finale
-Genestealer : 9 10
+Genestealer : 11 15
 
 Recherche
 RAS
@@ -243,31 +242,30 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 3 0
-Deplacement de 2 vers le nord
-AREA NOT CHARGED
+Gabriel Angelos : 0 2
+Deplacement de 2 vers le sud
 Position finale
-Gabriel Angelos : 3 0
+Gabriel Angelos : 0 3
 Position de départ
-Genestealer : 9 10
-Deplacement de 3 vers le sud
+Genestealer : 11 15
+Deplacement de 3 vers l'ouest
 Position finale
-Genestealer : 9 12
+Genestealer : 9 15
 
 Phase 7
 
 Deplacement
 Position de départ
-Gabriel Angelos : 3 0
-Deplacement de 2 vers l'est
+Gabriel Angelos : 0 3
+Deplacement de 2 vers le nord
 Position finale
-Gabriel Angelos : 5 0
+Gabriel Angelos : 0 1
 
 Position de départ
-Genestealer : 9 12
-Deplacement de 3 vers le nord
+Genestealer : 9 15
+Deplacement de 3 vers l'est
 Position finale
-Genestealer : 9 9
+Genestealer : 12 15
 
 Recherche
 RAS
@@ -279,30 +277,31 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 5 0
-Deplacement de 2 vers le sud
+Gabriel Angelos : 0 1
+Deplacement de 2 vers le nord
 Position finale
-Gabriel Angelos : 5 1
+Gabriel Angelos : 0 0
 Position de départ
-Genestealer : 9 9
-Deplacement de 3 vers le nord
+Genestealer : 12 15
+Deplacement de 3 vers l'est
 Position finale
-Genestealer : 9 7
+Genestealer : 14 15
 
 Phase 8
 
 Deplacement
 Position de départ
-Gabriel Angelos : 5 1
+Gabriel Angelos : 0 0
 Deplacement de 2 vers l'ouest
+AREA NOT CHARGED
 Position finale
-Gabriel Angelos : 3 1
+Gabriel Angelos : 0 0
 
 Position de départ
-Genestealer : 9 7
+Genestealer : 14 15
 Deplacement de 3 vers le sud
 Position finale
-Genestealer : 9 10
+Genestealer : 14 18
 
 Recherche
 RAS
@@ -314,31 +313,31 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 3 1
-Deplacement de 2 vers le nord
+Gabriel Angelos : 0 0
+Deplacement de 2 vers le sud
 Position finale
-Gabriel Angelos : 3 0
+Gabriel Angelos : 0 1
 Position de départ
-Genestealer : 9 10
-Deplacement de 3 vers l'est
+Genestealer : 14 18
+Deplacement de 3 vers le sud
 Position finale
-Genestealer : 11 10
+Genestealer : 14 20
 
 Phase 9
 
 Deplacement
 Position de départ
-Gabriel Angelos : 3 0
-Deplacement de 2 vers le nord
+Gabriel Angelos : 0 1
+Deplacement de 2 vers l'ouest
 AREA NOT CHARGED
 Position finale
-Gabriel Angelos : 3 0
+Gabriel Angelos : 0 1
 
 Position de départ
-Genestealer : 11 10
-Deplacement de 3 vers le sud
+Genestealer : 14 20
+Deplacement de 3 vers l'ouest
 Position finale
-Genestealer : 11 13
+Genestealer : 11 20
 
 Recherche
 RAS
@@ -350,30 +349,32 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 3 0
-Deplacement de 2 vers l'est
+Gabriel Angelos : 0 1
+Deplacement de 2 vers le nord
 Position finale
-Gabriel Angelos : 4 0
+Gabriel Angelos : 0 0
 Position de départ
-Genestealer : 11 13
-Deplacement de 3 vers l'est
+Genestealer : 11 20
+Deplacement de 3 vers le nord
 Position finale
-Genestealer : 13 13
+Genestealer : 11 18
 
 Phase 10
 
 Deplacement
 Position de départ
-Gabriel Angelos : 4 0
+Gabriel Angelos : 0 0
 Deplacement de 2 vers l'ouest
+AREA NOT CHARGED
 Position finale
-Gabriel Angelos : 2 0
+Gabriel Angelos : 0 0
 
 Position de départ
-Genestealer : 13 13
-Deplacement de 3 vers l'est
+Genestealer : 11 18
+Deplacement de 3 vers le sud
+AREA NOT CHARGED
 Position finale
-Genestealer : 16 13
+Genestealer : 11 20
 
 Recherche
 RAS
@@ -385,30 +386,32 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 2 0
-Deplacement de 2 vers le sud
+Gabriel Angelos : 0 0
+Deplacement de 2 vers l'ouest
+AREA NOT CHARGED
 Position finale
-Gabriel Angelos : 2 1
+Gabriel Angelos : 0 0
 Position de départ
-Genestealer : 16 13
-Deplacement de 3 vers le sud
+Genestealer : 11 20
+Deplacement de 3 vers l'est
 Position finale
-Genestealer : 16 15
+Genestealer : 13 20
 
 Phase 11
 
 Deplacement
 Position de départ
-Gabriel Angelos : 2 1
-Deplacement de 2 vers l'est
+Gabriel Angelos : 0 0
+Deplacement de 2 vers l'ouest
+AREA NOT CHARGED
 Position finale
-Gabriel Angelos : 4 1
+Gabriel Angelos : 0 0
 
 Position de départ
-Genestealer : 16 15
+Genestealer : 13 20
 Deplacement de 3 vers l'ouest
 Position finale
-Genestealer : 13 15
+Genestealer : 10 20
 
 Recherche
 RAS
@@ -420,30 +423,30 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 4 1
+Gabriel Angelos : 0 0
 Deplacement de 2 vers le sud
 Position finale
-Gabriel Angelos : 4 2
+Gabriel Angelos : 0 1
 Position de départ
-Genestealer : 13 15
+Genestealer : 10 20
 Deplacement de 3 vers le nord
 Position finale
-Genestealer : 13 13
+Genestealer : 10 18
 
 Phase 12
 
 Deplacement
 Position de départ
-Gabriel Angelos : 4 2
-Deplacement de 2 vers l'ouest
+Gabriel Angelos : 0 1
+Deplacement de 2 vers l'est
 Position finale
-Gabriel Angelos : 2 2
+Gabriel Angelos : 2 1
 
 Position de départ
-Genestealer : 13 13
-Deplacement de 3 vers le sud
+Genestealer : 10 18
+Deplacement de 3 vers le nord
 Position finale
-Genestealer : 13 16
+Genestealer : 10 15
 
 Recherche
 RAS
@@ -455,30 +458,30 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 2 2
+Gabriel Angelos : 2 1
 Deplacement de 2 vers le nord
 Position finale
-Gabriel Angelos : 2 1
+Gabriel Angelos : 2 0
 Position de départ
-Genestealer : 13 16
-Deplacement de 3 vers le nord
+Genestealer : 10 15
+Deplacement de 3 vers le sud
 Position finale
-Genestealer : 13 14
+Genestealer : 10 17
 
 Phase 13
 
 Deplacement
 Position de départ
-Gabriel Angelos : 2 1
-Deplacement de 2 vers l'est
+Gabriel Angelos : 2 0
+Deplacement de 2 vers l'ouest
 Position finale
-Gabriel Angelos : 4 1
+Gabriel Angelos : 0 0
 
 Position de départ
-Genestealer : 13 14
-Deplacement de 3 vers le nord
+Genestealer : 10 17
+Deplacement de 3 vers l'ouest
 Position finale
-Genestealer : 13 11
+Genestealer : 7 17
 
 Recherche
 RAS
@@ -490,31 +493,30 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 4 1
-Deplacement de 2 vers l'ouest
+Gabriel Angelos : 0 0
+Deplacement de 2 vers l'est
 Position finale
-Gabriel Angelos : 3 1
+Gabriel Angelos : 1 0
 Position de départ
-Genestealer : 13 11
-Deplacement de 3 vers le sud
+Genestealer : 7 17
+Deplacement de 3 vers le nord
 Position finale
-Genestealer : 13 13
+Genestealer : 7 15
 
 Phase 14
 
 Deplacement
 Position de départ
-Gabriel Angelos : 3 1
-Deplacement de 2 vers le nord
-AREA NOT CHARGED
+Gabriel Angelos : 1 0
+Deplacement de 2 vers le sud
 Position finale
-Gabriel Angelos : 3 0
+Gabriel Angelos : 1 2
 
 Position de départ
-Genestealer : 13 13
+Genestealer : 7 15
 Deplacement de 3 vers l'est
 Position finale
-Genestealer : 16 13
+Genestealer : 10 15
 
 Recherche
 RAS
@@ -526,32 +528,30 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 3 0
-Deplacement de 2 vers le nord
-AREA NOT CHARGED
+Gabriel Angelos : 1 2
+Deplacement de 2 vers l'ouest
 Position finale
-Gabriel Angelos : 3 0
+Gabriel Angelos : 0 2
 Position de départ
-Genestealer : 16 13
+Genestealer : 10 15
 Deplacement de 3 vers l'est
 Position finale
-Genestealer : 18 13
+Genestealer : 12 15
 
 Phase 15
 
 Deplacement
 Position de départ
-Gabriel Angelos : 3 0
-Deplacement de 2 vers l'ouest
+Gabriel Angelos : 0 2
+Deplacement de 2 vers le nord
 Position finale
-Gabriel Angelos : 1 0
+Gabriel Angelos : 0 0
 
 Position de départ
-Genestealer : 18 13
+Genestealer : 12 15
 Deplacement de 3 vers l'est
-AREA NOT CHARGED
 Position finale
-Genestealer : 19 13
+Genestealer : 15 15
 
 Recherche
 RAS
@@ -563,31 +563,32 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 1 0
-Deplacement de 2 vers l'est
+Gabriel Angelos : 0 0
+Deplacement de 2 vers le nord
+AREA NOT CHARGED
 Position finale
-Gabriel Angelos : 2 0
+Gabriel Angelos : 0 0
 Position de départ
-Genestealer : 19 13
-Deplacement de 3 vers le nord
+Genestealer : 15 15
+Deplacement de 3 vers le sud
 Position finale
-Genestealer : 19 11
+Genestealer : 15 17
 
 Phase 16
 
 Deplacement
 Position de départ
-Gabriel Angelos : 2 0
-Deplacement de 2 vers l'ouest
+Gabriel Angelos : 0 0
+Deplacement de 2 vers le nord
+AREA NOT CHARGED
 Position finale
 Gabriel Angelos : 0 0
 
 Position de départ
-Genestealer : 19 11
-Deplacement de 3 vers l'est
-AREA NOT CHARGED
+Genestealer : 15 17
+Deplacement de 3 vers l'ouest
 Position finale
-Genestealer : 19 11
+Genestealer : 12 17
 
 Recherche
 RAS
@@ -600,31 +601,30 @@ G-> Courrir
 ComplexAction
 Position de départ
 Gabriel Angelos : 0 0
-Deplacement de 2 vers le nord
-AREA NOT CHARGED
+Deplacement de 2 vers le sud
 Position finale
-Gabriel Angelos : 0 0
+Gabriel Angelos : 0 1
 Position de départ
-Genestealer : 19 11
+Genestealer : 12 17
 Deplacement de 3 vers l'ouest
 Position finale
-Genestealer : 17 11
+Genestealer : 10 17
 
 Phase 17
 
 Deplacement
 Position de départ
-Gabriel Angelos : 0 0
-Deplacement de 2 vers le nord
+Gabriel Angelos : 0 1
+Deplacement de 2 vers l'ouest
 AREA NOT CHARGED
 Position finale
-Gabriel Angelos : 0 0
+Gabriel Angelos : 0 1
 
 Position de départ
-Genestealer : 17 11
-Deplacement de 3 vers le sud
+Genestealer : 10 17
+Deplacement de 3 vers l'est
 Position finale
-Genestealer : 17 14
+Genestealer : 13 17
 
 Recherche
 RAS
@@ -636,32 +636,30 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 0 0
+Gabriel Angelos : 0 1
 Deplacement de 2 vers le sud
 Position finale
-Gabriel Angelos : 0 1
+Gabriel Angelos : 0 2
 Position de départ
-Genestealer : 17 14
-Deplacement de 3 vers le sud
+Genestealer : 13 17
+Deplacement de 3 vers l'ouest
 Position finale
-Genestealer : 17 16
+Genestealer : 11 17
 
 Phase 18
 
 Deplacement
 Position de départ
-Gabriel Angelos : 0 1
-Deplacement de 2 vers le nord
-AREA NOT CHARGED
+Gabriel Angelos : 0 2
+Deplacement de 2 vers l'est
 Position finale
-Gabriel Angelos : 0 0
+Gabriel Angelos : 2 2
 
 Position de départ
-Genestealer : 17 16
-Deplacement de 3 vers l'est
-AREA NOT CHARGED
+Genestealer : 11 17
+Deplacement de 3 vers l'ouest
 Position finale
-Genestealer : 19 16
+Genestealer : 8 17
 
 Recherche
 RAS
@@ -673,31 +671,30 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 0 0
+Gabriel Angelos : 2 2
 Deplacement de 2 vers le nord
-AREA NOT CHARGED
 Position finale
-Gabriel Angelos : 0 0
+Gabriel Angelos : 2 1
 Position de départ
-Genestealer : 19 16
-Deplacement de 3 vers le sud
+Genestealer : 8 17
+Deplacement de 3 vers le nord
 Position finale
-Genestealer : 19 18
+Genestealer : 8 15
 
 Phase 19
 
 Deplacement
 Position de départ
-Gabriel Angelos : 0 0
-Deplacement de 2 vers l'est
+Gabriel Angelos : 2 1
+Deplacement de 2 vers le sud
 Position finale
-Gabriel Angelos : 2 0
+Gabriel Angelos : 2 3
 
 Position de départ
-Genestealer : 19 18
-Deplacement de 3 vers l'ouest
+Genestealer : 8 15
+Deplacement de 3 vers le nord
 Position finale
-Genestealer : 16 18
+Genestealer : 8 12
 
 Recherche
 RAS
@@ -709,30 +706,30 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 2 0
+Gabriel Angelos : 2 3
 Deplacement de 2 vers l'est
 Position finale
-Gabriel Angelos : 3 0
+Gabriel Angelos : 3 3
 Position de départ
-Genestealer : 16 18
-Deplacement de 3 vers l'est
+Genestealer : 8 12
+Deplacement de 3 vers le sud
 Position finale
-Genestealer : 18 18
+Genestealer : 8 14
 
 Phase 20
 
 Deplacement
 Position de départ
-Gabriel Angelos : 3 0
-Deplacement de 2 vers l'est
+Gabriel Angelos : 3 3
+Deplacement de 2 vers l'ouest
 Position finale
-Gabriel Angelos : 5 0
+Gabriel Angelos : 1 3
 
 Position de départ
-Genestealer : 18 18
+Genestealer : 8 14
 Deplacement de 3 vers le nord
 Position finale
-Genestealer : 18 15
+Genestealer : 8 11
 
 Recherche
 RAS
@@ -744,32 +741,30 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 5 0
-Deplacement de 2 vers l'est
+Gabriel Angelos : 1 3
+Deplacement de 2 vers le nord
 Position finale
-Gabriel Angelos : 6 0
+Gabriel Angelos : 1 2
 Position de départ
-Genestealer : 18 15
-Deplacement de 3 vers l'est
-AREA NOT CHARGED
+Genestealer : 8 11
+Deplacement de 3 vers le nord
 Position finale
-Genestealer : 19 15
+Genestealer : 8 9
 
 Phase 21
 
 Deplacement
 Position de départ
-Gabriel Angelos : 6 0
-Deplacement de 2 vers le nord
-AREA NOT CHARGED
+Gabriel Angelos : 1 2
+Deplacement de 2 vers l'est
 Position finale
-Gabriel Angelos : 6 0
+Gabriel Angelos : 3 2
 
 Position de départ
-Genestealer : 19 15
-Deplacement de 3 vers l'ouest
+Genestealer : 8 9
+Deplacement de 3 vers le nord
 Position finale
-Genestealer : 16 15
+Genestealer : 8 6
 
 Recherche
 RAS
@@ -781,30 +776,30 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 6 0
-Deplacement de 2 vers l'est
+Gabriel Angelos : 3 2
+Deplacement de 2 vers le nord
 Position finale
-Gabriel Angelos : 7 0
+Gabriel Angelos : 3 1
 Position de départ
-Genestealer : 16 15
-Deplacement de 3 vers le nord
+Genestealer : 8 6
+Deplacement de 3 vers l'ouest
 Position finale
-Genestealer : 16 13
+Genestealer : 6 6
 
 Phase 22
 
 Deplacement
 Position de départ
-Gabriel Angelos : 7 0
-Deplacement de 2 vers l'est
+Gabriel Angelos : 3 1
+Deplacement de 2 vers le sud
 Position finale
-Gabriel Angelos : 9 0
+Gabriel Angelos : 3 3
 
 Position de départ
-Genestealer : 16 13
-Deplacement de 3 vers le sud
+Genestealer : 6 6
+Deplacement de 3 vers l'est
 Position finale
-Genestealer : 16 16
+Genestealer : 9 6
 
 Recherche
 RAS
@@ -816,31 +811,30 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 9 0
-Deplacement de 2 vers le nord
-AREA NOT CHARGED
+Gabriel Angelos : 3 3
+Deplacement de 2 vers le sud
 Position finale
-Gabriel Angelos : 9 0
+Gabriel Angelos : 3 4
 Position de départ
-Genestealer : 16 16
+Genestealer : 9 6
 Deplacement de 3 vers le nord
 Position finale
-Genestealer : 16 14
+Genestealer : 9 4
 
 Phase 23
 
 Deplacement
 Position de départ
-Gabriel Angelos : 9 0
-Deplacement de 2 vers l'est
+Gabriel Angelos : 3 4
+Deplacement de 2 vers le nord
 Position finale
-Gabriel Angelos : 11 0
+Gabriel Angelos : 3 2
 
 Position de départ
-Genestealer : 16 14
-Deplacement de 3 vers l'ouest
+Genestealer : 9 4
+Deplacement de 3 vers le nord
 Position finale
-Genestealer : 13 14
+Genestealer : 9 1
 
 Recherche
 RAS
@@ -852,31 +846,30 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 11 0
-Deplacement de 2 vers le nord
-AREA NOT CHARGED
+Gabriel Angelos : 3 2
+Deplacement de 2 vers le sud
 Position finale
-Gabriel Angelos : 11 0
+Gabriel Angelos : 3 3
 Position de départ
-Genestealer : 13 14
-Deplacement de 3 vers l'ouest
+Genestealer : 9 1
+Deplacement de 3 vers l'est
 Position finale
-Genestealer : 11 14
+Genestealer : 11 1
 
 Phase 24
 
 Deplacement
 Position de départ
-Gabriel Angelos : 11 0
-Deplacement de 2 vers l'ouest
+Gabriel Angelos : 3 3
+Deplacement de 2 vers l'est
 Position finale
-Gabriel Angelos : 9 0
+Gabriel Angelos : 5 3
 
 Position de départ
-Genestealer : 11 14
-Deplacement de 3 vers le nord
+Genestealer : 11 1
+Deplacement de 3 vers l'est
 Position finale
-Genestealer : 11 11
+Genestealer : 14 1
 
 Recherche
 RAS
@@ -888,30 +881,31 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 9 0
-Deplacement de 2 vers le sud
+Gabriel Angelos : 5 3
+Deplacement de 2 vers le nord
 Position finale
-Gabriel Angelos : 9 1
+Gabriel Angelos : 5 2
 Position de départ
-Genestealer : 11 11
-Deplacement de 3 vers le sud
+Genestealer : 14 1
+Deplacement de 3 vers le nord
+AREA NOT CHARGED
 Position finale
-Genestealer : 11 13
+Genestealer : 14 0
 
 Phase 25
 
 Deplacement
 Position de départ
-Gabriel Angelos : 9 1
-Deplacement de 2 vers l'ouest
+Gabriel Angelos : 5 2
+Deplacement de 2 vers l'est
 Position finale
-Gabriel Angelos : 7 1
+Gabriel Angelos : 7 2
 
 Position de départ
-Genestealer : 11 13
-Deplacement de 3 vers le sud
+Genestealer : 14 0
+Deplacement de 3 vers l'ouest
 Position finale
-Genestealer : 11 16
+Genestealer : 11 0
 
 Recherche
 RAS
@@ -923,4762 +917,17 @@ G-> Courrir
 
 ComplexAction
 Position de départ
-Gabriel Angelos : 7 1
-Deplacement de 2 vers le nord
+Gabriel Angelos : 7 2
+Deplacement de 2 vers l'est
 Position finale
-Gabriel Angelos : 7 0
+Gabriel Angelos : 8 2
 Position de départ
-Genestealer : 11 16
+Genestealer : 11 0
 Deplacement de 3 vers le sud
 Position finale
-Genestealer : 11 18
+Genestealer : 11 2
 
 Phase 26
-
-Deplacement
-Position de départ
-Gabriel Angelos : 7 0
-Deplacement de 2 vers le nord
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 7 0
-
-Position de départ
-Genestealer : 11 18
-Deplacement de 3 vers le sud
-AREA NOT CHARGED
-Position finale
-Genestealer : 11 19
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 7 0
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 6 0
-Position de départ
-Genestealer : 11 19
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 13 19
-
-Phase 27
-
-Deplacement
-Position de départ
-Gabriel Angelos : 6 0
-Deplacement de 2 vers le nord
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 6 0
-
-Position de départ
-Genestealer : 13 19
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 13 16
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 6 0
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 5 0
-Position de départ
-Genestealer : 13 16
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 13 14
-
-Phase 28
-
-Deplacement
-Position de départ
-Gabriel Angelos : 5 0
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 5 2
-
-Position de départ
-Genestealer : 13 14
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 10 14
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 5 2
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 5 3
-Position de départ
-Genestealer : 10 14
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 8 14
-
-Phase 29
-
-Deplacement
-Position de départ
-Gabriel Angelos : 5 3
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 5 1
-
-Position de départ
-Genestealer : 8 14
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 11 14
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 5 1
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 5 0
-Position de départ
-Genestealer : 11 14
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 11 12
-
-Phase 30
-
-Deplacement
-Position de départ
-Gabriel Angelos : 5 0
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 3 0
-
-Position de départ
-Genestealer : 11 12
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 11 15
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 0
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 2 0
-Position de départ
-Genestealer : 11 15
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 11 13
-
-Phase 31
-
-Deplacement
-Position de départ
-Gabriel Angelos : 2 0
-Deplacement de 2 vers le nord
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 2 0
-
-Position de départ
-Genestealer : 11 13
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 8 13
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 2 0
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 2 1
-Position de départ
-Genestealer : 8 13
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 10 13
-
-Phase 32
-
-Deplacement
-Position de départ
-Gabriel Angelos : 2 1
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 4 1
-
-Position de départ
-Genestealer : 10 13
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 10 16
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 4 1
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 4 0
-Position de départ
-Genestealer : 10 16
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 10 18
-
-Phase 33
-
-Deplacement
-Position de départ
-Gabriel Angelos : 4 0
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 2 0
-
-Position de départ
-Genestealer : 10 18
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 10 15
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 2 0
-Deplacement de 2 vers le nord
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 2 0
-Position de départ
-Genestealer : 10 15
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 12 15
-
-Phase 34
-
-Deplacement
-Position de départ
-Gabriel Angelos : 2 0
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 0 0
-
-Position de départ
-Genestealer : 12 15
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 12 18
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 0 0
-Deplacement de 2 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 0 0
-Position de départ
-Genestealer : 12 18
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 10 18
-
-Phase 35
-
-Deplacement
-Position de départ
-Gabriel Angelos : 0 0
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 2 0
-
-Position de départ
-Genestealer : 10 18
-Deplacement de 3 vers le sud
-AREA NOT CHARGED
-Position finale
-Genestealer : 10 19
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 2 0
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 1 0
-Position de départ
-Genestealer : 10 19
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 10 17
-
-Phase 36
-
-Deplacement
-Position de départ
-Gabriel Angelos : 1 0
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 1 2
-
-Position de départ
-Genestealer : 10 17
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 7 17
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 1 2
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 1 1
-Position de départ
-Genestealer : 7 17
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 7 19
-
-Phase 37
-
-Deplacement
-Position de départ
-Gabriel Angelos : 1 1
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 1 3
-
-Position de départ
-Genestealer : 7 19
-Deplacement de 3 vers le sud
-AREA NOT CHARGED
-Position finale
-Genestealer : 7 19
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 1 3
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 2 3
-Position de départ
-Genestealer : 7 19
-Deplacement de 3 vers le sud
-AREA NOT CHARGED
-Position finale
-Genestealer : 7 19
-
-Phase 38
-
-Deplacement
-Position de départ
-Gabriel Angelos : 2 3
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 2 5
-
-Position de départ
-Genestealer : 7 19
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 7 16
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 2 5
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 3 5
-Position de départ
-Genestealer : 7 16
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 9 16
-
-Phase 39
-
-Deplacement
-Position de départ
-Gabriel Angelos : 3 5
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 3 7
-
-Position de départ
-Genestealer : 9 16
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 12 16
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 7
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 3 6
-Position de départ
-Genestealer : 12 16
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 14 16
-
-Phase 40
-
-Deplacement
-Position de départ
-Gabriel Angelos : 3 6
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 3 4
-
-Position de départ
-Genestealer : 14 16
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 14 13
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 4
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 4 4
-Position de départ
-Genestealer : 14 13
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 14 15
-
-Phase 41
-
-Deplacement
-Position de départ
-Gabriel Angelos : 4 4
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 2 4
-
-Position de départ
-Genestealer : 14 15
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 11 15
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 2 4
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 1 4
-Position de départ
-Genestealer : 11 15
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 9 15
-
-Phase 42
-
-Deplacement
-Position de départ
-Gabriel Angelos : 1 4
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 1 6
-
-Position de départ
-Genestealer : 9 15
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 9 12
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 1 6
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 1 7
-Position de départ
-Genestealer : 9 12
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 11 12
-
-Phase 43
-
-Deplacement
-Position de départ
-Gabriel Angelos : 1 7
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 3 7
-
-Position de départ
-Genestealer : 11 12
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 11 9
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 7
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 4 7
-Position de départ
-Genestealer : 11 9
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 11 7
-
-Phase 44
-
-Deplacement
-Position de départ
-Gabriel Angelos : 4 7
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 6 7
-
-Position de départ
-Genestealer : 11 7
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 11 10
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 6 7
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 5 7
-Position de départ
-Genestealer : 11 10
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 11 12
-
-Phase 45
-
-Deplacement
-Position de départ
-Gabriel Angelos : 5 7
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 5 9
-
-Position de départ
-Genestealer : 11 12
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 8 12
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 5 9
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 5 8
-Position de départ
-Genestealer : 8 12
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 10 12
-
-Phase 46
-
-Deplacement
-Position de départ
-Gabriel Angelos : 5 8
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 3 8
-
-Position de départ
-Genestealer : 10 12
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 10 15
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 8
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 4 8
-Position de départ
-Genestealer : 10 15
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 10 13
-
-Phase 47
-
-Deplacement
-Position de départ
-Gabriel Angelos : 4 8
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 4 10
-
-Position de départ
-Genestealer : 10 13
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 13 13
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 4 10
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 3 10
-Position de départ
-Genestealer : 13 13
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 13 11
-
-Phase 48
-
-Deplacement
-Position de départ
-Gabriel Angelos : 3 10
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 3 8
-
-Position de départ
-Genestealer : 13 11
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 16 11
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 8
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 2 8
-Position de départ
-Genestealer : 16 11
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 18 11
-
-Phase 49
-
-Deplacement
-Position de départ
-Gabriel Angelos : 2 8
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 4 8
-
-Position de départ
-Genestealer : 18 11
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 18 14
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 4 8
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 3 8
-Position de départ
-Genestealer : 18 14
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 18 12
-
-Phase 50
-
-Deplacement
-Position de départ
-Gabriel Angelos : 3 8
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 3 10
-
-Position de départ
-Genestealer : 18 12
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 18 15
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 10
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 4 10
-Position de départ
-Genestealer : 18 15
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 18 13
-
-Phase 51
-
-Deplacement
-Position de départ
-Gabriel Angelos : 4 10
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 4 12
-
-Position de départ
-Genestealer : 18 13
-Deplacement de 3 vers l'est
-AREA NOT CHARGED
-Position finale
-Genestealer : 19 13
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 4 12
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 5 12
-Position de départ
-Genestealer : 19 13
-Deplacement de 3 vers l'est
-AREA NOT CHARGED
-Position finale
-Genestealer : 19 13
-
-Phase 52
-
-Deplacement
-Position de départ
-Gabriel Angelos : 5 12
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 5 14
-
-Position de départ
-Genestealer : 19 13
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 16 13
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 5 14
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 5 13
-Position de départ
-Genestealer : 16 13
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 18 13
-
-Phase 53
-
-Deplacement
-Position de départ
-Gabriel Angelos : 5 13
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 3 13
-
-Position de départ
-Genestealer : 18 13
-Deplacement de 3 vers l'est
-AREA NOT CHARGED
-Position finale
-Genestealer : 19 13
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 13
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 4 13
-Position de départ
-Genestealer : 19 13
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 17 13
-
-Phase 54
-
-Deplacement
-Position de départ
-Gabriel Angelos : 4 13
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 4 15
-
-Position de départ
-Genestealer : 17 13
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 14 13
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 4 15
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 4 16
-Position de départ
-Genestealer : 14 13
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 12 13
-
-Phase 55
-
-Deplacement
-Position de départ
-Gabriel Angelos : 4 16
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 4 18
-
-Position de départ
-Genestealer : 12 13
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 15 13
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 4 18
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 3 18
-Position de départ
-Genestealer : 15 13
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 15 11
-
-Phase 56
-
-Deplacement
-Position de départ
-Gabriel Angelos : 3 18
-Deplacement de 2 vers le sud
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 3 19
-
-Position de départ
-Genestealer : 15 11
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 15 14
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 19
-Deplacement de 2 vers le sud
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 3 19
-Position de départ
-Genestealer : 15 14
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 15 12
-
-Phase 57
-
-Deplacement
-Position de départ
-Gabriel Angelos : 3 19
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 3 17
-
-Position de départ
-Genestealer : 15 12
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 12 12
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 17
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 3 18
-Position de départ
-Genestealer : 12 12
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 12 10
-
-Phase 58
-
-Deplacement
-Position de départ
-Gabriel Angelos : 3 18
-Deplacement de 2 vers le sud
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 3 19
-
-Position de départ
-Genestealer : 12 10
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 9 10
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 19
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 3 18
-Position de départ
-Genestealer : 9 10
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 11 10
-
-Phase 59
-
-Deplacement
-Position de départ
-Gabriel Angelos : 3 18
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 5 18
-
-Position de départ
-Genestealer : 11 10
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 8 10
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 5 18
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 5 19
-Position de départ
-Genestealer : 8 10
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 8 8
-
-Phase 60
-
-Deplacement
-Position de départ
-Gabriel Angelos : 5 19
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 7 19
-
-Position de départ
-Genestealer : 8 8
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 8 5
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 7 19
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 6 19
-Position de départ
-Genestealer : 8 5
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 6 5
-
-Phase 61
-
-Deplacement
-Position de départ
-Gabriel Angelos : 6 19
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 6 17
-
-Position de départ
-Genestealer : 6 5
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 6 8
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 6 17
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 7 17
-Position de départ
-Genestealer : 6 8
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 6 6
-
-Phase 62
-
-Deplacement
-Position de départ
-Gabriel Angelos : 7 17
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 9 17
-
-Position de départ
-Genestealer : 6 6
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 6 9
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 9 17
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 10 17
-Position de départ
-Genestealer : 6 9
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 4 9
-
-Phase 63
-
-Deplacement
-Position de départ
-Gabriel Angelos : 10 17
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 10 19
-
-Position de départ
-Genestealer : 4 9
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 7 9
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 10 19
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 11 19
-Position de départ
-Genestealer : 7 9
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 9 9
-
-Phase 64
-
-Deplacement
-Position de départ
-Gabriel Angelos : 11 19
-Deplacement de 2 vers le sud
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 11 19
-
-Position de départ
-Genestealer : 9 9
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 9 6
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 11 19
-Deplacement de 2 vers le sud
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 11 19
-Position de départ
-Genestealer : 9 6
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 9 4
-
-Phase 65
-
-Deplacement
-Position de départ
-Gabriel Angelos : 11 19
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 9 19
-
-Position de départ
-Genestealer : 9 4
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 6 4
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 9 19
-Deplacement de 2 vers le sud
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 9 19
-Position de départ
-Genestealer : 6 4
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 6 2
-
-Phase 66
-
-Deplacement
-Position de départ
-Gabriel Angelos : 9 19
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 11 19
-
-Position de départ
-Genestealer : 6 2
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 6 5
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 11 19
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 11 18
-Position de départ
-Genestealer : 6 5
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 6 7
-
-Phase 67
-
-Deplacement
-Position de départ
-Gabriel Angelos : 11 18
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 11 16
-
-Position de départ
-Genestealer : 6 7
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 6 4
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 11 16
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 11 17
-Position de départ
-Genestealer : 6 4
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 6 2
-
-Phase 68
-
-Deplacement
-Position de départ
-Gabriel Angelos : 11 17
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 13 17
-
-Position de départ
-Genestealer : 6 2
-Deplacement de 3 vers le nord
-AREA NOT CHARGED
-Position finale
-Genestealer : 6 0
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 13 17
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 12 17
-Position de départ
-Genestealer : 6 0
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 4 0
-
-Phase 69
-
-Deplacement
-Position de départ
-Gabriel Angelos : 12 17
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 10 17
-
-Position de départ
-Genestealer : 4 0
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 7 0
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 10 17
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 10 18
-Position de départ
-Genestealer : 7 0
-Deplacement de 3 vers le nord
-AREA NOT CHARGED
-Position finale
-Genestealer : 7 0
-
-Phase 70
-
-Deplacement
-Position de départ
-Gabriel Angelos : 10 18
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 8 18
-
-Position de départ
-Genestealer : 7 0
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 4 0
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 8 18
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 7 18
-Position de départ
-Genestealer : 4 0
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 6 0
-
-Phase 71
-
-Deplacement
-Position de départ
-Gabriel Angelos : 7 18
-Deplacement de 2 vers le sud
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 7 19
-
-Position de départ
-Genestealer : 6 0
-Deplacement de 3 vers le nord
-AREA NOT CHARGED
-Position finale
-Genestealer : 6 0
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 7 19
-Deplacement de 2 vers le sud
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 7 19
-Position de départ
-Genestealer : 6 0
-Deplacement de 3 vers le nord
-AREA NOT CHARGED
-Position finale
-Genestealer : 6 0
-
-Phase 72
-
-Deplacement
-Position de départ
-Gabriel Angelos : 7 19
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 7 17
-
-Position de départ
-Genestealer : 6 0
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 6 3
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 7 17
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 7 18
-Position de départ
-Genestealer : 6 3
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 6 1
-
-Phase 73
-
-Deplacement
-Position de départ
-Gabriel Angelos : 7 18
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 9 18
-
-Position de départ
-Genestealer : 6 1
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 3 1
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 9 18
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 10 18
-Position de départ
-Genestealer : 3 1
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 3 3
-
-Phase 74
-
-Deplacement
-Position de départ
-Gabriel Angelos : 10 18
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 10 16
-
-Position de départ
-Genestealer : 3 3
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 0 3
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 10 16
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 11 16
-Position de départ
-Genestealer : 0 3
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 3
-
-Phase 75
-
-Deplacement
-Position de départ
-Gabriel Angelos : 11 16
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 11 18
-
-Position de départ
-Genestealer : 0 3
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 0 6
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 11 18
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 12 18
-Position de départ
-Genestealer : 0 6
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 0 4
-
-Phase 76
-
-Deplacement
-Position de départ
-Gabriel Angelos : 12 18
-Deplacement de 2 vers le sud
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 12 19
-
-Position de départ
-Genestealer : 0 4
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 3 4
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 12 19
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 13 19
-Position de départ
-Genestealer : 3 4
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 1 4
-
-Phase 77
-
-Deplacement
-Position de départ
-Gabriel Angelos : 13 19
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 13 17
-
-Position de départ
-Genestealer : 1 4
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 4
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 13 17
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 12 17
-Position de départ
-Genestealer : 0 4
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 2 4
-
-Phase 78
-
-Deplacement
-Position de départ
-Gabriel Angelos : 12 17
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 12 19
-
-Position de départ
-Genestealer : 2 4
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 2 1
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 12 19
-Deplacement de 2 vers le sud
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 12 19
-Position de départ
-Genestealer : 2 1
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 2 3
-
-Phase 79
-
-Deplacement
-Position de départ
-Gabriel Angelos : 12 19
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 12 17
-
-Position de départ
-Genestealer : 2 3
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 5 3
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 12 17
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 12 16
-Position de départ
-Genestealer : 5 3
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 3 3
-
-Phase 80
-
-Deplacement
-Position de départ
-Gabriel Angelos : 12 16
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 14 16
-
-Position de départ
-Genestealer : 3 3
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 3 6
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 14 16
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 15 16
-Position de départ
-Genestealer : 3 6
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 3 4
-
-Phase 81
-
-Deplacement
-Position de départ
-Gabriel Angelos : 15 16
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 13 16
-
-Position de départ
-Genestealer : 3 4
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 0 4
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 13 16
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 12 16
-Position de départ
-Genestealer : 0 4
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 0 2
-
-Phase 82
-
-Deplacement
-Position de départ
-Gabriel Angelos : 12 16
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 14 16
-
-Position de départ
-Genestealer : 0 2
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 2
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 14 16
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 15 16
-Position de départ
-Genestealer : 0 2
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 2 2
-
-Phase 83
-
-Deplacement
-Position de départ
-Gabriel Angelos : 15 16
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 15 18
-
-Position de départ
-Genestealer : 2 2
-Deplacement de 3 vers le nord
-AREA NOT CHARGED
-Position finale
-Genestealer : 2 0
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 15 18
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 14 18
-Position de départ
-Genestealer : 2 0
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 4 0
-
-Phase 84
-
-Deplacement
-Position de départ
-Gabriel Angelos : 14 18
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 14 16
-
-Position de départ
-Genestealer : 4 0
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 4 3
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 14 16
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 15 16
-Position de départ
-Genestealer : 4 3
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 4 1
-
-Phase 85
-
-Deplacement
-Position de départ
-Gabriel Angelos : 15 16
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 17 16
-
-Position de départ
-Genestealer : 4 1
-Deplacement de 3 vers le nord
-AREA NOT CHARGED
-Position finale
-Genestealer : 4 0
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 17 16
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 17 15
-Position de départ
-Genestealer : 4 0
-Deplacement de 3 vers le nord
-AREA NOT CHARGED
-Position finale
-Genestealer : 4 0
-
-Phase 86
-
-Deplacement
-Position de départ
-Gabriel Angelos : 17 15
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 15 15
-
-Position de départ
-Genestealer : 4 0
-Deplacement de 3 vers le nord
-AREA NOT CHARGED
-Position finale
-Genestealer : 4 0
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 15 15
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 14 15
-Position de départ
-Genestealer : 4 0
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 4 2
-
-Phase 87
-
-Deplacement
-Position de départ
-Gabriel Angelos : 14 15
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 14 13
-
-Position de départ
-Genestealer : 4 2
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 1 2
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 14 13
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 14 12
-Position de départ
-Genestealer : 1 2
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 2
-
-Phase 88
-
-Deplacement
-Position de départ
-Gabriel Angelos : 14 12
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 12 12
-
-Position de départ
-Genestealer : 0 2
-Deplacement de 3 vers le nord
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 0
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 12 12
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 12 13
-Position de départ
-Genestealer : 0 0
-Deplacement de 3 vers le nord
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 0
-
-Phase 89
-
-Deplacement
-Position de départ
-Gabriel Angelos : 12 13
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 14 13
-
-Position de départ
-Genestealer : 0 0
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 0
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 14 13
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 14 14
-Position de départ
-Genestealer : 0 0
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 0
-
-Phase 90
-
-Deplacement
-Position de départ
-Gabriel Angelos : 14 14
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 14 16
-
-Position de départ
-Genestealer : 0 0
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 0
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 14 16
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 15 16
-Position de départ
-Genestealer : 0 0
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 2 0
-
-Phase 91
-
-Deplacement
-Position de départ
-Gabriel Angelos : 15 16
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 15 14
-
-Position de départ
-Genestealer : 2 0
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 0
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 15 14
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 15 13
-Position de départ
-Genestealer : 0 0
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 0 2
-
-Phase 92
-
-Deplacement
-Position de départ
-Gabriel Angelos : 15 13
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 15 11
-
-Position de départ
-Genestealer : 0 2
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 3 2
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 15 11
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 15 10
-Position de départ
-Genestealer : 3 2
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 3 0
-
-Phase 93
-
-Deplacement
-Position de départ
-Gabriel Angelos : 15 10
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 15 12
-
-Position de départ
-Genestealer : 3 0
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 6 0
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 15 12
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 16 12
-Position de départ
-Genestealer : 6 0
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 4 0
-
-Phase 94
-
-Deplacement
-Position de départ
-Gabriel Angelos : 16 12
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 16 10
-
-Position de départ
-Genestealer : 4 0
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 4 3
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 16 10
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 15 10
-Position de départ
-Genestealer : 4 3
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 6 3
-
-Phase 95
-
-Deplacement
-Position de départ
-Gabriel Angelos : 15 10
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 15 12
-
-Position de départ
-Genestealer : 6 3
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 6 6
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 15 12
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 15 13
-Position de départ
-Genestealer : 6 6
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 8 6
-
-Phase 96
-
-Deplacement
-Position de départ
-Gabriel Angelos : 15 13
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 15 11
-
-Position de départ
-Genestealer : 8 6
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 11 6
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 15 11
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 14 11
-Position de départ
-Genestealer : 11 6
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 9 6
-
-Phase 97
-
-Deplacement
-Position de départ
-Gabriel Angelos : 14 11
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 16 11
-
-Position de départ
-Genestealer : 9 6
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 9 9
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 16 11
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 17 11
-Position de départ
-Genestealer : 9 9
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 9 7
-
-Phase 98
-
-Deplacement
-Position de départ
-Gabriel Angelos : 17 11
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 17 9
-
-Position de départ
-Genestealer : 9 7
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 9 10
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 17 9
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 17 10
-Position de départ
-Genestealer : 9 10
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 9 12
-
-Phase 99
-
-Deplacement
-Position de départ
-Gabriel Angelos : 17 10
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 17 8
-
-Position de départ
-Genestealer : 9 12
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 6 12
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 17 8
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 16 8
-Position de départ
-Genestealer : 6 12
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 8 12
-
-Phase 100
-
-Deplacement
-Position de départ
-Gabriel Angelos : 16 8
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 18 8
-
-Position de départ
-Genestealer : 8 12
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 8 15
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 18 8
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 18 9
-Position de départ
-Genestealer : 8 15
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 10 15
-
-Phase 101
-
-Deplacement
-Position de départ
-Gabriel Angelos : 18 9
-Deplacement de 2 vers l'est
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 19 9
-
-Position de départ
-Genestealer : 10 15
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 10 18
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 19 9
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 19 10
-Position de départ
-Genestealer : 10 18
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 12 18
-
-Phase 102
-
-Deplacement
-Position de départ
-Gabriel Angelos : 19 10
-Deplacement de 2 vers l'est
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 19 10
-
-Position de départ
-Genestealer : 12 18
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 9 18
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 19 10
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 19 11
-Position de départ
-Genestealer : 9 18
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 11 18
-
-Phase 103
-
-Deplacement
-Position de départ
-Gabriel Angelos : 19 11
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 17 11
-
-Position de départ
-Genestealer : 11 18
-Deplacement de 3 vers le sud
-AREA NOT CHARGED
-Position finale
-Genestealer : 11 19
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 17 11
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 16 11
-Position de départ
-Genestealer : 11 19
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 13 19
-
-Phase 104
-
-Deplacement
-Position de départ
-Gabriel Angelos : 16 11
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 16 9
-
-Position de départ
-Genestealer : 13 19
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 10 19
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 16 9
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 15 9
-Position de départ
-Genestealer : 10 19
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 12 19
-
-Phase 105
-
-Deplacement
-Position de départ
-Gabriel Angelos : 15 9
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 13 9
-
-Position de départ
-Genestealer : 12 19
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 9 19
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 13 9
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 13 10
-Position de départ
-Genestealer : 9 19
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 11 19
-
-Phase 106
-
-Deplacement
-Position de départ
-Gabriel Angelos : 13 10
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 13 12
-
-Position de départ
-Genestealer : 11 19
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 11 16
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 13 12
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 13 11
-Position de départ
-Genestealer : 11 16
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 11 14
-
-Phase 107
-
-Deplacement
-Position de départ
-Gabriel Angelos : 13 11
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 11 11
-
-Position de départ
-Genestealer : 11 14
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 14 14
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 11 11
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 10 11
-Position de départ
-Genestealer : 14 14
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 14 16
-
-Phase 108
-
-Deplacement
-Position de départ
-Gabriel Angelos : 10 11
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 8 11
-
-Position de départ
-Genestealer : 14 16
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 14 13
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 8 11
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 8 10
-Position de départ
-Genestealer : 14 13
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 12 13
-
-Phase 109
-
-Deplacement
-Position de départ
-Gabriel Angelos : 8 10
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 8 12
-
-Position de départ
-Genestealer : 12 13
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 12 10
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 8 12
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 8 11
-Position de départ
-Genestealer : 12 10
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 12 8
-
-Phase 110
-
-Deplacement
-Position de départ
-Gabriel Angelos : 8 11
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 8 9
-
-Position de départ
-Genestealer : 12 8
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 12 11
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 8 9
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 8 10
-Position de départ
-Genestealer : 12 11
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 10 11
-
-Phase 111
-
-Deplacement
-Position de départ
-Gabriel Angelos : 8 10
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 8 8
-
-Position de départ
-Genestealer : 10 11
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 10 14
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 8 8
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 9 8
-Position de départ
-Genestealer : 10 14
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 12 14
-
-Phase 112
-
-Deplacement
-Position de départ
-Gabriel Angelos : 9 8
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 11 8
-
-Position de départ
-Genestealer : 12 14
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 15 14
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 11 8
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 11 9
-Position de départ
-Genestealer : 15 14
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 15 12
-
-Phase 113
-
-Deplacement
-Position de départ
-Gabriel Angelos : 11 9
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 11 11
-
-Position de départ
-Genestealer : 15 12
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 15 9
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 11 11
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 10 11
-Position de départ
-Genestealer : 15 9
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 17 9
-
-Phase 114
-
-Deplacement
-Position de départ
-Gabriel Angelos : 10 11
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 10 13
-
-Position de départ
-Genestealer : 17 9
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 17 6
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 10 13
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 10 12
-Position de départ
-Genestealer : 17 6
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 17 4
-
-Phase 115
-
-Deplacement
-Position de départ
-Gabriel Angelos : 10 12
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 10 10
-
-Position de départ
-Genestealer : 17 4
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 14 4
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 10 10
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 9 10
-Position de départ
-Genestealer : 14 4
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 14 2
-
-Phase 116
-
-Deplacement
-Position de départ
-Gabriel Angelos : 9 10
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 7 10
-
-Position de départ
-Genestealer : 14 2
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 17 2
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 7 10
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 6 10
-Position de départ
-Genestealer : 17 2
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 15 2
-
-Phase 117
-
-Deplacement
-Position de départ
-Gabriel Angelos : 6 10
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 8 10
-
-Position de départ
-Genestealer : 15 2
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 12 2
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 8 10
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 7 10
-Position de départ
-Genestealer : 12 2
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 10 2
-
-Phase 118
-
-Deplacement
-Position de départ
-Gabriel Angelos : 7 10
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 9 10
-
-Position de départ
-Genestealer : 10 2
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 7 2
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 9 10
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 9 9
-Position de départ
-Genestealer : 7 2
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 5 2
-
-Phase 119
-
-Deplacement
-Position de départ
-Gabriel Angelos : 9 9
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 7 9
-
-Position de départ
-Genestealer : 5 2
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 5 5
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 7 9
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 7 10
-Position de départ
-Genestealer : 5 5
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 5 3
-
-Phase 120
-
-Deplacement
-Position de départ
-Gabriel Angelos : 7 10
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 9 10
-
-Position de départ
-Genestealer : 5 3
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 2 3
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 9 10
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 9 11
-Position de départ
-Genestealer : 2 3
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 0 3
-
-Phase 121
-
-Deplacement
-Position de départ
-Gabriel Angelos : 9 11
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 7 11
-
-Position de départ
-Genestealer : 0 3
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 0 6
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 7 11
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 7 10
-Position de départ
-Genestealer : 0 6
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 0 8
-
-Phase 122
-
-Deplacement
-Position de départ
-Gabriel Angelos : 7 10
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 7 8
-
-Position de départ
-Genestealer : 0 8
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 0 11
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 7 8
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 7 7
-Position de départ
-Genestealer : 0 11
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 0 9
-
-Phase 123
-
-Deplacement
-Position de départ
-Gabriel Angelos : 7 7
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 7 5
-
-Position de départ
-Genestealer : 0 9
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 0 6
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 7 5
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 7 4
-Position de départ
-Genestealer : 0 6
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 0 4
-
-Phase 124
-
-Deplacement
-Position de départ
-Gabriel Angelos : 7 4
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 7 2
-
-Position de départ
-Genestealer : 0 4
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 0 7
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 7 2
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 8 2
-Position de départ
-Genestealer : 0 7
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 0 9
-
-Phase 125
-
-Deplacement
-Position de départ
-Gabriel Angelos : 8 2
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 6 2
-
-Position de départ
-Genestealer : 0 9
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 0 12
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 6 2
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 7 2
-Position de départ
-Genestealer : 0 12
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 12
-
-Phase 126
-
-Deplacement
-Position de départ
-Gabriel Angelos : 7 2
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 5 2
-
-Position de départ
-Genestealer : 0 12
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 3 12
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 5 2
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 5 3
-Position de départ
-Genestealer : 3 12
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 1 12
-
-Phase 127
-
-Deplacement
-Position de départ
-Gabriel Angelos : 5 3
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 3 3
-
-Position de départ
-Genestealer : 1 12
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 1 15
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 3
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 3 4
-Position de départ
-Genestealer : 1 15
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 3 15
-
-Phase 128
-
-Deplacement
-Position de départ
-Gabriel Angelos : 3 4
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 1 4
-
-Position de départ
-Genestealer : 3 15
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 3 12
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 1 4
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 0 4
-Position de départ
-Genestealer : 3 12
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 3 10
-
-Phase 129
-
-Deplacement
-Position de départ
-Gabriel Angelos : 0 4
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 0 2
-
-Position de départ
-Genestealer : 3 10
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 0 10
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 0 2
-Deplacement de 2 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 0 2
-Position de départ
-Genestealer : 0 10
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 10
-
-Phase 130
-
-Deplacement
-Position de départ
-Gabriel Angelos : 0 2
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 0 0
-
-Position de départ
-Genestealer : 0 10
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 0 13
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 0 0
-Deplacement de 2 vers le nord
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 0 0
-Position de départ
-Genestealer : 0 13
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 2 13
-
-Phase 131
-
-Deplacement
-Position de départ
-Gabriel Angelos : 0 0
-Deplacement de 2 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 0 0
-
-Position de départ
-Genestealer : 2 13
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 13
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 0 0
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 1 0
-Position de départ
-Genestealer : 0 13
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 0 15
-
-Phase 132
-
-Deplacement
-Position de départ
-Gabriel Angelos : 1 0
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 3 0
-
-Position de départ
-Genestealer : 0 15
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 0 18
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 0
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 3 1
-Position de départ
-Genestealer : 0 18
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 2 18
-
-Phase 133
-
-Deplacement
-Position de départ
-Gabriel Angelos : 3 1
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 3 3
-
-Position de départ
-Genestealer : 2 18
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 2 15
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 3
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 2 3
-Position de départ
-Genestealer : 2 15
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 0 15
-
-Phase 134
-
-Deplacement
-Position de départ
-Gabriel Angelos : 2 3
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 4 3
-
-Position de départ
-Genestealer : 0 15
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 0 12
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 4 3
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 5 3
-Position de départ
-Genestealer : 0 12
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 2 12
-
-Phase 135
-
-Deplacement
-Position de départ
-Gabriel Angelos : 5 3
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 3 3
-
-Position de départ
-Genestealer : 2 12
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 12
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 3
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 3 4
-Position de départ
-Genestealer : 0 12
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 12
-
-Phase 136
-
-Deplacement
-Position de départ
-Gabriel Angelos : 3 4
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 3 6
-
-Position de départ
-Genestealer : 0 12
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 0 15
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 6
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 2 6
-Position de départ
-Genestealer : 0 15
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 15
-
-Phase 137
-
-Deplacement
-Position de départ
-Gabriel Angelos : 2 6
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 2 8
-
-Position de départ
-Genestealer : 0 15
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 15
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 2 8
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 2 7
-Position de départ
-Genestealer : 0 15
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 0 17
-
-Phase 138
-
-Deplacement
-Position de départ
-Gabriel Angelos : 2 7
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 2 9
-
-Position de départ
-Genestealer : 0 17
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 17
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 2 9
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 1 9
-Position de départ
-Genestealer : 0 17
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 0 15
-
-Phase 139
-
-Deplacement
-Position de départ
-Gabriel Angelos : 1 9
-Deplacement de 2 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 0 9
-
-Position de départ
-Genestealer : 0 15
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 15
-
-Recherche
-RAS
-I've found my prey
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 0 9
-Deplacement de 2 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 0 9
-Position de départ
-Genestealer : 0 15
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 0 17
-
-Phase 140
-
-Deplacement
-Position de départ
-Gabriel Angelos : 0 9
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 0 7
-
-Position de départ
-Genestealer : 0 17
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 0 14
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 0 7
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 1 7
-Position de départ
-Genestealer : 0 14
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 0 16
-
-Phase 141
-
-Deplacement
-Position de départ
-Gabriel Angelos : 1 7
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 3 7
-
-Position de départ
-Genestealer : 0 16
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 16
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 7
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 3 8
-Position de départ
-Genestealer : 0 16
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 2 16
-
-Phase 142
-
-Deplacement
-Position de départ
-Gabriel Angelos : 3 8
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 5 8
-
-Position de départ
-Genestealer : 2 16
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 5 16
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 5 8
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 5 9
-Position de départ
-Genestealer : 5 16
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 5 18
-
-Phase 143
-
-Deplacement
-Position de départ
-Gabriel Angelos : 5 9
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 5 7
-
-Position de départ
-Genestealer : 5 18
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 5 15
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 5 7
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 5 8
-Position de départ
-Genestealer : 5 15
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 5 17
-
-Phase 144
-
-Deplacement
-Position de départ
-Gabriel Angelos : 5 8
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 5 6
-
-Position de départ
-Genestealer : 5 17
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 5 14
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 5 6
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 6 6
-Position de départ
-Genestealer : 5 14
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 5 12
-
-Phase 145
-
-Deplacement
-Position de départ
-Gabriel Angelos : 6 6
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 6 4
-
-Position de départ
-Genestealer : 5 12
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 5 15
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 6 4
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 6 3
-Position de départ
-Genestealer : 5 15
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 7 15
-
-Phase 146
-
-Deplacement
-Position de départ
-Gabriel Angelos : 6 3
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 6 1
-
-Position de départ
-Genestealer : 7 15
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 4 15
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 6 1
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 6 0
-Position de départ
-Genestealer : 4 15
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 2 15
-
-Phase 147
-
-Deplacement
-Position de départ
-Gabriel Angelos : 6 0
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 4 0
-
-Position de départ
-Genestealer : 2 15
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 15
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 4 0
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 3 0
-Position de départ
-Genestealer : 0 15
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 0 13
-
-Phase 148
-
-Deplacement
-Position de départ
-Gabriel Angelos : 3 0
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 3 2
-
-Position de départ
-Genestealer : 0 13
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 13
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 2
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 3 1
-Position de départ
-Genestealer : 0 13
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 0 11
-
-Phase 149
-
-Deplacement
-Position de départ
-Gabriel Angelos : 3 1
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 5 1
-
-Position de départ
-Genestealer : 0 11
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 0 8
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 5 1
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 5 0
-Position de départ
-Genestealer : 0 8
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 2 8
-
-Phase 150
-
-Deplacement
-Position de départ
-Gabriel Angelos : 5 0
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 3 0
-
-Position de départ
-Genestealer : 2 8
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 2 5
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 0
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 4 0
-Position de départ
-Genestealer : 2 5
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 2 3
-
-Phase 151
-
-Deplacement
-Position de départ
-Gabriel Angelos : 4 0
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 6 0
-
-Position de départ
-Genestealer : 2 3
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 2 6
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 6 0
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 5 0
-Position de départ
-Genestealer : 2 6
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 2 4
-
-Phase 152
-
-Deplacement
-Position de départ
-Gabriel Angelos : 5 0
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 3 0
-
-Position de départ
-Genestealer : 2 4
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 4
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 0
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 4 0
-Position de départ
-Genestealer : 0 4
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 4
-
-Phase 153
-
-Deplacement
-Position de départ
-Gabriel Angelos : 4 0
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 6 0
-
-Position de départ
-Genestealer : 0 4
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 0 1
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 6 0
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 6 1
-Position de départ
-Genestealer : 0 1
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 2 1
-
-Phase 154
-
-Deplacement
-Position de départ
-Gabriel Angelos : 6 1
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 4 1
-
-Position de départ
-Genestealer : 2 1
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 2 4
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 4 1
-Deplacement de 2 vers l'ouest
-Position finale
-Gabriel Angelos : 3 1
-Position de départ
-Genestealer : 2 4
-Deplacement de 3 vers le nord
-Position finale
-Genestealer : 2 2
-
-Phase 155
-
-Deplacement
-Position de départ
-Gabriel Angelos : 3 1
-Deplacement de 2 vers le nord
-AREA NOT CHARGED
-Position finale
-Gabriel Angelos : 3 0
-
-Position de départ
-Genestealer : 2 2
-Deplacement de 3 vers l'ouest
-AREA NOT CHARGED
-Position finale
-Genestealer : 0 2
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 3 0
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 4 0
-Position de départ
-Genestealer : 0 2
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 2 2
-
-Phase 156
-
-Deplacement
-Position de départ
-Gabriel Angelos : 4 0
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 4 2
-
-Position de départ
-Genestealer : 2 2
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 5 2
-
-Recherche
-Enemi repere
-I've found my prey
-
-Decision
-SM-> Tirer
-G-> Tirer
-
-ComplexAction
-Tir du Capitaine Gabriel Angelos
-Tir de bolter vers l'enemi (102 dégat)
-Tir du Genestealer
-Le xenos envoit des tirs de biomasse (1 dégat)
-
-Phase 157
-
-Deplacement
-Position de départ
-Gabriel Angelos : 4 2
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 6 2
-
-Position de départ
-Genestealer : 5 2
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 8 2
-
-Recherche
-Enemi repere
-I've found my prey
-
-Decision
-SM-> Tirer
-G-> Courrir
-
-ComplexAction
-Tir du Capitaine Gabriel Angelos
-Tir de bolter vers l'enemi (102 dégat)
-Position de départ
-Genestealer : 8 2
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 6 2
-
-Phase 158
-
-Deplacement
-Position de départ
-Gabriel Angelos : 6 2
-Deplacement de 2 vers le sud
-Position finale
-Gabriel Angelos : 6 4
-
-Position de départ
-Genestealer : 6 2
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 9 2
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 6 4
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 6 3
-Position de départ
-Genestealer : 9 2
-Deplacement de 3 vers le sud
-Position finale
-Genestealer : 9 4
-
-Phase 159
-
-Deplacement
-Position de départ
-Gabriel Angelos : 6 3
-Deplacement de 2 vers l'est
-Position finale
-Gabriel Angelos : 8 3
-
-Position de départ
-Genestealer : 9 4
-Deplacement de 3 vers l'est
-Position finale
-Genestealer : 12 4
-
-Recherche
-RAS
-My hunger grows
-
-Decision
-SM-> Courrir
-G-> Courrir
-
-ComplexAction
-Position de départ
-Gabriel Angelos : 8 3
-Deplacement de 2 vers le nord
-Position finale
-Gabriel Angelos : 8 2
-Position de départ
-Genestealer : 12 4
-Deplacement de 3 vers l'ouest
-Position finale
-Genestealer : 10 4
-
-Phase 160
 
 Deplacement
 Position de départ
@@ -5688,10 +937,154 @@ Position finale
 Gabriel Angelos : 8 4
 
 Position de départ
-Genestealer : 10 4
+Genestealer : 11 2
+Deplacement de 3 vers le nord
+AREA NOT CHARGED
+Position finale
+Genestealer : 11 0
+
+Recherche
+RAS
+My hunger grows
+
+Decision
+SM-> Courrir
+G-> Courrir
+
+ComplexAction
+Position de départ
+Gabriel Angelos : 8 4
+Deplacement de 2 vers l'est
+Position finale
+Gabriel Angelos : 9 4
+Position de départ
+Genestealer : 11 0
+Deplacement de 3 vers l'est
+Position finale
+Genestealer : 13 0
+
+Phase 27
+
+Deplacement
+Position de départ
+Gabriel Angelos : 9 4
+Deplacement de 2 vers le nord
+Position finale
+Gabriel Angelos : 9 2
+
+Position de départ
+Genestealer : 13 0
+Deplacement de 3 vers l'est
+Position finale
+Genestealer : 16 0
+
+Recherche
+RAS
+My hunger grows
+
+Decision
+SM-> Courrir
+G-> Courrir
+
+ComplexAction
+Position de départ
+Gabriel Angelos : 9 2
+Deplacement de 2 vers l'est
+Position finale
+Gabriel Angelos : 10 2
+Position de départ
+Genestealer : 16 0
 Deplacement de 3 vers l'ouest
 Position finale
-Genestealer : 7 4
+Genestealer : 14 0
+
+Phase 28
+
+Deplacement
+Position de départ
+Gabriel Angelos : 10 2
+Deplacement de 2 vers l'est
+Position finale
+Gabriel Angelos : 12 2
+
+Position de départ
+Genestealer : 14 0
+Deplacement de 3 vers le nord
+AREA NOT CHARGED
+Position finale
+Genestealer : 14 0
+
+Recherche
+RAS
+My hunger grows
+
+Decision
+SM-> Courrir
+G-> Courrir
+
+ComplexAction
+Position de départ
+Gabriel Angelos : 12 2
+Deplacement de 2 vers l'est
+Position finale
+Gabriel Angelos : 13 2
+Position de départ
+Genestealer : 14 0
+Deplacement de 3 vers l'est
+Position finale
+Genestealer : 16 0
+
+Phase 29
+
+Deplacement
+Position de départ
+Gabriel Angelos : 13 2
+Deplacement de 2 vers l'ouest
+Position finale
+Gabriel Angelos : 11 2
+
+Position de départ
+Genestealer : 16 0
+Deplacement de 3 vers le nord
+AREA NOT CHARGED
+Position finale
+Genestealer : 16 0
+
+Recherche
+RAS
+My hunger grows
+
+Decision
+SM-> Courrir
+G-> Courrir
+
+ComplexAction
+Position de départ
+Gabriel Angelos : 11 2
+Deplacement de 2 vers l'est
+Position finale
+Gabriel Angelos : 12 2
+Position de départ
+Genestealer : 16 0
+Deplacement de 3 vers le nord
+AREA NOT CHARGED
+Position finale
+Genestealer : 16 0
+
+Phase 30
+
+Deplacement
+Position de départ
+Gabriel Angelos : 12 2
+Deplacement de 2 vers le nord
+Position finale
+Gabriel Angelos : 12 0
+
+Position de départ
+Genestealer : 16 0
+Deplacement de 3 vers l'ouest
+Position finale
+Genestealer : 13 0
 
 Recherche
 Enemi repere
@@ -5707,4 +1100,134 @@ Tir de bolter vers l'enemi (102 dégat)
 Tir du Genestealer
 Le xenos envoit des tirs de biomasse (1 dégat)
 
-L'éradication des xénos est complète, que l'empereur nous garde, gloire à l'Imperium
+Phase 31
+
+Deplacement
+Position de départ
+Gabriel Angelos : 12 0
+Deplacement de 2 vers le sud
+Position finale
+Gabriel Angelos : 12 2
+
+Position de départ
+Genestealer : 13 0
+Deplacement de 3 vers l'ouest
+Position finale
+Genestealer : 10 0
+
+Recherche
+RAS
+My hunger grows
+
+Decision
+SM-> Courrir
+G-> Courrir
+
+ComplexAction
+Position de départ
+Gabriel Angelos : 12 2
+Deplacement de 2 vers l'est
+Position finale
+Gabriel Angelos : 13 2
+Position de départ
+Genestealer : 10 0
+Deplacement de 3 vers l'ouest
+Position finale
+Genestealer : 8 0
+
+Phase 32
+
+Deplacement
+Position de départ
+Gabriel Angelos : 13 2
+Deplacement de 2 vers le nord
+Position finale
+Gabriel Angelos : 13 0
+
+Position de départ
+Genestealer : 8 0
+Deplacement de 3 vers l'ouest
+Position finale
+Genestealer : 5 0
+
+Recherche
+RAS
+My hunger grows
+
+Decision
+SM-> Courrir
+G-> Courrir
+
+ComplexAction
+Position de départ
+Gabriel Angelos : 13 0
+Deplacement de 2 vers le nord
+AREA NOT CHARGED
+Position finale
+Gabriel Angelos : 13 0
+Position de départ
+Genestealer : 5 0
+Deplacement de 3 vers l'est
+Position finale
+Genestealer : 7 0
+
+Phase 33
+
+Deplacement
+Position de départ
+Gabriel Angelos : 13 0
+Deplacement de 2 vers l'ouest
+Position finale
+Gabriel Angelos : 11 0
+
+Position de départ
+Genestealer : 7 0
+Deplacement de 3 vers l'est
+Position finale
+Genestealer : 10 0
+
+Recherche
+Enemi repere
+I've found my prey
+
+Decision
+SM-> Tirer
+G-> Tirer
+
+ComplexAction
+Tir du Capitaine Gabriel Angelos
+Tir de bolter vers l'enemi (102 dégat)
+Tir du Genestealer
+Le xenos envoit des tirs de biomasse (1 dégat)
+
+Phase 34
+
+Deplacement
+Position de départ
+Gabriel Angelos : 11 0
+Deplacement de 2 vers l'ouest
+Position finale
+Gabriel Angelos : 9 0
+
+Position de départ
+Genestealer : 10 0
+Deplacement de 3 vers le nord
+AREA NOT CHARGED
+Position finale
+Genestealer : 10 0
+
+Recherche
+Enemi repere
+I've found my prey
+
+Decision
+SM-> Tirer
+G-> Tirer
+
+ComplexAction
+Tir du Capitaine Gabriel Angelos
+Tir de bolter vers l'enemi (102 dégat)
+Tir du Genestealer
+Le xenos envoit des tirs de biomasse (1 dégat)
+
+C'est un massacre, personne n'a survecu

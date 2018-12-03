@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-11-28 10:58:43 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Personne" table="PERSONNE" schema="TRD157_13" optimistic-lock="version">
+        <id name="personid" type="big_decimal">
+            <column name="PERSONID" precision="22" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <property name="nom" type="string">
+            <column name="NOM" length="25" not-null="true" />
+        </property>
+        <property name="prenom" type="string">
+            <column name="PRENOM" length="20" not-null="true" />
+        </property>
+        <property name="courriel" type="string">
+            <column name="COURRIEL" length="30" not-null="true" unique="true" />
+        </property>
+        <property name="adresse" type="string">
+            <column name="ADRESSE" length="50" not-null="true" />
+        </property>
+        <property name="datenaissance" type="date">
+            <column name="DATENAISSANCE" length="7" not-null="true" />
+        </property>
+        <set name="employes" table="EMPLOYE" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="PERSONID" precision="22" scale="0" />
+            </key>
+            <one-to-many class="Model.Employe" />
+        </set>
+        <set name="clients" table="CLIENT" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="PERSONID" precision="22" scale="0" />
+            </key>
+            <one-to-many class="Model.Client" />
+        </set>
+    </class>
+</hibernate-mapping>

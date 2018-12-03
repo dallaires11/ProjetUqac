@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-11-28 10:58:43 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Personnage" table="PERSONNAGE" schema="TRD157_13" optimistic-lock="version">
+        <id name="numpersonnage" type="big_decimal">
+            <column name="NUMPERSONNAGE" precision="22" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="film" class="Model.Film" fetch="select">
+            <column name="NUMFILM" precision="22" scale="0" />
+        </many-to-one>
+        <many-to-one name="participant" class="Model.Participant" fetch="select">
+            <column name="NUMPARTICIPANT" precision="22" scale="0" />
+        </many-to-one>
+        <property name="nom" type="string">
+            <column name="NOM" length="25" not-null="true" />
+        </property>
+        <property name="descriptionperso" type="string">
+            <column name="DESCRIPTIONPERSO" length="50" />
+        </property>
+    </class>
+</hibernate-mapping>

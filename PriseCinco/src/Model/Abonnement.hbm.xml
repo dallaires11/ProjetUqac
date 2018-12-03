@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-11-28 10:58:43 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Abonnement" table="ABONNEMENT" schema="TRD157_13" optimistic-lock="version">
+        <id name="numabonnemnt" type="big_decimal">
+            <column name="NUMABONNEMNT" precision="22" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="client" class="Model.Client" fetch="select">
+            <column name="NUMCLIENT" precision="22" scale="0" />
+        </many-to-one>
+        <many-to-one name="forfait" class="Model.Forfait" fetch="select">
+            <column name="NUMFORFAIT" precision="22" scale="0" />
+        </many-to-one>
+        <property name="actif" type="boolean">
+            <column name="ACTIF" precision="1" scale="0" not-null="true" />
+        </property>
+        <property name="datedebut" type="date">
+            <column name="DATEDEBUT" length="7" />
+        </property>
+        <property name="datefin" type="date">
+            <column name="DATEFIN" length="7" />
+        </property>
+        <set name="locations" table="LOCATION" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="NUMABONNEMENT" precision="22" scale="0" />
+            </key>
+            <one-to-many class="Model.Location" />
+        </set>
+    </class>
+</hibernate-mapping>

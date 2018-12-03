@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-11-28 10:58:43 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Forfait" table="FORFAIT" schema="TRD157_13" optimistic-lock="version">
+        <id name="numforfait" type="big_decimal">
+            <column name="NUMFORFAIT" precision="22" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <property name="nblocationmax" type="big_decimal">
+            <column name="NBLOCATIONMAX" precision="22" scale="0" />
+        </property>
+        <property name="dureemax" type="big_decimal">
+            <column name="DUREEMAX" precision="22" scale="0" />
+        </property>
+        <property name="prixforfaitparmois" type="big_decimal">
+            <column name="PRIXFORFAITPARMOIS" precision="5" />
+        </property>
+        <set name="abonnements" table="ABONNEMENT" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="NUMFORFAIT" precision="22" scale="0" />
+            </key>
+            <one-to-many class="Model.Abonnement" />
+        </set>
+    </class>
+</hibernate-mapping>

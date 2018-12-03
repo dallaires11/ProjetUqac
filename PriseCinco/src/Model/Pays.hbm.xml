@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-11-28 10:58:43 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Pays" table="PAYS" schema="TRD157_13" optimistic-lock="version">
+        <id name="numpays" type="big_decimal">
+            <column name="NUMPAYS" precision="22" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <property name="nom" type="string">
+            <column name="NOM" length="15" not-null="true" unique="true" />
+        </property>
+        <set name="paysproductions" table="PAYSPRODUCTION" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="NUMPAYS" precision="22" scale="0" />
+            </key>
+            <one-to-many class="Model.Paysproduction" />
+        </set>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-11-28 10:58:43 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Client" table="CLIENT" schema="TRD157_13" optimistic-lock="version">
+        <id name="numclient" type="big_decimal">
+            <column name="NUMCLIENT" precision="22" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="personne" class="Model.Personne" fetch="select">
+            <column name="PERSONID" precision="22" scale="0" />
+        </many-to-one>
+        <property name="mdp" type="string">
+            <column name="MDP" length="25" not-null="true" />
+        </property>
+        <property name="cartecredit" type="big_decimal">
+            <column name="CARTECREDIT" precision="22" scale="0" not-null="true" />
+        </property>
+        <property name="dateexpiration" type="date">
+            <column name="DATEEXPIRATION" length="7" />
+        </property>
+        <set name="abonnements" table="ABONNEMENT" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="NUMCLIENT" precision="22" scale="0" />
+            </key>
+            <one-to-many class="Model.Abonnement" />
+        </set>
+    </class>
+</hibernate-mapping>

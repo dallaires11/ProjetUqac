@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-11-28 10:58:43 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Participant" table="PARTICIPANT" schema="TRD157_13" optimistic-lock="version">
+        <id name="numparticipant" type="big_decimal">
+            <column name="NUMPARTICIPANT" precision="22" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <property name="nom" type="string">
+            <column name="NOM" length="25" not-null="true" />
+        </property>
+        <property name="prenom" type="string">
+            <column name="PRENOM" length="20" />
+        </property>
+        <property name="datenaissance" type="date">
+            <column name="DATENAISSANCE" length="7" />
+        </property>
+        <property name="lieunaissance" type="string">
+            <column name="LIEUNAISSANCE" length="20" />
+        </property>
+        <property name="biographie" type="string">
+            <column name="BIOGRAPHIE" length="200" />
+        </property>
+        <property name="typeparticipant" type="string">
+            <column name="TYPEPARTICIPANT" length="15" />
+        </property>
+        <set name="personnages" table="PERSONNAGE" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="NUMPARTICIPANT" precision="22" scale="0" />
+            </key>
+            <one-to-many class="Model.Personnage" />
+        </set>
+        <set name="participantfilms" table="PARTICIPANTFILM" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="NUMPARTICIPANT" precision="22" scale="0" />
+            </key>
+            <one-to-many class="Model.Participantfilm" />
+        </set>
+    </class>
+</hibernate-mapping>
