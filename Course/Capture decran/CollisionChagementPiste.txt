@@ -1,0 +1,4 @@
+Nous n'avons pas pu obtenir de cas où notre véhicule causait une collision specifiquement 
+au chagement de piste. Nos deux fonction de déplacement utilise la meme fonction de collision
+alors les messages de collisions pourrait aussi bien être ceux de deplacement ou bien ceux de 
+changement de piste. Aurait du prendre les captures d'écrans en V1

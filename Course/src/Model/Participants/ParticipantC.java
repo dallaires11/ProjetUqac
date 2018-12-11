@@ -4,6 +4,7 @@ import Model.Participant;
 
 public class ParticipantC extends Participant {
     public ParticipantC(){
-        super(1,"C");
+        super(2,"C");
+        System.out.println("New Participant C");
     }
 }

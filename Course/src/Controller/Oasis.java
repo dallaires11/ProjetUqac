@@ -4,82 +4,73 @@ import Interface.Epreuve;
 import Model.Exceptions.CollisionException;
 import Model.Exceptions.ObstacleException;
 import Model.Exceptions.PisteException;
+import Model.ParticipantFactory;
 import Model.Participants.Parzival;
 
+import java.awt.event.KeyEvent;
 import java.util.Scanner;
 
-public class Oasis {
+import static java.lang.Thread.sleep;
+
+public class Oasis{
     private Parzival parzival;
     private Epreuve epreuve;
+    private Scanner sc;
+    private boolean manuel;
+    private int choix;
 
-    public static void main(String[] args) {
-
-        Oasis oasis = new Oasis();
-        oasis.debuterEpreuve();
+    public Oasis(Epreuve epreuve,Parzival parzival,Scanner sc){
+        this.parzival = parzival;
+        this.epreuve = epreuve;
+        this.sc = sc;
+        manuel = false;
     }
 
-    public Oasis(){
+    private void actionParzival(){
+        switch (choix){
+            case 1:
+                parzival.accelerer();
+                break;
+            case 2:
+                parzival.ralentir();
+                break;
+            case 3:
+                epreuve.changerPiste(parzival,parzival.getCurrentPiste()-1);
+                break;
+            case 4:
+                epreuve.changerPiste(parzival,parzival.getCurrentPiste()+1);
+                break;
+            default:
+                break;
+        }
+    }
 
-        parzival = new Parzival();
-        epreuve = new Course(parzival, 500);
+    private void menuParzival(){
+        System.out.println("Choix");
+        System.out.println("-Acceler (1)\n-Ralentir (2)\n-Changer piste haut (3)\n-Changer piste bas (4)");
+        choix = sc.nextInt();
+
+        actionParzival();
     }
 
     public void debuterEpreuve(){
-
-        int choix = 1;
-        Scanner lectureClavier = new Scanner(System.in);
-
-        try{
-
-            do{
-                System.out.println(epreuve.getInformation(parzival));
-                menu();
-                choix = lectureClavier.nextInt();
-
-                switch(choix){
-                    case 1: System.out.print("Piste > ");
-                        epreuve.changerPiste(parzival, lectureClavier.nextInt());
-                        break;
-                    case 2: parzival.accelerer();
-                        break;
-                    case 3: parzival.ralentir();
-                        break;
-                }
+        do{
+            if(manuel){
+                menuParzival();
             }
-            while(parzival.enCourse() && !epreuve.estTerminee());
-        }
-        catch(CollisionException ce){
 
-            System.out.println(ce.getMessage());
-            ce.printStackTrace();
-        }
-        catch(PisteException pe){
-
-            System.out.println(pe.getMessage());
-            pe.printStackTrace();
-        }
-        catch(ObstacleException oe){
-
-            System.out.println(oe.getMessage());
-            oe.printStackTrace();
-        }
-        catch(Exception e){
-
-            System.out.println(e.getMessage());
-            e.printStackTrace();
-        }
-
-        if (epreuve.getGagnant() == null)
-            System.out.println("Fin de l'epreuve!!");
-        else
-            System.out.println("Le gagnant est " + epreuve.getGagnant());
+            try {
+                sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        } while(parzival.enCourse() && !epreuve.estTerminee());
     }
 
-    private void menu(){
-
-        System.out.println();
-        System.out.println("1 - Nouvelle piste...");
-        System.out.println("2 - Accelerer");
-        System.out.println("3 - Ralentir");
+    public void setManuel(char choix){
+        if(choix=='Y' || choix=='y')
+            manuel = true;
+        else
+            manuel = false;
     }
 }

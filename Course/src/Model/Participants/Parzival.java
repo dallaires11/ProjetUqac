@@ -4,7 +4,8 @@ import Model.Participant;
 
 public class Parzival extends Participant {
     public Parzival(){
-        super(5, "DeLorean");
+        super(0, "DeLorean");
+        System.out.println("New Parzival");
     }
 
     public void accelerer(){
@@ -13,7 +14,6 @@ public class Parzival extends Participant {
     }
 
     public void ralentir(){
-
         setVitesse(getVitesse() - 1);
     }
 }

@@ -1,9 +1,9 @@
 package Model;
 
 import Interface.Inscription;
+import Model.Participants.*;
 
-public class ParticipantFactory {
-    private final int INTERVALLE_MAX=2000;
+public class ParticipantFactory extends Thread{
     private boolean finEpreuve;
     private int delai;
     private Inscription inscription;
@@ -14,10 +14,37 @@ public class ParticipantFactory {
     }
 
     public void run(){
-
+        while(!inscription.estTerminee()){
+            inscription.ajouterParticipant(ajouterParticipant());
+            try {
+                sleep(delai);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
     private Participant ajouterParticipant(){
-        return null;
+        int type  =(int) (Math.random()*5);
+        Participant monParticipant;
+
+        switch (type){
+            case 0:
+                monParticipant = new ParticipantA();
+                break;
+            case 1:
+                monParticipant = new ParticipantB();
+                break;
+            case 2:
+                monParticipant = new ParticipantC();
+                break;
+            case 3:
+                monParticipant = new ParticipantD();
+                break;
+            default:
+                monParticipant = new ParticipantE();
+                break;
+        }
+        return monParticipant;
     }
 }
