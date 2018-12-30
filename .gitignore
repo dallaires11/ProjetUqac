@@ -62,3 +62,8 @@ Course/.idea/
 Course/Course.iml
 Encan/.vs/
 Course/out/production/
+Encan/Encan/Debug/
+monSharp/monSharp/bin/Debug/
+monSharp/monSharp/obj/Debug/
+monSharp/packages/FSharp.Core.4.5.2/.signature.p7s
+monSharp/packages/

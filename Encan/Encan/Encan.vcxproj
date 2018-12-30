@@ -115,6 +115,47 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Acheteur.cpp" />
+    <ClCompile Include="AcheteurFactory.cpp" />
+    <ClCompile Include="Bouncer.cpp" />
+    <ClCompile Include="Encan.cpp" />
+    <ClCompile Include="Encanteur.cpp" />
+    <ClCompile Include="InstanceKeeper.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MaitreEncan.cpp" />
+    <ClCompile Include="Objet.cpp" />
+    <ClCompile Include="ObjetAntique.cpp" />
+    <ClCompile Include="ObjetArt.cpp" />
+    <ClCompile Include="ObjetFactory.cpp" />
+    <ClCompile Include="ObjetService.cpp" />
+    <ClCompile Include="SalleAttente.cpp" />
+    <ClCompile Include="TimeKeeper.cpp" />
+    <ClCompile Include="Vendeur.cpp" />
+    <ClCompile Include="VendeurFactory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Acheteur.h" />
+    <ClInclude Include="AcheteurFactory.h" />
+    <ClInclude Include="Bouncer.h" />
+    <ClInclude Include="Encan.h" />
+    <ClInclude Include="Encanteur.h" />
+    <ClInclude Include="enchere.h" />
+    <ClInclude Include="InstanceKeeper.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="MaitreEncan.h" />
+    <ClInclude Include="Objet.h" />
+    <ClInclude Include="ObjetAntique.h" />
+    <ClInclude Include="ObjetArt.h" />
+    <ClInclude Include="ObjetFactory.h" />
+    <ClInclude Include="ObjetService.h" />
+    <ClInclude Include="SalleAttente.h" />
+    <ClInclude Include="TimeKeeper.h" />
+    <ClInclude Include="Vendeur.h" />
+    <ClInclude Include="VendeurFactory.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

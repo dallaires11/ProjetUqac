@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AcheteurFactory" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIKgAABIAAAAAgAAAgIAgAAAggIgIAAAAADAEiAgA=</HashCode>
+      <FileName>AcheteurFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bouncer" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gUAIAgABAAAAAAAgEAAgAAAAAAggAAAAAEIAEgAAACA=</HashCode>
+      <FileName>Bouncer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Encan" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIACAAAAAAQAAQAABAAAQEAAAEAAAgAAA=</HashCode>
+      <FileName>Encan.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logger" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAgAAAAABAAABAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjetFactory" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAAAAAIAACAEAAFCAAAAYAAIIAAABMBAJHAACAAqA=</HashCode>
+      <FileName>ObjetFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalleAttente" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAYIgAAAAAAAAgggAAAACQAIAAAAIEEAAEAAA=</HashCode>
+      <FileName>SalleAttente.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeKeeper" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAgAgAAAAAAAoAAAAAAAAAAggBQAAAAAAAAAAAAA=</HashCode>
+      <FileName>TimeKeeper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VendeurFactory" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAICgAAAAAAAAQkEAAgIAAABAhgIgAAAAAAAAAgAAA=</HashCode>
+      <FileName>VendeurFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Acheteur" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAALAgAAwAAAAAAgABAIIQIgQQAgIAAABAAIAAAAAAQ=</HashCode>
+      <FileName>Acheteur.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Encanteur" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAABAAAACgABAAAAAIgEAADAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Encanteur.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Objet" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAEAJAQABAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Objet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vendeur" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJAgAAAAAAAAAgAAAIYAIgQQCgYEAAAAAAAAAAAIA=</HashCode>
+      <FileName>Vendeur.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjetAntique" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAACAAAIBAAAAIAQAAACAAAAACAAAAAAAA=</HashCode>
+      <FileName>ObjetAntique.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjetArt" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAADAAAIQAAAAJAQAABCAAAAAAAAAIAAEA=</HashCode>
+      <FileName>ObjetArt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjetService" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAACAAAAAAAAAMAQEAAYAAAAABAAAAIAAA=</HashCode>
+      <FileName>ObjetService.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="enchere" Collapsed="true">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>enchere.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
