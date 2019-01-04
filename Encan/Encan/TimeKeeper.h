@@ -5,6 +5,7 @@ class TimeKeeper{
 private:
 	static int instanceTimeKeeper;
 
+	int temps;
 	std::thread comportement;
 	bool running;
 
@@ -13,6 +14,10 @@ private:
 public:
 	TimeKeeper();
 	~TimeKeeper();
+
+	int getTime() {
+		return temps;
+	}
 
 	void start();
 	void stop();

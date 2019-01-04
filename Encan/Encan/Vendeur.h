@@ -26,6 +26,10 @@ public:
 		return Vendeur::instanceVendeur;
 	}
 
+	bool isActif() {
+		return actif;
+	}
+
 	void start();
 	void stop();
 

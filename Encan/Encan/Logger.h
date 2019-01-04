@@ -1,6 +1,8 @@
 #pragma once
 #include<fstream>
 #include<iostream>
+#include<string>
+#include"MiniLog.h"
 
 class Logger{
 private:
@@ -11,6 +13,7 @@ private:
 public:
 	static Logger* getInstance();
 
-	void newLog();
+	void newLog(std::string,std::string,int);
+	void newLog(std::string);
 	void fermer();
 };

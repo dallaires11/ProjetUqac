@@ -120,6 +120,9 @@
     <ClCompile Include="Bouncer.cpp" />
     <ClCompile Include="Encan.cpp" />
     <ClCompile Include="Encanteur.cpp" />
+    <ClCompile Include="EtatLibre.cpp" />
+    <ClCompile Include="EtatObjet.cpp" />
+    <ClCompile Include="EtatVendu.cpp" />
     <ClCompile Include="InstanceKeeper.cpp" />
     <ClCompile Include="Logger.cpp" />
     <ClCompile Include="Main.cpp" />
@@ -129,6 +132,7 @@
     <ClCompile Include="ObjetArt.cpp" />
     <ClCompile Include="ObjetFactory.cpp" />
     <ClCompile Include="ObjetService.cpp" />
+    <ClCompile Include="Operateur.cpp" />
     <ClCompile Include="SalleAttente.cpp" />
     <ClCompile Include="TimeKeeper.cpp" />
     <ClCompile Include="Vendeur.cpp" />
@@ -137,20 +141,31 @@
   <ItemGroup>
     <ClInclude Include="Acheteur.h" />
     <ClInclude Include="AcheteurFactory.h" />
+    <ClInclude Include="bankOverloadException.h" />
     <ClInclude Include="Bouncer.h" />
     <ClInclude Include="Encan.h" />
+    <ClInclude Include="encanCloseException.h" />
     <ClInclude Include="Encanteur.h" />
     <ClInclude Include="enchere.h" />
+    <ClInclude Include="erreurType.h" />
+    <ClInclude Include="EtatLibre.h" />
+    <ClInclude Include="EtatObjet.h" />
+    <ClInclude Include="EtatVendu.h" />
     <ClInclude Include="InstanceKeeper.h" />
     <ClInclude Include="Logger.h" />
     <ClInclude Include="MaitreEncan.h" />
+    <ClInclude Include="MiniLog.h" />
+    <ClInclude Include="nightTimeException.h" />
     <ClInclude Include="Objet.h" />
     <ClInclude Include="ObjetAntique.h" />
     <ClInclude Include="ObjetArt.h" />
     <ClInclude Include="ObjetFactory.h" />
     <ClInclude Include="ObjetService.h" />
+    <ClInclude Include="Operateur.h" />
     <ClInclude Include="SalleAttente.h" />
+    <ClInclude Include="SuperErreur.h" />
     <ClInclude Include="TimeKeeper.h" />
+    <ClInclude Include="timeOutException.h" />
     <ClInclude Include="Vendeur.h" />
     <ClInclude Include="VendeurFactory.h" />
   </ItemGroup>

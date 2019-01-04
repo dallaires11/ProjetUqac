@@ -1,112 +1,203 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="AcheteurFactory" Collapsed="true">
-    <Position X="9.25" Y="0.5" Width="1.5" />
+    <Position X="11.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAIKgAABIAAAAAgAAAgIAgAAAggIgIAAAAADAEiAgA=</HashCode>
       <FileName>AcheteurFactory.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Bouncer" Collapsed="true">
-    <Position X="11" Y="0.5" Width="1.5" />
+    <Position X="13" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>gUAIAgABAAAAAAAgEAAgAAAAAAggAAAAAEIAEgAAACA=</HashCode>
       <FileName>Bouncer.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Encan" Collapsed="true">
-    <Position X="12.75" Y="0.5" Width="1.5" />
+    <Position X="14.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAIACAAAAAAQAAQAABAAAQEAAAEAAAgAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAIASAAAAAAQAAQAABAAAQEAAAEAAAgAAA=</HashCode>
       <FileName>Encan.h</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="InstanceKeeper" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InstanceKeeper.h</FileName>
+    </TypeIdentifier>
+  </Class>
   <Class Name="Logger" Collapsed="true">
-    <Position X="9.25" Y="1.5" Width="1.5" />
+    <Position X="13" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAIAAAAAgAAAAABAAABAAAQAAAAAAAAAAAA=</HashCode>
       <FileName>Logger.h</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="MaitreEncan" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAGAQAAAAAAAAAAAEAQAAAAAAAAAAAAIIAAACAAA=</HashCode>
+      <FileName>MaitreEncan.h</FileName>
+    </TypeIdentifier>
+  </Class>
   <Class Name="ObjetFactory" Collapsed="true">
-    <Position X="11" Y="1.5" Width="1.5" />
+    <Position X="11.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>EABAAAAAIAACAEAAFCAAAAYAAIIAAABMBAJHAACAAqA=</HashCode>
       <FileName>ObjetFactory.h</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Operateur" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Operateur.h</FileName>
+    </TypeIdentifier>
+  </Class>
   <Class Name="SalleAttente" Collapsed="true">
-    <Position X="12.75" Y="1.5" Width="1.5" />
+    <Position X="14.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAABAAAYIgAAAAAAAAgggAAAACQAIAAAAIEEAAEAAA=</HashCode>
       <FileName>SalleAttente.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="TimeKeeper" Collapsed="true">
-    <Position X="7.5" Y="2.5" Width="1.5" />
+    <Position X="9.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAIAgAgAAAAAAAoAAAAAAAAAAggBQAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAIAgEgAAAAAAAoAAAAAAAAAAggBQAAAAAAAAEAAAA=</HashCode>
       <FileName>TimeKeeper.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="VendeurFactory" Collapsed="true">
-    <Position X="11" Y="2.5" Width="1.5" />
+    <Position X="13" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgAICgAAAAAAAAQkEAAgIAAABAhgIgAAAAAAAAAgAAA=</HashCode>
       <FileName>VendeurFactory.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Acheteur" Collapsed="true">
-    <Position X="7.5" Y="0.5" Width="1.5" />
+  <Class Name="MiniLog&lt;T&gt;" Collapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAALAgAAwAAAAAAgABAIIQIgQQAgIAAABAAIAAAAAAQ=</HashCode>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MiniLog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Acheteur" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAALAgAAwAAAAAAgADAIIQIgQQAgIgAABAAIAAAAAAQ=</HashCode>
       <FileName>Acheteur.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Encanteur" Collapsed="true">
-    <Position X="7.5" Y="1.5" Width="1.5" />
+    <Position X="9.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAABAAAACgABAAAAAIgEAADAAAAQAAAAAAAAEA=</HashCode>
+      <HashCode>QGACAAEARAAAAChABAAAAAIgEAADABAAYYAAAAAAAEA=</HashCode>
       <FileName>Encanteur.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Objet" Collapsed="true">
-    <Position X="2.75" Y="0.5" Width="1.5" />
+  <Class Name="EtatObjet" Collapsed="true">
+    <Position X="1.75" Y="8.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEAAAAEAJAQABAAAAACAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAACAAAAAEAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EtatObjet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Objet" Collapsed="true">
+    <Position X="3" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAEAJAQABAAAAACACAAAAAAAA=</HashCode>
       <FileName>Objet.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Vendeur" Collapsed="true">
-    <Position X="9.25" Y="2.5" Width="1.5" />
+    <Position X="11.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAJAgAAAAAAAAAgAAAIYAIgQQCgYEAAAAAAAAAAAIA=</HashCode>
+      <HashCode>AAAJAgAAAAAAAAAgACAIYAIgQQCgYEAAAAAAAAAAAIA=</HashCode>
       <FileName>Vendeur.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ObjetAntique" Collapsed="true">
-    <Position X="0.5" Y="1.75" Width="1.5" />
+    <Position X="0.75" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>EAAAAAAAAAAACAAAIBAAAAIAQAAACAAAAACAAAAAAAA=</HashCode>
       <FileName>ObjetAntique.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ObjetArt" Collapsed="true">
-    <Position X="2.75" Y="1.75" Width="1.5" />
+    <Position X="3" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAIAAAAAAAADAAAIQAAAAJAQAABCAAAAAAAAAIAAEA=</HashCode>
       <FileName>ObjetArt.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ObjetService" Collapsed="true">
-    <Position X="5" Y="1.75" Width="1.5" />
+    <Position X="5.25" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAEAAAAAAACAAAAAAAAAMAQEAAYAAAAABAAAAIAAA=</HashCode>
       <FileName>ObjetService.h</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="EtatLibre" Collapsed="true">
+    <Position X="0.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAEAAAAAAAAIA=</HashCode>
+      <FileName>EtatLibre.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EtatVendu" Collapsed="true">
+    <Position X="2.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAEAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EtatVendu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bankOverloadException" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bankOverloadException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="encanCloseException" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>encanCloseException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nightTimeException" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>nightTimeException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="timeOutException" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>timeOutException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperErreur" Collapsed="true">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SuperErreur.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="erreurType" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>erreurType.h</FileName>
+    </TypeIdentifier>
+  </Class>
   <Struct Name="enchere" Collapsed="true">
-    <Position X="7.5" Y="3.75" Width="1.5" />
+    <Position X="9.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
       <FileName>enchere.h</FileName>

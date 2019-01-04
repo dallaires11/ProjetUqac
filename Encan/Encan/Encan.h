@@ -14,6 +14,9 @@ public:
 	int tailleEnchereAntique;
 	enchere* encheresService;
 	int tailleEnchereService;
+	int nbVente;
 
 	void fermeture();
+
+	friend std::ostream& operator<<(std::ostream& out, const Encan& encan);
 };

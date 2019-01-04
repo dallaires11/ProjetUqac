@@ -9,6 +9,7 @@ Encan::Encan(){
 	tailleEnchereArt = 0;
 	encheresService = nullptr;
 	tailleEnchereService = 0;
+	nbVente = 0;
 }
 
 Encan* Encan::getInstance(){
@@ -23,6 +24,8 @@ void Encan::fermeture(){
 	enchere* enchere;
 	while (tailleEnchereAntique != 0) {
 		enchere = currentEnchere;
+		if (enchere->encanteur->getState())
+			enchere->encanteur->transactionFinale();
 		currentEnchere = currentEnchere->next;
 		delete enchere->encanteur;
 		delete enchere;
@@ -44,4 +47,11 @@ void Encan::fermeture(){
 		delete enchere;
 		tailleEnchereService--;
 	}
+}
+
+std::ostream& operator<<(std::ostream& out, const Encan& encan) {
+	out << "NbEnchereAntique: " << encan.tailleEnchereAntique<<std::endl;
+	out << "NbEnchereArt: " << encan.tailleEnchereArt << std::endl; 
+	out << "NbEnchereService: " << encan.tailleEnchereService << std::endl; 
+	return out;
 }

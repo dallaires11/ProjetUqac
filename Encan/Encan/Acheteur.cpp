@@ -22,6 +22,7 @@ Acheteur::~Acheteur(){
 
 int Acheteur::bidder(int currentPrix) {
 	int bid;
+
 	if (currentPrix >= budgetMax || currentBidCount >= nbBidMax){
 		stop();
 		return -1;
@@ -43,9 +44,12 @@ void Acheteur::run() {
 	int currentPrix,bid;
 
 	while (actif&&venteVoulu!=nullptr) {
-		currentPrix = 1;//Objet.getCurrentPrix
-		//std::cout << bidder(currentPrix);
-		std::this_thread::sleep_for(std::chrono::seconds(1));
+		currentPrix = venteVoulu->getCurrentPrix();
+		bid = bidder(currentPrix);
+		if (bid != -1)
+			venteVoulu->nouveauBid(bid,getNom());
+
+		std::this_thread::sleep_for(std::chrono::milliseconds(500));
 	}
 	actif = false;
 }

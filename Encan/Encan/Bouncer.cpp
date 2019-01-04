@@ -108,7 +108,7 @@ void Bouncer::addNewArtAcheteur(Acheteur* acheteur) {
 			vente = vente->next;
 			currentPosition++;
 		}
-		//acheteur->start(vente->encanteur);
+		acheteur->start(vente->encanteur);
 	}
 }
 
@@ -122,7 +122,7 @@ void Bouncer::addNewServiceAcheteur(Acheteur* acheteur) {
 			vente = vente->next;
 			currentPosition++;
 		}
-		//acheteur->start(vente->encanteur);
+		acheteur->start(vente->encanteur);
 	}
 }
 
@@ -162,6 +162,7 @@ void Bouncer::run() {
 	}
 	while (running) {
 		inviterVendeur();
+		inviterAcheteur();
 		inviterAcheteur();
 		std::this_thread::sleep_for(std::chrono::seconds(3));
 	}

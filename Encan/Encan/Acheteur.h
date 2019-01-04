@@ -28,6 +28,14 @@ public:
 		return typeProduit;
 	}
 
+	bool isActif() {
+		return actif;
+	}
+
+	std::string getNom() {
+		return prenom + " " + nom;
+	}
+
 	void join() {
 		if (actif) {
 			stop();

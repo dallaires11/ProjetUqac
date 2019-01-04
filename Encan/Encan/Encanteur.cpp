@@ -1,13 +1,18 @@
 #include "Encanteur.h"
 
 int Encanteur::instanceEncanteur = 0;
+int Encanteur::venteReussi = 0;
 
 Encanteur::Encanteur(Vendeur* vendeur,int type){
 	this->vendeur = vendeur;
-	//meilleurAcheteur = nullptr;
-	getMontantInitial(type);
-	tempsRestant = 2;
+	meilleurAcheteur = "";
+	meilleurBid = 0;
+	getMontantInitial();
+	tempsRestant = 35;
 	actif = true;
+	nbBidMax = 10;
+	nbBidMin = 1;
+	nbBid = 0;
 	Encanteur::instanceEncanteur++;	
 }
 
@@ -15,42 +20,43 @@ Encanteur::~Encanteur(){
 	Encanteur::instanceEncanteur--;
 }
 
-void Encanteur::getMontantInitial(int type) {
-	switch (type){
-	case 1:
-		montantInitial = ((ObjetAntique*)vendeur->getObjet())->getValeur();
-		break;
-	case 2:
-		montantInitial = ((ObjetArt*)vendeur->getObjet())->getValeur();
-		break;
-	case 3:
-		montantInitial = ((ObjetService*)vendeur->getObjet())->getValeur();
-		break;
-	default:
-		break;
-	}
+void Encanteur::getMontantInitial() {
+	montantInitial = (vendeur->getObjet())->getValeur();
 }
 
-/*void Encanteur::nouveauBid(int montant,Acheteur* biddeur) {
+void Encanteur::nouveauBid(int montant,std::string nom) {
 	bidLock.lock();
-	if (montant != -1&&actif) {
+	if (actif) {
+		nbBid++;
+		//printf("aaad");
 		if (montant > meilleurBid&&montant > montantInitial) {
-			meilleurAcheteur = biddeur;
+			meilleurAcheteur = nom;
+			listeMeilleurBid.push_back(nom);
 			meilleurBid = montant;
+		}
+		if (nbBid >= nbBidMax) {
+			actif = false;
+			transactionFinale();
 		}
 	}
 	bidLock.unlock();
-}*/
+}
 
 void Encanteur::transactionFinale() {
-	Logger::getInstance()->newLog();
+	if(meilleurAcheteur=="")
+		Logger::getInstance()->newLog(vendeur->getInfo());
+	else {
+		Logger::getInstance()->newLog(meilleurAcheteur, vendeur->getInfo(), meilleurBid);
+		Encanteur::venteReussi++;
+	}
+	
 	vendeur->stop();
 	return;
 }
 
 bool Encanteur::timeCheck() {
 	tempsRestant--;
-	if (tempsRestant = 0) {
+	if (tempsRestant == 0&&actif) {
 		actif = false;
 		transactionFinale();
 		return false;

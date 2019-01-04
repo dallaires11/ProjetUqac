@@ -1,5 +1,6 @@
 #pragma once
-//#include<queue>
+#include"EtatLibre.h"
+#include"EtatVendu.h"
 #include <string>
 class Objet{
 private:
@@ -7,11 +8,15 @@ private:
 
 	int prixDepart,prixVenteMin,enchereMin,enchereMax;
 
+	EtatObjet* etat;
+
 public:
 	Objet(int);
-	~Objet();
+	virtual ~Objet();
 
 	virtual std::string getInfo() = 0;
+
+	virtual int getValeur() = 0;
 
 	static const int getNbInstance() {
 		return Objet::instanceObjet;

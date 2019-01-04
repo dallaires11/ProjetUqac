@@ -41,7 +41,7 @@ std::string ObjetFactory::getDescriptionArt(int renomme, int dimension, std::str
 }
 
 int ObjetFactory::getValeurArt(int renomme) {
-	int valeur = rand() %(200*renomme) +1000;
+	int valeur = rand() %(50*renomme) +1000;
 	return valeur;
 }
 
@@ -83,7 +83,7 @@ int ObjetFactory::getTypeEtat() {
 }
 
 int ObjetFactory::getValeurOld(int periode, int etat) {
-	int valeur = ((rand() % 3000) + ((periode + 1) * 1000)) + (etat*2000);
+	int valeur = ((rand() % 2000) + ((periode + 1) * 1000)) + (etat*200);
 	return valeur;
 }
 

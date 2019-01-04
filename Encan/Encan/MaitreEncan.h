@@ -9,6 +9,7 @@
 #include"Bouncer.h"
 #include"TimeKeeper.h"
 #include"Logger.h"
+#include"Operateur.h"
 using namespace std;
 class MaitreEncan{
 private:
@@ -17,6 +18,7 @@ private:
 	TimeKeeper* tk;
 	AcheteurFactory* aFactory;
 	VendeurFactory* vFactory;
+	Operateur* op;
 
 	void ouvertureEncan();
 

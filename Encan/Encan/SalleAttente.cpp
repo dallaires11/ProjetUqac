@@ -27,12 +27,13 @@ void SalleAttente::fermeture() {
 		a = fileAcheteur.back();
 		a->join();
 		fileAcheteur.pop_back();
-		delete a;
+		//delete a;
 	}
+	//printf("test2");
 	while (!fileVendeur.empty()) {
 		v = fileVendeur.back();
 		v->join();
 		fileVendeur.pop_back();	
-		delete v;
+		//delete v;
 	}
 }

@@ -31,6 +31,15 @@
     <Filter Include="Fichiers d%27en-tête\Model\ObjetDef">
       <UniqueIdentifier>{6d9d0dae-ace3-410c-8404-df484a2ca988}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\Exception">
+      <UniqueIdentifier>{e2d246e8-8028-4ada-a38f-da0488a4e318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Model\Etat">
+      <UniqueIdentifier>{23f2faa6-637f-481d-981a-c998b218af83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Model\Etat">
+      <UniqueIdentifier>{182e4ed8-d56a-49b2-936d-a2ea3897add3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -87,6 +96,18 @@
     <ClCompile Include="MaitreEncan.cpp">
       <Filter>Fichiers sources\Controller</Filter>
     </ClCompile>
+    <ClCompile Include="Operateur.cpp">
+      <Filter>Fichiers sources\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="EtatLibre.cpp">
+      <Filter>Fichiers sources\Model\Etat</Filter>
+    </ClCompile>
+    <ClCompile Include="EtatObjet.cpp">
+      <Filter>Fichiers sources\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="EtatVendu.cpp">
+      <Filter>Fichiers sources\Model\Etat</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SalleAttente.h">
@@ -141,6 +162,39 @@
       <Filter>Fichiers d%27en-tête\Controller</Filter>
     </ClInclude>
     <ClInclude Include="MaitreEncan.h">
+      <Filter>Fichiers d%27en-tête\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="timeOutException.h">
+      <Filter>Fichiers d%27en-tête\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="bankOverloadException.h">
+      <Filter>Fichiers d%27en-tête\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="encanCloseException.h">
+      <Filter>Fichiers d%27en-tête\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="nightTimeException.h">
+      <Filter>Fichiers d%27en-tête\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Operateur.h">
+      <Filter>Fichiers d%27en-tête\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="EtatVendu.h">
+      <Filter>Fichiers d%27en-tête\Model\Etat</Filter>
+    </ClInclude>
+    <ClInclude Include="EtatLibre.h">
+      <Filter>Fichiers d%27en-tête\Model\Etat</Filter>
+    </ClInclude>
+    <ClInclude Include="EtatObjet.h">
+      <Filter>Fichiers d%27en-tête\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperErreur.h">
+      <Filter>Fichiers d%27en-tête\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="erreurType.h">
+      <Filter>Fichiers d%27en-tête\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniLog.h">
       <Filter>Fichiers d%27en-tête\Controller</Filter>
     </ClInclude>
   </ItemGroup>
