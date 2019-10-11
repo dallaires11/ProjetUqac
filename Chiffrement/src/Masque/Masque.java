@@ -1,40 +1,21 @@
 package Masque;
 
 import java.io.File;
+import java.util.Random;
 
 public class Masque {
 
-    public static double genererMasque(double cle,int rappel){
-        System.out.println (cle);
-        double masque =  ((Math.pow(cle,5)))%7919;
 
-        if(rappel<10)
-            masque = genererMasque(masque,++rappel);
-
-        return masque;
-    }
 
     public static void main (String [] args){
-        for(int i=0;i< args.length;i++)
-        {
-            System.out.println(args[i]);
+
+        int buffer[]= new int[Integer.parseInt (args[1])];
+        Random randomGenerator = new Random();
+        randomGenerator.setSeed(Integer.parseInt(args[0]));
+        for(int i =0; i<Integer.parseInt (args[1]); i++){
+            buffer[i]=randomGenerator.nextInt();
+            System.out.print(buffer[i]);
         }
-
-        if (args.length < 2 )
-            return;
-        String cleString  = args[0];
-        String longueurString = args[1];
-
-        try{
-            double cle = Double.parseDouble(cleString);
-            int longueur = Integer.parseInt(longueurString);
-            double masque = genererMasque(cle,0);
-
-        }catch (NumberFormatException e){
-            System.out.println("Erreur - Veuillez entrer des parametres valides");
-        }
-
-        //File file = new File("Masque.txt");
 
         return;
     }
