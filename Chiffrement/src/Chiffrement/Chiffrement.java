@@ -1,83 +1,83 @@
 package Chiffrement;
 
 import java.io.*;
-import java.nio.CharBuffer;
-import java.nio.charset.Charset;
-import java.nio.charset.CharsetEncoder;
-import java.util.Vector;
+import java.util.Random;
 
 
-public class Chiffrement  {
+public class Chiffrement {
 
-    public static int masque (short i, int j) throws Exception
+    public static int chiffre (short caractere, int cle) throws Exception
     {
 
-        if (j>127)
-            j %=127;
-        i^=j;
+        if (cle>127)
+            cle %=127;
+        caractere^=cle;
         //System.out.println(i);
-        return i;
+        return caractere;
     }
 
+    public static int[] masque(int cle, int longueur){
+
+        int buffer[]= new int[longueur];
+        Random randomGenerator = new Random();
+        randomGenerator.setSeed(cle);
+        for(int i =0; i<longueur; i++){
+            buffer[i]=randomGenerator.nextInt();
+        }
 
 
-    public static void main (String args[])throws Exception{
-        /*for(int i=0;i< args.length;i++)
+        return buffer;
+    }
+
+    public static <Random> void main (String args[] )throws Exception{
+        for(int i=0;i< args.length;i++)
         {
             System.out.println(args[i]);
-        }*/
 
-        if (args.length < 2 )
+        }
+
+        if (args.length < 2 ) {
+
             return;
-
-        String cle = args[0];
-        String nomFichierInput = args[1];
-        //System.out.println(nomFichierInput);
-        File file = new File(nomFichierInput);
-        System.out.println(file);
-        FileReader fr = new FileReader(file);
-        /*short test =0;
-        short i[] = new short[255];
-        while(test<255) {
-            i[test]=masque(test, 1);
-            for(short j =0; j<test; j++){
-                if (i[j]==i[test]) {
-                    System.out.print("erreur");
-                }
-            }
-            test++;
-        }*/
+        }
+        FileReader fr = new FileReader(/*args[1]*/"test.txt");
         int i =0;
         short x = 0;
         short temp = 0;
         int e =0;
         char cast=' ';
-        //Vector<Character> buffer = new Vector<Character>();
-
         int p = 0;
         while((i=fr.read())!=-1) {
             p++;
         }
         fr.close();
-        FileReader fr2 = new FileReader(file);
         char buffer[] = new char[p];
-        p = 0;
-        //System.out.println(buffer.length);
+
+        //System.out.print( "tesT"+(char)e);
+        FileReader fr2 = new FileReader(args[1]);
         BufferedWriter writer = new BufferedWriter(new FileWriter("test.txt"));
+        //int tampon[] = new int[p];
+        int tampon[]= masque(Integer.parseInt(args[0]),p);
+        p = 0;
         while((i=fr2.read())!=-1) {
             //fonction pour chiffré ici avec chaque caractère (i)
+
             x= (short)i;
             //System.out.print(x);
             //System.out.print( (char)i);
-            e = masque(x,Integer.parseInt(args[0]));
+            e = chiffre(x,tampon[p]);
             //System.out.print( e);
             //System.out.print( i);
             buffer[p]=(char)e;
             writer.write(buffer[p]);
             p++;
-            //System.out.print( (char)e);
+
+
         }
         fr2.close();
+
+
+
         writer.close();
         return;
     }
