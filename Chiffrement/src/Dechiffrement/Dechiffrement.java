@@ -2,6 +2,7 @@ package Dechiffrement;
 
 import java.io.*;
 import java.util.Random;
+import java.util.Scanner;
 
 
 public class Dechiffrement {
@@ -31,20 +32,16 @@ public class Dechiffrement {
 
     public static void main (String args[] )throws Exception{
 
+        Scanner sc =  new Scanner(System.in);
 
+        String cle;
+        System.out.print("Cle:");
+        cle = sc.next();
+        String nomFichier;
+        System.out.print("Nom du fichier:");
+        nomFichier = sc.next();
 
-
-        for(int i=0;i< args.length;i++)
-        {
-            System.out.println(args[i]);
-
-        }
-
-        if (args.length < 2 ) {
-
-            return;
-        }
-        FileReader fr = new FileReader(/*args[1]*/"test.txt");
+        FileReader fr = new FileReader(nomFichier);
         int i =0;
         short x = 0;
         short temp = 0;
@@ -58,10 +55,10 @@ public class Dechiffrement {
         char buffer[] = new char[p];
 
         //System.out.print( "tesT"+(char)e);
-        FileReader fr2 = new FileReader(args[1]);
-        BufferedWriter writer = new BufferedWriter(new FileWriter("test2.txt"));
+        FileReader fr2 = new FileReader(nomFichier);
+        BufferedWriter writer = new BufferedWriter(new FileWriter("resultat-dechiffrement.txt"));
 
-        int tampon[]= masque(Integer.parseInt(args[0]),p);
+        int tampon[]= masque(Integer.parseInt(cle),p);
         p = 0;
         while((i=fr2.read())!=-1) {
             //fonction pour chiffré ici avec chaque caractère (i)
